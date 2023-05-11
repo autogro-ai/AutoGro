@@ -1,0 +1,2 @@
+cd /home/pi/bin/AutoGro
+python3 -u /home/pi/bin/AutoGro/AutoGro.py
