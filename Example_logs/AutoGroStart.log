@@ -1,0 +1,100 @@
+051123 22:41:06  Starting
+051123 22:41:06  Version 6
+051123 22:41:06  Flow control sensor GPIO pin 25
+051123 22:41:06  Number of water valves 3
+051123 22:41:06  Water cycle length per valve 5
+051123 22:41:06  Pump delay to prevent back pressure 1
+051123 22:41:06  Time between water cycles 30
+051123 22:41:06  Sensor poll time 3
+051123 22:41:06  Soil raw value wet 21000
+051123 22:41:06  Soil raw value dry 49000
+051123 22:41:06  Number of soil sensors 2
+051123 22:41:06  pH sensor USB port /dev/ttyUSB0
+051123 22:41:06  Room temperature in Celsius 25
+051123 22:41:06  .........................................
+051123 22:41:08  Starting Water Cycle
+051123 22:41:32  Water Cycle Complete
+051123 22:41:32  Sleeping until next water cycle - Seconds left: 30
+051123 22:41:53  Sleeping until next water cycle - Seconds left: 8
+051123 22:41:58  Sleeping until next water cycle - Seconds left: 3
+051123 22:42:03  Starting Water Cycle
+051123 22:42:27  Water Cycle Complete
+051123 22:42:27  Sleeping until next water cycle - Seconds left: 30
+051123 22:42:32  Sleeping until next water cycle - Seconds left: 25
+051123 22:42:37  Sleeping until next water cycle - Seconds left: 20
+051123 22:42:42  Sleeping until next water cycle - Seconds left: 15
+051123 22:42:47  Sleeping until next water cycle - Seconds left: 10
+051123 22:42:52  Sleeping until next water cycle - Seconds left: 5
+051123 22:42:57  Starting Water Cycle
+051123 22:43:24  Water Cycle Complete
+051123 22:43:24  Sleeping until next water cycle - Seconds left: 30
+051123 22:43:29  Sleeping until next water cycle - Seconds left: 25
+051123 22:43:34  Sleeping until next water cycle - Seconds left: 20
+051123 22:43:39  Sleeping until next water cycle - Seconds left: 15
+051123 22:43:44  Sleeping until next water cycle - Seconds left: 10
+051123 22:43:49  Sleeping until next water cycle - Seconds left: 5
+051123 22:43:54  Starting Water Cycle
+051123 22:44:18  Water Cycle Complete
+051123 22:44:18  Sleeping until next water cycle - Seconds left: 30
+051123 22:44:23  Sleeping until next water cycle - Seconds left: 25
+051123 22:44:28  Sleeping until next water cycle - Seconds left: 20
+051123 22:44:33  Sleeping until next water cycle - Seconds left: 15
+051123 22:44:38  Sleeping until next water cycle - Seconds left: 10
+051123 22:44:43  Sleeping until next water cycle - Seconds left: 5
+051123 22:44:48  Starting Water Cycle
+051123 22:45:12  Water Cycle Complete
+051123 22:45:12  Sleeping until next water cycle - Seconds left: 30
+051123 22:45:17  Sleeping until next water cycle - Seconds left: 25
+051123 22:45:22  Sleeping until next water cycle - Seconds left: 20
+051123 22:45:27  Sleeping until next water cycle - Seconds left: 15
+051123 22:45:32  Sleeping until next water cycle - Seconds left: 10
+051123 22:45:37  Sleeping until next water cycle - Seconds left: 5
+051123 22:45:42  Starting Water Cycle
+051123 22:46:06  Water Cycle Complete
+051123 22:46:06  Sleeping until next water cycle - Seconds left: 30
+051123 22:46:11  Sleeping until next water cycle - Seconds left: 25
+051123 22:46:16  Sleeping until next water cycle - Seconds left: 20
+051123 22:46:21  Sleeping until next water cycle - Seconds left: 15
+051123 22:46:26  Sleeping until next water cycle - Seconds left: 10
+051123 22:46:31  Sleeping until next water cycle - Seconds left: 5
+051123 22:46:36  Starting Water Cycle
+051123 22:47:00  Water Cycle Complete
+051123 22:47:00  Sleeping until next water cycle - Seconds left: 30
+051123 22:47:05  Sleeping until next water cycle - Seconds left: 25
+051123 22:47:10  Sleeping until next water cycle - Seconds left: 20
+051123 22:47:15  Sleeping until next water cycle - Seconds left: 15
+051123 22:47:20  Sleeping until next water cycle - Seconds left: 10
+051123 22:47:25  Sleeping until next water cycle - Seconds left: 5
+051123 22:47:30  Starting Water Cycle
+051123 22:47:54  Water Cycle Complete
+051123 22:47:54  Sleeping until next water cycle - Seconds left: 30
+051123 22:47:59  Sleeping until next water cycle - Seconds left: 25
+051123 22:48:04  Sleeping until next water cycle - Seconds left: 20
+051123 22:48:09  Sleeping until next water cycle - Seconds left: 15
+051123 22:48:14  Sleeping until next water cycle - Seconds left: 10
+051123 22:48:19  Sleeping until next water cycle - Seconds left: 5
+051123 22:48:24  Starting Water Cycle
+051123 22:48:48  Water Cycle Complete
+051123 22:48:48  Sleeping until next water cycle - Seconds left: 30
+051123 22:48:53  Sleeping until next water cycle - Seconds left: 25
+051123 22:48:58  Sleeping until next water cycle - Seconds left: 20
+051123 22:49:03  Sleeping until next water cycle - Seconds left: 15
+051123 22:49:08  Sleeping until next water cycle - Seconds left: 10
+051123 22:49:13  Sleeping until next water cycle - Seconds left: 5
+051123 22:49:18  Starting Water Cycle
+051123 22:49:42  Water Cycle Complete
+051123 22:49:42  Sleeping until next water cycle - Seconds left: 30
+051123 22:49:47  Sleeping until next water cycle - Seconds left: 25
+051123 22:49:52  Sleeping until next water cycle - Seconds left: 20
+051123 22:49:57  Sleeping until next water cycle - Seconds left: 15
+051123 22:50:02  Sleeping until next water cycle - Seconds left: 10
+051123 22:50:07  Sleeping until next water cycle - Seconds left: 5
+051123 22:50:12  Starting Water Cycle
+051123 22:50:36  Water Cycle Complete
+051123 22:50:36  Sleeping until next water cycle - Seconds left: 30
+051123 22:50:41  Sleeping until next water cycle - Seconds left: 25
+051123 22:50:46  Sleeping until next water cycle - Seconds left: 20
+051123 22:50:51  Sleeping until next water cycle - Seconds left: 15
+051123 22:50:56  Sleeping until next water cycle - Seconds left: 10
+051123 22:51:01  Sleeping until next water cycle - Seconds left: 5
+051123 22:51:06  Starting Water Cycle
