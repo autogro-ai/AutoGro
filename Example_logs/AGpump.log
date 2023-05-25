@@ -1,0 +1,1240 @@
+052423 00:04:45  Starting Water Cycle -------- Flow = 0
+052423 00:04:46  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:04:46  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:04:47  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:04:52  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:04:53  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:04:54  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:04:56  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:05:01  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:05:02  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:05:03  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:05:05  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:05:10  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:05:11  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:05:12  Water Cycle Complete ------- Flow = 0
+052423 00:20:13  Starting Water Cycle -------- Flow = 0
+052423 00:20:14  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:20:14  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:20:15  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:20:20  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:20:21  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:20:22  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:20:24  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:20:29  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:20:30  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:20:31  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:20:33  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:20:38  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:20:39  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:20:40  Water Cycle Complete ------- Flow = 0
+052423 00:35:41  Starting Water Cycle -------- Flow = 0
+052423 00:35:42  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:35:42  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:35:43  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:35:48  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:35:49  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:35:51  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:35:52  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:35:57  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:35:58  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:35:59  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:36:01  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:36:06  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:36:07  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:36:08  Water Cycle Complete ------- Flow = 0
+052423 00:51:10  Starting Water Cycle -------- Flow = 0
+052423 00:51:10  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:51:10  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:51:12  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:51:17  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 00:51:18  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:51:19  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:51:20  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:51:25  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 00:51:26  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:51:28  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:51:29  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:51:34  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 00:51:35  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 00:51:37  Water Cycle Complete ------- Flow = 0
+052423 01:06:38  Starting Water Cycle -------- Flow = 0
+052423 01:06:38  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:06:38  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:06:40  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:06:45  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:06:46  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:06:47  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:06:49  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:06:54  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:06:55  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:06:56  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:06:57  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:07:02  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:07:03  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:07:05  Water Cycle Complete ------- Flow = 0
+052423 01:22:06  Starting Water Cycle -------- Flow = 0
+052423 01:22:07  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:22:07  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:22:08  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:22:13  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:22:14  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:22:15  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:22:17  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:22:22  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:22:23  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:22:25  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:22:27  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:22:32  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:22:33  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:22:34  Water Cycle Complete ------- Flow = 0
+052423 01:37:35  Starting Water Cycle -------- Flow = 0
+052423 01:37:36  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:37:36  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:37:37  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:37:42  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:37:43  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:37:44  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:37:46  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:37:51  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:37:52  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:37:53  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:37:55  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:38:00  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:38:01  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:38:02  Water Cycle Complete ------- Flow = 0
+052423 01:53:03  Starting Water Cycle -------- Flow = 0
+052423 01:53:04  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:53:04  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:53:05  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:53:10  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 01:53:11  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:53:12  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:53:14  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:53:19  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 01:53:20  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:53:21  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:53:23  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:53:28  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 01:53:29  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 01:53:30  Water Cycle Complete ------- Flow = 0
+052423 02:08:31  Starting Water Cycle -------- Flow = 0
+052423 02:08:32  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:08:32  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:08:33  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:08:38  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:08:39  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:08:40  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:08:42  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:08:47  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:08:48  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:08:49  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:08:50  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:08:55  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:08:56  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:08:58  Water Cycle Complete ------- Flow = 0
+052423 02:23:59  Starting Water Cycle -------- Flow = 0
+052423 02:24:00  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:24:00  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:24:01  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:24:06  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:24:07  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:24:08  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:24:10  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:24:15  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:24:16  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:24:17  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:24:18  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:24:23  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:24:24  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:24:27  Water Cycle Complete ------- Flow = 0
+052423 02:39:29  Starting Water Cycle -------- Flow = 0
+052423 02:39:29  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:39:29  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:39:31  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:39:36  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:39:37  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:39:38  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:39:39  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:39:44  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:39:45  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:39:47  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:39:48  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:39:53  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:39:54  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:39:55  Water Cycle Complete ------- Flow = 0
+052423 02:54:57  Starting Water Cycle -------- Flow = 0
+052423 02:54:57  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:54:57  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:54:59  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:55:04  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 02:55:05  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:55:06  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:55:07  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:55:12  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 02:55:13  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:55:15  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:55:16  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:55:21  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 02:55:22  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 02:55:23  Water Cycle Complete ------- Flow = 0
+052423 03:10:25  Starting Water Cycle -------- Flow = 0
+052423 03:10:27  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:10:27  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:10:28  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:10:33  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:10:34  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:10:36  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:10:37  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:10:42  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:10:43  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:10:45  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:10:46  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:10:51  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:10:52  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:10:53  Water Cycle Complete ------- Flow = 0
+052423 03:25:55  Starting Water Cycle -------- Flow = 0
+052423 03:25:55  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:25:55  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:25:56  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:26:01  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:26:02  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:26:04  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:26:05  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:26:10  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:26:11  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:26:13  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:26:14  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:26:19  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:26:20  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:26:21  Water Cycle Complete ------- Flow = 0
+052423 03:41:23  Starting Water Cycle -------- Flow = 0
+052423 03:41:23  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:41:23  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:41:25  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:41:30  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:41:31  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:41:32  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:41:34  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:41:39  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:41:40  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:41:41  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:41:42  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:41:47  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:41:48  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:41:50  Water Cycle Complete ------- Flow = 0
+052423 03:56:51  Starting Water Cycle -------- Flow = 0
+052423 03:56:52  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:56:52  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:56:53  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:56:58  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 03:56:59  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:57:00  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:57:02  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:57:07  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 03:57:08  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:57:09  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:57:11  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:57:16  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 03:57:17  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 03:57:18  Water Cycle Complete ------- Flow = 0
+052423 04:12:19  Starting Water Cycle -------- Flow = 0
+052423 04:12:20  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:12:20  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:12:21  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:12:26  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:12:27  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:12:28  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:12:30  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:12:35  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:12:36  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:12:37  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:12:38  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:12:43  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:12:44  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:12:46  Water Cycle Complete ------- Flow = 0
+052423 04:27:47  Starting Water Cycle -------- Flow = 0
+052423 04:27:47  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:27:47  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:27:49  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:27:54  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:27:55  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:27:56  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:27:58  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:28:03  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:28:04  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:28:05  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:28:06  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:28:11  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:28:12  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:28:14  Water Cycle Complete ------- Flow = 0
+052423 04:43:15  Starting Water Cycle -------- Flow = 0
+052423 04:43:16  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:43:16  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:43:17  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:43:22  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:43:23  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:43:25  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:43:26  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:43:31  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:43:32  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:43:34  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:43:35  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:43:40  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:43:41  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:43:42  Water Cycle Complete ------- Flow = 0
+052423 04:58:44  Starting Water Cycle -------- Flow = 0
+052423 04:58:44  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:58:44  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:58:46  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:58:51  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 04:58:52  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:58:53  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:58:54  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:58:59  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 04:59:00  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:59:02  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:59:03  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:59:08  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 04:59:09  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 04:59:10  Water Cycle Complete ------- Flow = 0
+052423 05:14:12  Starting Water Cycle -------- Flow = 0
+052423 05:14:12  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:14:12  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 05:14:14  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 05:14:19  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 05:14:20  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:14:21  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 05:14:23  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 05:14:28  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 05:14:29  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:14:30  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 05:14:31  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 05:14:36  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 05:14:37  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:14:39  Water Cycle Complete ------- Flow = 0
+052423 05:29:40  Starting Water Cycle -------- Flow = 0
+052423 05:29:41  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:29:41  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 05:29:42  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 05:29:47  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 05:29:48  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:29:49  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 05:29:51  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 05:29:56  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 05:29:57  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:29:58  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 05:30:00  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 05:30:05  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 05:30:06  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:30:07  Water Cycle Complete ------- Flow = 0
+052423 05:45:08  Starting Water Cycle -------- Flow = 0
+052423 05:45:09  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:45:09  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 05:45:10  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 05:45:15  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 05:45:16  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:45:17  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 05:45:19  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 05:45:24  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 05:45:25  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:45:27  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 05:45:28  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 05:45:33  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 05:45:34  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 05:45:36  Water Cycle Complete ------- Flow = 0
+052423 06:00:37  Starting Water Cycle -------- Flow = 0
+052423 06:00:37  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:00:37  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:00:39  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:00:44  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:00:45  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:00:46  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:00:47  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:00:52  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:00:53  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:00:55  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:00:56  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:01:01  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:01:02  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:01:04  Water Cycle Complete ------- Flow = 0
+052423 06:16:05  Starting Water Cycle -------- Flow = 0
+052423 06:16:05  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:16:05  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:16:07  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:16:12  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:16:13  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:16:14  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:16:15  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:16:20  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:16:21  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:16:23  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:16:24  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:16:29  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:16:30  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:16:32  Water Cycle Complete ------- Flow = 0
+052423 06:31:33  Starting Water Cycle -------- Flow = 0
+052423 06:31:33  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:31:33  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:31:35  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:31:40  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:31:41  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:31:42  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:31:44  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:31:49  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:31:50  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:31:51  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:31:52  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:31:57  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:31:58  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:32:00  Water Cycle Complete ------- Flow = 0
+052423 06:47:01  Starting Water Cycle -------- Flow = 0
+052423 06:47:01  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:47:01  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:47:03  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:47:08  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 06:47:09  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:47:10  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:47:12  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:47:17  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 06:47:18  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:47:19  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:47:20  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:47:25  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 06:47:26  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 06:47:28  Water Cycle Complete ------- Flow = 0
+052423 07:02:29  Starting Water Cycle -------- Flow = 0
+052423 07:02:30  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:02:30  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:02:31  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:02:36  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:02:37  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:02:39  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:02:40  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:02:45  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:02:46  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:02:48  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:02:49  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:02:54  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:02:55  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:02:56  Water Cycle Complete ------- Flow = 0
+052423 07:17:58  Starting Water Cycle -------- Flow = 0
+052423 07:17:58  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:17:58  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:17:59  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:18:04  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:18:05  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:18:07  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:18:08  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:18:13  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:18:14  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:18:16  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:18:17  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:18:22  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:18:23  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:18:25  Water Cycle Complete ------- Flow = 0
+052423 07:33:26  Starting Water Cycle -------- Flow = 0
+052423 07:33:27  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:33:27  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:33:29  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:33:34  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:33:35  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:33:36  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:33:37  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:33:42  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:33:43  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:33:45  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:33:46  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:33:51  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:33:52  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:33:54  Water Cycle Complete ------- Flow = 0
+052423 07:48:55  Starting Water Cycle -------- Flow = 0
+052423 07:48:55  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:48:55  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:48:57  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:49:02  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 07:49:03  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:49:04  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:49:05  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:49:10  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 07:49:11  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:49:13  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:49:14  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:49:19  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 07:49:20  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 07:49:22  Water Cycle Complete ------- Flow = 0
+052423 08:04:23  Starting Water Cycle -------- Flow = 0
+052423 08:04:24  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:04:24  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:04:25  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:04:30  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:04:31  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:04:33  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:04:34  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:04:39  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:04:40  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:04:42  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:04:43  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:04:48  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:04:49  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:04:51  Water Cycle Complete ------- Flow = 0
+052423 08:19:52  Starting Water Cycle -------- Flow = 0
+052423 08:19:52  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:19:52  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:19:54  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:19:59  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:20:00  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:20:01  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:20:02  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:20:07  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:20:08  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:20:10  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:20:11  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:20:16  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:20:17  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:20:19  Water Cycle Complete ------- Flow = 0
+052423 08:35:20  Starting Water Cycle -------- Flow = 0
+052423 08:35:20  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:35:20  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:35:22  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:35:27  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:35:28  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:35:29  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:35:30  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:35:35  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:35:36  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:35:43  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:35:44  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:35:49  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:35:50  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:35:52  Water Cycle Complete ------- Flow = 0
+052423 08:50:53  Starting Water Cycle -------- Flow = 0
+052423 08:50:54  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:50:54  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:50:55  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:51:00  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 08:51:01  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:51:02  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:51:04  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:51:09  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 08:51:10  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:51:11  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:51:13  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:51:18  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 08:51:19  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 08:51:20  Water Cycle Complete ------- Flow = 0
+052423 09:06:21  Starting Water Cycle -------- Flow = 0
+052423 09:06:22  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:06:22  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:06:23  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:06:28  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:06:29  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:06:31  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:06:32  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:06:37  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:06:38  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:06:39  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:06:41  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:06:46  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:06:47  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:06:48  Water Cycle Complete ------- Flow = 0
+052423 09:21:49  Starting Water Cycle -------- Flow = 0
+052423 09:21:50  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:21:50  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:21:51  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:21:56  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:21:57  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:21:59  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:22:00  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:22:05  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:22:06  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:22:07  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:22:09  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:22:14  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:22:15  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:22:16  Water Cycle Complete ------- Flow = 0
+052423 09:37:17  Starting Water Cycle -------- Flow = 0
+052423 09:37:18  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:37:18  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:37:19  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:37:24  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:37:25  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:37:27  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:37:28  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:37:33  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:37:34  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:37:36  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:37:37  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:37:42  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:37:43  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:37:45  Water Cycle Complete ------- Flow = 0
+052423 09:52:46  Starting Water Cycle -------- Flow = 0
+052423 09:52:46  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:52:46  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:52:48  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:52:53  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 09:52:54  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:52:55  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:52:57  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:53:02  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 09:53:03  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:53:04  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:53:05  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:53:10  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 09:53:11  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 09:53:13  Water Cycle Complete ------- Flow = 0
+052423 10:08:14  Starting Water Cycle -------- Flow = 0
+052423 10:08:15  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:08:15  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:08:16  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:08:21  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:08:22  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:08:23  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:08:25  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:08:30  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:08:31  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:08:32  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:08:34  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:08:39  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:08:40  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:08:41  Water Cycle Complete ------- Flow = 0
+052423 10:23:43  Starting Water Cycle -------- Flow = 0
+052423 10:23:43  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:23:43  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:23:44  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:23:49  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:23:50  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:23:52  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:23:53  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:23:58  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:23:59  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:24:00  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:24:02  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:24:07  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:24:08  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:24:09  Water Cycle Complete ------- Flow = 0
+052423 10:39:11  Starting Water Cycle -------- Flow = 0
+052423 10:39:11  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:39:11  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:39:12  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:39:17  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:39:18  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:39:20  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:39:21  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:39:26  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:39:27  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:39:29  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:39:30  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:39:35  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:39:36  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:39:37  Water Cycle Complete ------- Flow = 0
+052423 10:54:39  Starting Water Cycle -------- Flow = 0
+052423 10:54:39  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:54:39  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:54:41  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:54:46  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 10:54:47  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:54:48  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:54:50  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:54:55  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 10:54:56  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:54:57  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:54:59  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:55:04  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 10:55:05  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 10:55:06  Water Cycle Complete ------- Flow = 0
+052423 11:10:07  Starting Water Cycle -------- Flow = 0
+052423 11:10:08  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:10:08  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:10:09  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:10:14  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:10:15  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:10:16  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:10:18  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:10:23  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:10:24  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:10:26  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:10:27  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:10:32  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:10:33  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:10:35  Water Cycle Complete ------- Flow = 0
+052423 11:25:36  Starting Water Cycle -------- Flow = 0
+052423 11:25:37  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:25:37  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:25:38  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:25:43  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:25:44  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:25:45  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:25:47  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:25:52  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:25:53  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:25:54  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:25:56  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:26:01  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:26:02  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:26:03  Water Cycle Complete ------- Flow = 0
+052423 11:41:06  Starting Water Cycle -------- Flow = 0
+052423 11:41:06  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:41:06  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:41:08  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:41:13  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:41:14  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:41:15  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:41:17  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:41:22  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:41:23  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:41:24  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:41:26  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:41:31  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:41:32  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:41:33  Water Cycle Complete ------- Flow = 0
+052423 11:56:35  Starting Water Cycle -------- Flow = 0
+052423 11:56:36  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:56:36  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:56:37  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:56:42  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 11:56:43  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:56:45  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:56:46  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:56:51  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 11:56:52  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:56:53  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:56:55  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:57:00  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 11:57:01  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 11:57:02  Water Cycle Complete ------- Flow = 0
+052423 12:12:03  Starting Water Cycle -------- Flow = 0
+052423 12:12:04  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:12:04  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:12:05  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:12:10  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:12:11  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:12:13  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:12:14  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:12:19  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:12:20  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:12:21  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:12:23  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:12:28  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:12:29  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:12:30  Water Cycle Complete ------- Flow = 0
+052423 12:27:32  Starting Water Cycle -------- Flow = 0
+052423 12:27:32  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:27:32  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:27:33  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:27:38  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:27:39  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:27:41  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:27:42  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:27:47  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:27:48  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:27:50  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:27:51  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:27:56  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:27:57  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:27:58  Water Cycle Complete ------- Flow = 0
+052423 12:43:00  Starting Water Cycle -------- Flow = 0
+052423 12:43:00  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:43:00  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:43:02  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:43:07  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:43:08  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:43:09  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:43:10  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:43:15  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:43:16  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:43:18  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:43:19  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:43:24  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:43:25  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:43:27  Water Cycle Complete ------- Flow = 0
+052423 12:58:28  Starting Water Cycle -------- Flow = 0
+052423 12:58:29  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:58:29  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:58:30  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:58:35  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 12:58:36  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:58:38  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:58:39  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:58:44  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 12:58:45  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:58:46  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:58:48  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:58:53  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 12:58:54  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 12:58:55  Water Cycle Complete ------- Flow = 0
+052423 13:13:56  Starting Water Cycle -------- Flow = 0
+052423 13:13:57  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:13:57  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 13:13:59  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 13:14:04  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 13:14:05  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:14:06  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 13:14:07  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 13:14:12  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 13:14:13  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:14:15  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 13:14:16  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 13:14:21  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 13:14:22  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:14:24  Water Cycle Complete ------- Flow = 0
+052423 13:29:27  Starting Water Cycle -------- Flow = 0
+052423 13:29:28  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:29:28  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 13:29:30  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 13:29:35  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 13:29:36  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:29:37  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 13:29:38  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 13:29:43  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 13:29:44  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:29:46  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 13:29:47  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 13:29:52  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 13:29:53  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:29:55  Water Cycle Complete ------- Flow = 0
+052423 13:44:56  Starting Water Cycle -------- Flow = 0
+052423 13:44:56  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:44:56  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 13:44:58  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 13:45:03  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 13:45:04  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:45:05  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 13:45:06  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 13:45:11  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 13:45:12  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:45:14  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 13:45:15  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 13:45:20  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 13:45:21  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 13:45:23  Water Cycle Complete ------- Flow = 0
+052423 14:00:24  Starting Water Cycle -------- Flow = 0
+052423 14:00:25  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:00:25  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:00:26  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:00:31  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:00:32  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:00:34  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:00:35  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:00:40  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:00:41  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:00:42  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:00:44  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:00:49  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:00:50  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:00:51  Water Cycle Complete ------- Flow = 0
+052423 14:15:53  Starting Water Cycle -------- Flow = 0
+052423 14:15:53  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:15:53  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:15:54  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:15:59  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:16:00  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:16:02  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:16:03  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:16:08  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:16:09  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:16:10  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:16:12  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:16:17  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:16:18  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:16:19  Water Cycle Complete ------- Flow = 0
+052423 14:31:20  Starting Water Cycle -------- Flow = 0
+052423 14:31:21  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:31:21  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:31:22  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:31:27  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:31:28  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:31:30  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:31:31  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:31:36  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:31:37  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:31:39  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:31:40  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:31:45  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:31:46  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:31:47  Water Cycle Complete ------- Flow = 0
+052423 14:46:49  Starting Water Cycle -------- Flow = 0
+052423 14:46:49  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:46:49  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:46:50  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:46:55  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 14:46:56  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:46:58  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:46:59  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:47:04  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 14:47:05  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:47:07  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:47:08  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:47:13  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 14:47:14  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 14:47:15  Water Cycle Complete ------- Flow = 0
+052423 15:02:17  Starting Water Cycle -------- Flow = 0
+052423 15:02:17  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:02:17  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:02:18  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:02:23  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:02:24  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:02:26  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:02:28  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:02:33  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:02:34  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:02:35  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:02:37  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:02:42  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:02:43  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:02:44  Water Cycle Complete ------- Flow = 0
+052423 15:17:45  Starting Water Cycle -------- Flow = 0
+052423 15:17:46  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:17:46  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:17:47  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:17:52  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:17:53  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:17:54  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:17:56  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:18:01  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:18:02  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:18:03  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:18:05  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:18:10  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:18:11  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:18:12  Water Cycle Complete ------- Flow = 0
+052423 15:33:13  Starting Water Cycle -------- Flow = 0
+052423 15:33:14  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:33:14  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:33:15  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:33:20  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:33:21  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:33:23  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:33:24  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:33:29  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:33:30  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:33:31  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:33:33  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:33:38  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:33:39  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:33:40  Water Cycle Complete ------- Flow = 0
+052423 15:48:42  Starting Water Cycle -------- Flow = 0
+052423 15:48:42  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:48:42  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:48:43  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:48:48  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 15:48:49  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:48:51  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:48:52  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:48:57  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 15:48:58  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:49:00  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:49:01  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:49:06  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 15:49:07  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 15:49:09  Water Cycle Complete ------- Flow = 0
+052423 16:04:10  Starting Water Cycle -------- Flow = 0
+052423 16:04:10  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:04:10  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:04:12  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:04:17  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:04:18  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:04:19  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:04:20  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:04:25  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:04:26  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:04:29  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:04:30  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:04:35  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:04:36  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:04:38  Water Cycle Complete ------- Flow = 0
+052423 16:19:41  Starting Water Cycle -------- Flow = 0
+052423 16:19:41  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:19:41  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:19:43  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:19:48  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:19:49  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:19:50  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:19:52  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:19:57  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:19:58  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:19:59  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:20:00  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:20:05  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:20:06  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:20:08  Water Cycle Complete ------- Flow = 0
+052423 16:35:09  Starting Water Cycle -------- Flow = 0
+052423 16:35:09  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:35:09  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:35:11  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:35:16  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:35:17  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:35:18  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:35:20  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:35:25  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:35:26  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:35:27  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:35:29  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:35:34  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:35:35  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:35:36  Water Cycle Complete ------- Flow = 0
+052423 16:50:38  Starting Water Cycle -------- Flow = 0
+052423 16:50:38  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:50:38  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:50:39  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:50:44  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 16:50:45  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:50:47  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:50:48  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:50:53  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 16:50:54  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:50:55  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:50:57  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:51:02  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 16:51:03  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 16:51:04  Water Cycle Complete ------- Flow = 0
+052423 17:06:06  Starting Water Cycle -------- Flow = 0
+052423 17:06:06  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:06:06  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:06:07  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:06:12  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:06:13  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:06:15  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:06:16  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:06:21  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:06:22  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:06:23  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:06:25  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:06:30  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:06:31  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:06:32  Water Cycle Complete ------- Flow = 0
+052423 17:21:34  Starting Water Cycle -------- Flow = 0
+052423 17:21:34  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:21:34  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:21:36  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:21:41  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:21:42  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:21:43  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:21:44  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:21:49  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:21:50  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:21:52  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:21:53  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:21:58  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:21:59  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:22:00  Water Cycle Complete ------- Flow = 0
+052423 17:37:02  Starting Water Cycle -------- Flow = 0
+052423 17:37:02  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:37:02  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:37:04  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:37:09  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:37:10  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:37:11  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:37:12  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:37:17  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:37:18  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:37:20  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:37:21  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:37:26  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:37:27  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:37:29  Water Cycle Complete ------- Flow = 0
+052423 17:52:30  Starting Water Cycle -------- Flow = 0
+052423 17:52:31  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:52:31  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:52:32  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:52:37  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 17:52:38  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:52:39  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:52:41  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:52:46  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 17:52:47  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:52:48  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:52:50  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:52:55  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 17:52:56  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 17:52:57  Water Cycle Complete ------- Flow = 0
+052423 18:07:59  Starting Water Cycle -------- Flow = 0
+052423 18:07:59  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:07:59  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:08:01  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:08:06  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:08:07  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:08:08  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:08:10  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:08:15  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:08:16  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:08:17  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:08:19  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:08:24  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:08:25  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:08:26  Water Cycle Complete ------- Flow = 0
+052423 18:23:28  Starting Water Cycle -------- Flow = 0
+052423 18:23:29  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:23:29  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:23:30  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:23:35  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:23:36  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:23:37  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:23:39  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:23:44  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:23:45  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:23:46  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:23:47  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:23:52  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:23:53  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:23:55  Water Cycle Complete ------- Flow = 0
+052423 18:38:56  Starting Water Cycle -------- Flow = 0
+052423 18:38:57  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:38:57  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:38:58  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:39:03  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:39:04  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:39:06  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:39:07  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:39:12  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:39:13  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:39:14  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:39:16  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:39:21  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:39:22  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:39:23  Water Cycle Complete ------- Flow = 0
+052423 18:54:24  Starting Water Cycle -------- Flow = 0
+052423 18:54:25  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:54:25  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:54:27  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:54:32  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 18:54:33  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:54:34  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:54:36  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:54:41  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 18:54:42  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:54:43  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:54:44  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:54:49  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 18:54:50  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 18:54:52  Water Cycle Complete ------- Flow = 0
+052423 19:09:53  Starting Water Cycle -------- Flow = 0
+052423 19:09:54  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:09:54  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:09:55  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:10:00  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:10:01  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:10:02  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:10:04  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:10:09  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:10:10  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:10:11  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:10:13  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:10:18  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:10:19  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:10:21  Water Cycle Complete ------- Flow = 0
+052423 19:25:23  Starting Water Cycle -------- Flow = 0
+052423 19:25:24  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:25:24  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:25:26  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:25:31  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:25:32  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:25:33  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:25:35  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:25:40  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:25:41  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:25:42  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:25:44  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:25:49  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:25:50  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:25:51  Water Cycle Complete ------- Flow = 0
+052423 19:40:52  Starting Water Cycle -------- Flow = 0
+052423 19:40:53  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:40:53  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:40:54  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:40:59  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:41:00  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:41:01  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:41:03  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:41:08  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:41:09  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:41:10  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:41:12  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:41:17  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:41:18  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:41:19  Water Cycle Complete ------- Flow = 0
+052423 19:56:21  Starting Water Cycle -------- Flow = 0
+052423 19:56:21  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:56:21  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:56:22  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:56:27  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 19:56:28  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:56:30  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:56:31  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:56:36  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 19:56:37  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:56:38  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:56:40  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:56:45  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 19:56:46  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 19:56:47  Water Cycle Complete ------- Flow = 0
+052423 20:11:48  Starting Water Cycle -------- Flow = 0
+052423 20:11:49  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:11:49  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:11:50  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:11:55  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:11:56  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:11:58  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:11:59  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:12:04  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:12:05  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:12:07  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:12:08  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:12:13  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:12:14  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:12:15  Water Cycle Complete ------- Flow = 0
+052423 20:27:17  Starting Water Cycle -------- Flow = 0
+052423 20:27:17  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:27:17  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:27:19  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:27:24  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:27:25  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:27:31  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:27:32  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:27:37  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:27:38  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:27:40  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:27:41  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:27:46  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:27:47  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:27:49  Water Cycle Complete ------- Flow = 0
+052423 20:42:50  Starting Water Cycle -------- Flow = 0
+052423 20:42:50  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:42:50  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:42:52  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:42:57  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:42:58  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:42:59  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:43:00  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:43:05  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:43:06  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:43:08  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:43:09  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:43:14  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:43:15  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:43:17  Water Cycle Complete ------- Flow = 0
+052423 20:58:18  Starting Water Cycle -------- Flow = 0
+052423 20:58:18  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:58:18  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:58:20  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:58:25  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 20:58:26  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:58:27  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:58:30  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:58:35  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 20:58:36  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:58:37  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:58:39  Pump: On   V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:58:44  Pump: Off  V1: Off  V2: Off  V3: On   Flow Meter: 0
+052423 20:58:45  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 20:58:46  Water Cycle Complete ------- Flow = 0
+052423 21:10:38  Starting Water Cycle -------- Flow = 0
+052423 21:10:38  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 21:10:38  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 21:10:40  Pump: On   V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 21:10:45  Pump: Off  V1: On   V2: Off  V3: Off  Flow Meter: 0
+052423 21:10:46  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
+052423 21:10:48  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 21:10:49  Pump: On   V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 21:10:54  Pump: Off  V1: Off  V2: On   V3: Off  Flow Meter: 0
+052423 21:10:55  Pump: Off  V1: Off  V2: Off  V3: Off  Flow Meter: 0
