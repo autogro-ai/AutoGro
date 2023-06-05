@@ -1,0 +1,3552 @@
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:12:56.756598"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:12:57.204803"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:13:04.596835"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:13:05.994975"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:13:13.358154"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:13:14.749122"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:13:22.151369"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:13:23.527596"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:28:24.881812"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:28:25.444611"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:28:32.883239"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:28:34.372702"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:28:41.745991"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:28:43.161412"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:28:50.532886"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:28:52.232416"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:43:53.852148"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:43:54.460662"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:44:01.846056"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:44:03.220951"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:44:10.607734"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:44:11.979983"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:44:19.352609"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:44:20.719810"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:59:27.033845"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:59:27.467996"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:59:34.877911"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:59:36.242895"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:59:43.612537"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:59:45.033742"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:59:52.377562"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 00:59:54.105914"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:14:55.317697"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:14:55.751192"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:15:03.106648"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:15:04.503268"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:15:11.932113"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:15:13.313457"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:15:20.688822"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:15:22.058684"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:30:23.414134"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:30:23.882657"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:30:31.314876"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:30:32.717009"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:30:40.097792"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:30:41.569904"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:30:48.997783"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:30:50.380230"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:45:52.121902"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:45:57.504826"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:46:04.927261"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:46:06.302458"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:46:13.685651"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:46:15.069612"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:46:22.463146"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 01:46:23.856327"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:01:30.208009"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:01:30.634513"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:01:38.029027"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:01:39.399947"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:01:46.788437"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:01:48.143411"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:01:55.510963"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:01:56.876596"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:16:58.241529"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:16:58.701515"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:17:06.071310"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:17:07.478141"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:17:14.877029"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:17:16.256932"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:17:23.638870"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:17:25.034430"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:32:26.407475"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:32:26.841203"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:32:34.214116"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:32:35.631502"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:32:43.008866"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:32:44.527311"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:32:51.901009"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:32:53.668520"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:47:55.655061"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:47:56.137967"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:48:03.544155"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:48:04.927582"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:48:12.308801"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:48:13.682645"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:48:21.058405"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 02:48:22.431124"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:03:28.712969"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:03:29.154965"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:03:36.484619"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:03:37.876693"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:03:45.293576"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:03:46.659308"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:03:54.038526"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:03:55.523997"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:18:56.733941"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:18:57.134085"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:19:04.484965"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:19:05.861090"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:19:13.234568"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:19:14.632002"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:19:22.051204"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:19:23.415150"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:34:24.769419"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:34:25.174105"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:34:32.567659"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:34:33.962487"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:34:41.327191"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:34:42.694446"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:34:50.071412"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:34:51.604266"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:49:53.349266"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:49:58.721878"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:50:06.059592"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:50:07.440501"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:50:14.812919"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:50:16.219355"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:50:23.591978"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 03:50:25.266910"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:05:31.493930"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:05:31.938075"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:05:39.343807"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:05:40.734636"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:05:48.107573"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:05:49.498681"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:05:56.881820"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:05:58.239235"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:20:59.513134"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:20:59.955058"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:21:07.393669"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:21:08.773976"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:21:16.148938"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:21:17.580024"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:21:24.962549"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:21:26.332572"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:36:27.595245"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:36:27.997340"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:36:35.379120"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:36:36.765899"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:36:44.135046"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:36:45.504301"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:36:52.925340"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:36:54.683604"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:51:55.926312"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:51:56.370684"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:52:03.768675"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:52:05.149101"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:52:12.532500"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:52:13.901053"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:52:21.268760"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 04:52:22.651696"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:07:28.950906"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:07:29.336767"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:07:36.697499"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:07:38.068148"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:07:45.442265"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:07:46.827759"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:07:54.202476"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:07:55.678139"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:22:56.881218"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:22:57.393123"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:23:04.737812"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:23:06.128754"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:23:13.519863"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:23:14.886255"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:23:22.283630"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:23:23.670375"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:38:24.937169"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:38:25.351953"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:38:32.745883"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:38:34.159111"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:38:41.536726"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:38:42.896367"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:38:50.263428"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:38:52.415251"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:53:54.103129"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:53:54.754009"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:54:02.156809"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:54:03.538192"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:54:10.914318"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:54:12.318293"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:54:19.681781"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 05:54:21.067410"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:09:27.363966"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:09:27.765720"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:09:35.152980"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:09:36.556076"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:09:43.945628"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:09:45.315720"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:09:52.698488"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:09:54.559361"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:24:55.754418"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:24:56.228519"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:25:03.599507"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:25:04.972639"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:25:12.380923"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:25:13.746265"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:25:21.117189"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:25:22.530844"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:40:23.835318"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:40:24.255814"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:40:31.607902"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:40:33.034845"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:40:40.437544"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:40:41.762423"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:40:49.144052"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:40:50.514832"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:55:52.579777"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:55:53.583079"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:56:01.536096"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:56:02.935749"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:56:10.375909"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:56:11.736349"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:56:19.126651"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 06:56:20.496659"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:11:26.717511"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:11:27.114912"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:11:34.510332"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:11:35.890264"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:11:43.289782"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:11:44.646659"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:11:52.023419"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:11:53.736104"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:26:55.387185"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:26:55.825581"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:27:03.155082"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:27:04.572490"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:27:11.940451"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:27:13.346297"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:27:20.749829"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:27:22.119523"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:42:23.435444"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:42:23.897704"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:42:31.275223"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:42:32.647140"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:42:40.056616"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:42:41.442140"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:42:48.825308"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:42:50.197936"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:57:51.404354"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:57:52.248900"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:57:59.949391"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:58:01.541472"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:58:08.904145"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:58:10.280390"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:58:17.641493"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 07:58:19.017063"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:13:25.247716"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:13:25.699512"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:13:33.099684"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:13:34.492944"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:13:41.849046"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:13:43.228185"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:13:50.613074"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:13:52.385779"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:28:53.899561"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:28:54.819548"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:29:02.166452"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:29:03.558353"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:29:10.944954"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:29:12.335194"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:29:19.705463"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:29:21.141694"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:44:22.355838"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:44:22.781407"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:44:30.158969"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:44:31.584630"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:44:38.962698"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:44:40.330402"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:44:47.697745"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:44:49.067067"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:59:50.391492"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 08:59:51.009903"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:00:03.359766"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:00:05.041205"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:00:12.509885"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:00:13.874531"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:00:21.241172"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:00:22.629220"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:15:28.891388"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:15:29.305083"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:15:36.644433"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:15:38.040121"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:15:45.451439"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:15:46.862588"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:15:54.272545"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:15:55.861991"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:30:57.212504"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:30:57.631515"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:31:04.976424"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:31:06.378964"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:31:13.744681"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:31:15.123212"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:31:22.482952"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:31:23.854507"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:46:25.207016"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:46:25.626072"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:46:33.016220"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:46:34.405908"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:46:41.767993"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:46:43.134817"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:46:50.538395"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 09:46:52.342591"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:01:54.098821"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:01:54.908846"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:02:02.282197"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:02:03.655404"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:02:11.030003"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:02:12.403031"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:02:19.775429"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:02:21.188364"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:17:27.355697"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:17:27.822062"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:17:35.186348"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:17:36.564721"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:17:43.962907"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:17:45.350367"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:17:52.742040"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:17:54.582771"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:32:55.903399"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:32:56.330273"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:33:03.709205"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:33:05.129446"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:33:12.511241"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:33:13.878826"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:33:21.254981"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:33:22.629000"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:48:23.911871"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:48:24.334496"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:48:31.720621"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:48:33.144320"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:48:40.609482"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:48:41.981345"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:48:49.516643"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 10:48:50.894340"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:03:52.527788"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:03:53.450687"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:04:00.977136"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:04:02.362029"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:04:09.743320"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:04:11.110402"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:04:18.487634"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:04:19.870786"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:19:26.704452"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:19:27.180688"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:19:34.567703"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:19:36.017399"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:19:43.395896"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:19:44.780885"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:19:52.162126"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:19:55.003173"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:34:56.282186"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:34:56.693898"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:35:04.106172"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:35:05.492125"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:35:12.873524"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:35:14.260772"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:35:21.627235"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:35:22.993733"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:50:24.318931"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:50:24.779679"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:50:32.197258"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:50:33.593150"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:50:40.947563"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:50:42.335571"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:50:49.706667"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 11:50:51.073876"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:05:52.677736"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:05:54.041736"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:06:01.765262"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:06:03.220244"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:06:10.602962"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:06:12.005888"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:06:19.378599"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:06:20.757698"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:21:27.005190"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:21:27.434359"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:21:34.791367"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:21:36.234513"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:21:43.620260"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:21:44.977702"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:21:52.353918"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:21:54.198014"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:36:56.627114"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:36:57.052442"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:37:04.512553"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:37:05.959383"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:37:13.391794"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:37:14.776245"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:37:22.226016"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:37:23.605820"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:52:24.823088"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:52:25.217376"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:52:32.605753"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:52:34.017476"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:52:41.402795"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:52:42.767755"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:52:50.154641"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 12:52:51.543517"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:07:53.226322"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:07:53.916831"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:08:01.440853"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:08:02.837300"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:08:10.208567"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:08:11.651674"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:08:19.024121"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:08:20.436630"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:23:26.657879"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:23:27.071327"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:23:34.486084"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:23:35.856107"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:23:43.219817"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:23:44.588917"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:23:51.949235"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:23:53.736433"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:38:55.181136"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:38:55.578696"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:39:02.944995"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:39:04.345955"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:39:11.707072"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:39:13.077901"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:39:20.486933"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:39:21.836681"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:54:23.162056"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:54:23.598102"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:54:31.026303"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:54:32.388689"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:54:39.819552"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:54:41.238891"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:54:48.630165"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 13:54:50.008757"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:09:51.310380"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:09:52.002349"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:09:59.585647"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:10:00.960593"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:10:08.339203"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:10:09.721924"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:10:17.148247"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:10:18.520402"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:25:24.811988"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:25:25.220319"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:25:32.586318"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:25:33.983115"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:25:41.363750"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:25:42.737274"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:25:50.116291"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:25:51.479828"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:40:53.142011"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:40:53.993900"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:41:01.706980"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:41:03.090669"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:41:10.465435"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:41:11.841215"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:41:19.219290"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:41:20.585471"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:56:21.806127"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:56:22.224412"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:56:29.604830"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:56:30.975936"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:56:38.401403"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:56:39.820984"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:56:47.251052"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 14:56:48.633445"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:11:49.859540"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:11:50.237234"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:11:57.599484"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:11:58.969457"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:12:06.340706"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:12:07.728489"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:12:15.104719"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:12:16.491103"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:27:22.761784"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:27:23.160644"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:27:30.537430"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:27:31.909622"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:27:39.287503"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:27:40.655266"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:27:48.035238"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:27:49.405815"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:42:50.691746"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:42:51.151654"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:42:58.914186"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:43:00.293794"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:43:07.695959"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:43:09.076854"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:43:16.462214"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:43:17.846970"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:58:19.189877"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:58:19.590482"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:58:27.032855"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:58:28.412225"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:58:35.782526"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:58:37.199617"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:58:44.584206"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 15:58:45.948924"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:13:47.310422"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:13:47.759106"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:13:55.130251"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:13:56.524327"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:14:03.899037"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:14:05.271187"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:14:12.673660"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:14:14.040354"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:29:20.384117"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:29:20.838251"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:29:28.231656"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:29:29.597336"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:29:36.982947"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:29:38.361847"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:29:45.737845"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:29:47.109391"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:44:48.399758"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:44:48.822688"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:44:56.201742"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:44:57.580751"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:45:04.944598"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:45:06.326399"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:45:13.696630"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 16:45:15.064768"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:00:16.434981"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:00:16.898778"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:00:24.272174"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:00:25.681174"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:00:33.078573"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:00:34.454179"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:00:41.829640"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:00:43.203574"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:15:45.751136"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:15:46.215420"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:15:53.582252"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:15:55.331583"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:16:02.738908"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:16:04.149339"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:16:11.516490"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:16:12.876911"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:31:19.564015"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:31:19.978845"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:31:27.365293"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:31:28.729631"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:31:36.109660"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:31:37.493006"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:31:44.861274"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:31:46.251756"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:46:47.671507"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:46:48.116246"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:46:55.461779"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:46:56.838805"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:47:04.232645"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:47:05.601075"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:47:12.963723"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 17:47:14.324852"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:02:15.604036"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:02:16.021649"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:02:23.445466"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:02:24.800170"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:02:32.175039"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:02:33.554767"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:02:40.923798"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:02:42.286502"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:17:43.523864"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:17:43.981042"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:17:51.311997"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:17:53.068270"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:18:01.045776"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:18:02.436167"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:18:09.804727"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:18:11.204581"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:33:17.544523"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:33:17.969781"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:33:25.336822"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:33:26.703493"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:33:34.078666"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:33:35.453997"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:33:42.839610"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:33:44.218252"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:48:45.661017"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:48:46.092898"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:48:53.422560"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:48:55.224721"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:49:02.542444"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:49:03.953212"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:49:11.320975"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 18:49:12.726093"
+}
+Successful call
+{
+    "pump_status": "Starting Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 19:04:14.020456"
+}
+Successful call
+{
+    "pump_status": "Valve 1 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 19:04:14.621615"
+}
+Successful call
+{
+    "pump_status": "Valve 1 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 19:04:22.192347"
+}
+Successful call
+{
+    "pump_status": "Valve 2 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 19:04:23.563030"
+}
+Successful call
+{
+    "pump_status": "Valve 2 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 19:04:30.939310"
+}
+Successful call
+{
+    "pump_status": "Valve 3 ON",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 19:04:32.329115"
+}
+Successful call
+{
+    "pump_status": "Valve 3 OFF",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 19:04:39.734628"
+}
+Successful call
+{
+    "pump_status": "End Water Cycle",
+    "flow_meter_rotations": 0,
+    "accessed": "2023-06-04 19:04:41.182427"
+}
+Successful call
