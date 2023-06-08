@@ -1,5 +1,5 @@
 # AG config and support functions
-# V11
+# V12
 
 import time
 from datetime import datetime
@@ -11,12 +11,12 @@ import copy
 import requests
 
 ################### Constants #################################################################
-VERSION = 11                           # Version of this code
-NUM_WATER_VALVES = 3                   # Number of water valves
+VERSION = 12                           # Version of this code
+NUM_WATER_VALVES = 4                   # Number of water valves
 FLOW_PIN_INPUT = 25                    # Pin that flow meter is attached
-WATER_CYCLE_TIME = 900                 # Time between running a water cycle in seconds
+WATER_CYCLE_TIME = 300                 # Time between running a water cycle in seconds
 PUMP_DELAY = 1                         # Time between stopping and starting pump to avoid back pressure
-WATER_CYCLE_LENGTH = 5                 # Time to water per valve per cycle in seconds
+WATER_CYCLE_LENGTH = 10                # Time to water per valve per cycle in seconds
 PRINT_TO_CONSOLE = True                # Print to console as well as log
 BALANCE_PH = True                      # Is pH auto balance enabled?
 IDEAL_PH = 6.5                         # pH value the system will attemp to maintain
@@ -102,12 +102,16 @@ def APIsensor(buf_list): # This list is max soil sensors, then tds, then pH
    data["accessed"] = str(datetime.now())
 
    # Web API call for sensors
+   web_success = False
    if (WEB_API):
       AGsys("Sending data to sensor web API")
       try:
          response = requests.post(url, data=data, timeout=5)
          if (response.status_code != 200):
             AGlog("ERROR - API sensor web call failed.  Return code: " + str(response.status_code),ERROR)
+         else:
+            web_success = True
+            AGsys("Web API successful")
       except Exception:
          AGlog("ERROR - Exception on sensor web API call, possible timeout",ERROR)
 
@@ -116,10 +120,10 @@ def APIsensor(buf_list): # This list is max soil sensors, then tds, then pH
       file = open (SENSOR_JSON_FILE,"a")
       file.write(json.dumps(data,indent=4))
       if (WEB_API):
-         if (response.status_code == 200):
+         if (web_success):
             file.write("\nSuccessful call\n")
          else:
-            file.write("\nERROR return code: " + str(response.status_code) +"\n")
+            file.write("\nERROR\n")
       else:
          file.write("\nWeb API not enabled\n")
       file.close()
@@ -136,12 +140,16 @@ def APIpump(s,flow): # String that identifies valve and then flow meter value
    data["accessed"] = str(datetime.now())
 
    # Web API call for pump
+   web_success = False
    if (WEB_API):
       AGsys("Sending data to pump web API")
       try:
          response = requests.post(url, data=data, timeout=5)
          if (response.status_code != 200):
             AGlog("ERROR - API pump web call failed.  Return code: " + str(response.status_code),ERROR)
+         else:
+            web_success = True
+            AGsys("Web API successful")
       except Exception:
          AGlog("ERROR - Exception on pump web API call, possible timeout",ERROR)
 
@@ -150,10 +158,10 @@ def APIpump(s,flow): # String that identifies valve and then flow meter value
       file = open (PUMP_JSON_FILE,"a")
       file.write(json.dumps(data,indent=4))
       if (WEB_API):
-         if (response.status_code == 200):
+         if (web_success):
             file.write("\nSuccessful call\n")
          else:
-            file.write("\nERROR return code: " + str(response.status_code) +"\n")
+            file.write("\nERROR\n")
       else:
          file.write("\nWeb API not enabled\n")
       file.close()

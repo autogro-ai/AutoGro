@@ -1,4 +1,4 @@
-# V11
+# V12
 # AutoGrow - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
@@ -21,6 +21,7 @@
 # V9 5-23-23  Add pump API call
 # V10 5-29-23 Add pH balance routine, TDS enable flag, detect when TDS is not working
 # V11 6-3-23  Add pH balance time limit to balance routine
+# V12 6-7-23  Fixed logging bug related to no network connection and web api calls
 
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
