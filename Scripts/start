@@ -1,0 +1,2 @@
+cd /home/pi/bin/AutoGro
+nohup /home/pi/bin/AutoGro/Scripts/start2 &
