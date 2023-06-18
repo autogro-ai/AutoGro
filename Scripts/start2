@@ -1,7 +1,0 @@
-cd /home/pi/bin/AutoGro
-while true
-do
-touch /home/pi/bin/AutoGro/last_start_time
-python3 -u /home/pi/bin/AutoGro/AutoGro.py >> /home/pi/bin/AutoGro/AutoGroStart.log
-sleep 60
-done
