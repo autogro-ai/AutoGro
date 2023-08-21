@@ -1,0 +1,376 @@
+082123 08:51:21  Starting Water refresh cycle ------ Flow = 0
+082123 08:51:21  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 08:52:07  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 08:52:07  Finished Water refresh cycle ----- Flow = 0
+082123 08:57:09  Starting Water refresh cycle ------ Flow = 0
+082123 08:57:09  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 08:57:29  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 08:57:29  Finished Water refresh cycle ----- Flow = 0
+082123 09:02:30  Starting Water refresh cycle ------ Flow = 0
+082123 09:02:30  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:02:50  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:02:50  Finished Water refresh cycle ----- Flow = 0
+082123 09:07:50  Starting Water refresh cycle ------ Flow = 0
+082123 09:07:50  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:08:10  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:08:10  Finished Water refresh cycle ----- Flow = 0
+082123 09:13:11  Starting Water refresh cycle ------ Flow = 0
+082123 09:13:11  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:13:31  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:13:31  Finished Water refresh cycle ----- Flow = 0
+082123 09:18:31  Starting Water refresh cycle ------ Flow = 0
+082123 09:18:31  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:18:51  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:18:51  Finished Water refresh cycle ----- Flow = 0
+082123 09:22:12  Starting Water Cycle -------- Flow = 0
+082123 09:22:12  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:13  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:23  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:24  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:25  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:26  Pump: On   V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:36  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:37  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:38  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:39  Pump: On   V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:49  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:50  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:22:51  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 09:22:52  Pump: On   V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 09:23:02  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 09:23:03  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:23:04  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 09:23:05  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 09:23:15  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 09:23:16  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:23:17  Water Cycle Complete ------- Flow = 0
+082123 09:23:52  Starting Water refresh cycle ------ Flow = 0
+082123 09:23:52  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:24:12  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:24:12  Finished Water refresh cycle ----- Flow = 0
+082123 09:29:12  Starting Water refresh cycle ------ Flow = 0
+082123 09:29:12  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:29:33  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:29:33  Finished Water refresh cycle ----- Flow = 0
+082123 09:34:33  Starting Water refresh cycle ------ Flow = 0
+082123 09:34:33  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:34:53  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:34:53  Finished Water refresh cycle ----- Flow = 0
+082123 09:39:53  Starting Water refresh cycle ------ Flow = 0
+082123 09:39:53  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:40:13  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:40:13  Finished Water refresh cycle ----- Flow = 0
+082123 09:45:14  Starting Water refresh cycle ------ Flow = 0
+082123 09:45:14  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:45:34  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:45:34  Finished Water refresh cycle ----- Flow = 0
+082123 09:50:34  Starting Water refresh cycle ------ Flow = 0
+082123 09:50:34  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:50:54  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:50:54  Finished Water refresh cycle ----- Flow = 0
+082123 09:53:20  Starting Water Cycle -------- Flow = 0
+082123 09:53:20  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:21  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:31  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:32  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:33  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:34  Pump: On   V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:44  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:45  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:46  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:47  Pump: On   V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:57  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:58  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:53:59  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 09:54:00  Pump: On   V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 09:54:10  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 09:54:11  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:54:12  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 09:54:13  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 09:54:23  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 09:54:24  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:54:25  Water Cycle Complete ------- Flow = 0
+082123 09:55:55  Starting Water refresh cycle ------ Flow = 0
+082123 09:55:55  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:56:15  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 09:56:15  Finished Water refresh cycle ----- Flow = 0
+082123 10:01:15  Starting Water refresh cycle ------ Flow = 0
+082123 10:01:16  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:01:36  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:01:36  Finished Water refresh cycle ----- Flow = 0
+082123 10:06:36  Starting Water refresh cycle ------ Flow = 0
+082123 10:06:36  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:06:56  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:06:56  Finished Water refresh cycle ----- Flow = 0
+082123 10:11:57  Starting Water refresh cycle ------ Flow = 0
+082123 10:11:57  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:12:17  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:12:17  Finished Water refresh cycle ----- Flow = 0
+082123 10:17:17  Starting Water refresh cycle ------ Flow = 0
+082123 10:17:17  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:17:37  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:17:37  Finished Water refresh cycle ----- Flow = 0
+082123 10:22:37  Starting Water refresh cycle ------ Flow = 0
+082123 10:22:37  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:22:57  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:22:57  Finished Water refresh cycle ----- Flow = 0
+082123 10:24:28  Starting Water Cycle -------- Flow = 0
+082123 10:24:28  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:24:29  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:24:39  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:24:40  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:24:41  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:24:42  Pump: On   V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:24:52  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:24:53  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:24:54  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 10:24:55  Pump: On   V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 10:25:05  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 10:25:06  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:25:07  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 10:25:08  Pump: On   V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 10:25:18  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 10:25:19  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:25:20  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 10:25:21  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 10:25:31  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 10:25:32  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:25:33  Water Cycle Complete ------- Flow = 0
+082123 10:28:00  Starting Water refresh cycle ------ Flow = 0
+082123 10:28:00  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:28:20  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:28:20  Finished Water refresh cycle ----- Flow = 0
+082123 10:33:21  Starting Water refresh cycle ------ Flow = 0
+082123 10:33:21  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:33:41  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:33:41  Finished Water refresh cycle ----- Flow = 0
+082123 10:38:41  Starting Water refresh cycle ------ Flow = 0
+082123 10:38:41  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:39:01  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:39:01  Finished Water refresh cycle ----- Flow = 0
+082123 10:44:02  Starting Water refresh cycle ------ Flow = 0
+082123 10:44:02  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:44:22  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:44:22  Finished Water refresh cycle ----- Flow = 0
+082123 10:49:22  Starting Water refresh cycle ------ Flow = 0
+082123 10:49:22  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:49:42  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:49:42  Finished Water refresh cycle ----- Flow = 0
+082123 10:54:43  Starting Water refresh cycle ------ Flow = 0
+082123 10:54:43  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:55:03  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:55:03  Finished Water refresh cycle ----- Flow = 0
+082123 10:55:33  Starting Water Cycle -------- Flow = 0
+082123 10:55:33  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:55:34  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:55:44  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:55:45  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:55:46  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:55:47  Pump: On   V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:55:57  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:55:58  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:55:59  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 10:56:00  Pump: On   V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 10:56:10  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 10:56:11  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:56:12  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 10:56:13  Pump: On   V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 10:56:23  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 10:56:24  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:56:25  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 10:56:26  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 10:56:36  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 10:56:37  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 10:56:38  Water Cycle Complete ------- Flow = 0
+082123 11:00:03  Starting Water refresh cycle ------ Flow = 0
+082123 11:00:03  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:00:23  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:00:23  Finished Water refresh cycle ----- Flow = 0
+082123 11:05:24  Starting Water refresh cycle ------ Flow = 0
+082123 11:05:24  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:05:44  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:05:44  Finished Water refresh cycle ----- Flow = 0
+082123 11:10:45  Starting Water refresh cycle ------ Flow = 0
+082123 11:10:45  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:11:05  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:11:05  Finished Water refresh cycle ----- Flow = 0
+082123 11:16:05  Starting Water refresh cycle ------ Flow = 0
+082123 11:16:05  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:16:25  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:16:25  Finished Water refresh cycle ----- Flow = 0
+082123 11:21:26  Starting Water refresh cycle ------ Flow = 0
+082123 11:21:26  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:21:46  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:21:46  Finished Water refresh cycle ----- Flow = 0
+082123 11:26:41  Starting Water Cycle -------- Flow = 0
+082123 11:26:41  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:26:42  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:26:52  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:26:53  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:26:54  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:26:55  Pump: On   V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:27:05  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:27:06  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:27:07  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 11:27:08  Pump: On   V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 11:27:18  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 11:27:19  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:27:20  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 11:27:21  Pump: On   V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 11:27:31  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 11:27:32  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:27:33  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 11:27:34  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 11:27:44  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 11:27:45  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:27:46  Water Cycle Complete ------- Flow = 0
+082123 11:27:46  Starting Water refresh cycle ------ Flow = 0
+082123 11:27:46  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:28:06  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:28:06  Finished Water refresh cycle ----- Flow = 0
+082123 11:33:07  Starting Water refresh cycle ------ Flow = 0
+082123 11:33:07  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:33:27  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:33:27  Finished Water refresh cycle ----- Flow = 0
+082123 11:38:27  Starting Water refresh cycle ------ Flow = 0
+082123 11:38:27  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:38:47  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:38:47  Finished Water refresh cycle ----- Flow = 0
+082123 11:43:48  Starting Water refresh cycle ------ Flow = 0
+082123 11:43:48  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:44:08  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:44:08  Finished Water refresh cycle ----- Flow = 0
+082123 11:49:08  Starting Water refresh cycle ------ Flow = 0
+082123 11:49:08  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:49:28  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:49:28  Finished Water refresh cycle ----- Flow = 0
+082123 11:54:31  Starting Water refresh cycle ------ Flow = 0
+082123 11:54:31  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:54:51  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:54:51  Finished Water refresh cycle ----- Flow = 0
+082123 11:57:51  Starting Water Cycle -------- Flow = 0
+082123 11:57:51  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:57:52  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:02  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:03  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:04  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:05  Pump: On   V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:15  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:16  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:17  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:18  Pump: On   V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:28  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:29  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:30  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 11:58:31  Pump: On   V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 11:58:41  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 11:58:42  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:43  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 11:58:44  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 11:58:54  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 11:58:55  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 11:58:56  Water Cycle Complete ------- Flow = 0
+082123 11:59:51  Starting Water refresh cycle ------ Flow = 0
+082123 11:59:51  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:00:11  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:00:11  Finished Water refresh cycle ----- Flow = 0
+082123 12:05:14  Starting Water refresh cycle ------ Flow = 0
+082123 12:05:14  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:05:34  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:05:34  Finished Water refresh cycle ----- Flow = 0
+082123 12:10:34  Starting Water refresh cycle ------ Flow = 0
+082123 12:10:34  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:10:54  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:10:54  Finished Water refresh cycle ----- Flow = 0
+082123 12:15:55  Starting Water refresh cycle ------ Flow = 0
+082123 12:15:55  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:16:15  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:16:15  Finished Water refresh cycle ----- Flow = 0
+082123 12:21:15  Starting Water refresh cycle ------ Flow = 0
+082123 12:21:15  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:21:35  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:21:35  Finished Water refresh cycle ----- Flow = 0
+082123 12:26:37  Starting Water refresh cycle ------ Flow = 0
+082123 12:26:37  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:26:57  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:26:57  Finished Water refresh cycle ----- Flow = 0
+082123 12:28:57  Starting Water Cycle -------- Flow = 0
+082123 12:28:57  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:28:58  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:08  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:09  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:10  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:11  Pump: On   V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:21  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:22  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:23  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:24  Pump: On   V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:34  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:35  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:36  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 12:29:37  Pump: On   V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 12:29:47  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 12:29:48  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:29:49  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 12:29:50  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 12:30:00  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 12:30:01  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:30:02  Water Cycle Complete ------- Flow = 0
+082123 12:31:57  Starting Water refresh cycle ------ Flow = 0
+082123 12:31:57  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:32:17  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:32:17  Finished Water refresh cycle ----- Flow = 0
+082123 12:37:22  Starting Water refresh cycle ------ Flow = 0
+082123 12:37:22  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:37:42  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:37:42  Finished Water refresh cycle ----- Flow = 0
+082123 12:42:44  Starting Water refresh cycle ------ Flow = 0
+082123 12:42:44  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:43:04  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:43:04  Finished Water refresh cycle ----- Flow = 0
+082123 12:48:05  Starting Water refresh cycle ------ Flow = 0
+082123 12:48:05  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:48:25  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:48:25  Finished Water refresh cycle ----- Flow = 0
+082123 12:53:26  Starting Water refresh cycle ------ Flow = 0
+082123 12:53:26  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:53:46  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:53:46  Finished Water refresh cycle ----- Flow = 0
+082123 12:58:49  Starting Water refresh cycle ------ Flow = 0
+082123 12:58:49  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:59:09  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 12:59:09  Finished Water refresh cycle ----- Flow = 0
+082123 13:00:04  Starting Water Cycle -------- Flow = 0
+082123 13:00:04  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:05  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:15  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:16  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:17  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:18  Pump: On   V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:28  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:29  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:30  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:31  Pump: On   V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:41  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:42  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:43  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 13:00:44  Pump: On   V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 13:00:54  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+082123 13:00:55  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:00:56  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 13:00:57  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 13:01:07  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: On   Flow Meter: 0
+082123 13:01:08  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:01:09  Water Cycle Complete ------- Flow = 0
+082123 13:04:09  Starting Water refresh cycle ------ Flow = 0
+082123 13:04:09  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:04:29  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:04:29  Finished Water refresh cycle ----- Flow = 0
+082123 13:09:30  Starting Water refresh cycle ------ Flow = 0
+082123 13:09:30  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:09:50  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:09:50  Finished Water refresh cycle ----- Flow = 0
+082123 13:14:50  Starting Water refresh cycle ------ Flow = 0
+082123 13:14:50  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:15:10  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+082123 13:15:10  Finished Water refresh cycle ----- Flow = 0
