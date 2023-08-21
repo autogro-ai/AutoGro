@@ -1,5 +1,5 @@
 # AG config and support functions
-# V14
+# V15
 
 import time
 from datetime import datetime
@@ -11,11 +11,11 @@ import copy
 import requests
 
 ################### Constants #################################################################
-VERSION = 14                           # Version of this code
+VERSION = 15                           # Version of this code
 NUM_WATER_VALVES = 5                   # Number of water valves
 MAX_WATER_VALVES = 5                   # Max number of system water valves, used for pump API call
 FLOW_PIN_INPUT = 25                    # Pin that flow meter is attached
-WATER_CYCLE_TIME = 180                 # Time between running a water cycle in seconds
+WATER_CYCLE_TIME = 1800                # Time between running a water cycle in seconds
 PUMP_DELAY = 1                         # Time between stopping and starting pump to avoid back pressure
 WATER_CYCLE_LENGTH = 10                # Time to water per valve per cycle in seconds
 PRINT_TO_CONSOLE = True                # Print to console as well as log
@@ -27,10 +27,14 @@ PH_ENABLED = True                      # Is pH sensor enabled?
 PH_DOWN_RELAY = 7                      # Relay that controls pH down fluid
 PH_UP_RELAY = 6                        # Relay that controls pH up fluid
 PH_VALVE_TIME = 5                      # Time to open valve to adjust pH in seconds
-PH_BALANCE_INTERVAL = 300             # The shortest time between pH auto adjustments (takes place after water cycle)
+PH_BALANCE_INTERVAL = 600              # The shortest time between pH auto adjustments
+PH_BALANCE_WATER_CYCLE_LIMIT = 610     # The closest that a pH routine can occur to a water cycle
+PH_BALANCE_RETRY = 30                  # Time to retry pH balance after watre cycle conflict
+WATER_REFRESH_CYCLE = 300              # Time between running water churn cycle for pH bucket refresh
+WATER_REFRESH_LENGTH = 20              # Time to run water refresh
 TDS_ENABLED = True                     # Is TDS water quality sensor enabled?
 TDS_SAMPLES = 4                        # Number of TDS samples to average together for result
-SENSOR_TIME_API = 180                 # Time delay between sensor API publications in seconds (1800 = 30 min)
+SENSOR_TIME_API = 180                  # Time delay between sensor API publications in seconds (1800 = 30 min)
 SENSOR_TIME_CSV = 600                  # Time delay between sensor CSV publications in seconds (600 = 10 min)
 SENSOR_TIME_DIAG = 5                   # Time delay between sensor DIAG publications in seconds
 SOIL_DRY = 49000                       # Raw value when soil is totally dry
@@ -38,6 +42,7 @@ SOIL_WET = 21000                       # Raw value when soil is totally wet
 NUM_SOIL_SENSORS = 5                   # Number of soil sensors attached to system
 MAX_SOIL_SENSORS = 5                   # Max number of soil sensors system supports, used to fully populate DB
 ROOM_TEMPERATURE = 25                  # Temperature of room in celsius - used for TDS formula
+LOGGING_TIMER = 3                      # Time between general logging for water and pH cycles
 USB_PORT = "/dev/ttyUSB0"              # USB port pH meter is connected to
 SYS = "AGsys.log"                      # AG system log name
 PUMP = "AGpump.log"                    # AG pump log name
@@ -47,8 +52,8 @@ CSV_SENSORS = "AGsensors.csv"          # AG sensors log for csv
 ERROR = "AGerror.log"                  # Log for system errors
 SENSOR_JSON_FILE = "sensor_json.log"   # Log file that records the sensor json data passed to the web api
 PUMP_JSON_FILE = "pump_json.log"       # Log file that records the pump json data passed to the web api
-PUMP_URL = "XXXXXXXXXXXXXXXXXXXXXXXXX" # Location of pump API endpoint
-SENSOR_URL = "XXXXXXXXXXXXXXXXXXXXXXX" # Location of sensor API endpoint
+PUMP_URL = "XXXXXXXXXXX"               # Location of pump API endpoint
+SENSOR_URL = "XXXXXXXXXXX"             # Location of sensor API endpoint
 ###############################################################################################
 
 # Global variables used across files
@@ -113,6 +118,7 @@ def APIsensor(buf_list): # This list is max soil sensors, then tds, then pH
          else:
             web_success = True
             AGsys("Sensor web API successful")
+         requests.close()
       except Exception as e:
          AGlog("ERROR - Exception on sensor web API call, possible timeout",ERROR)
 
@@ -167,6 +173,7 @@ def APIpump(Relay_Status,flow): # String that identifies valve and then flow met
          else:
             web_success = True
             AGsys("Pump web API successful")
+         requests.close()
       except Exception as e:
          AGlog("ERROR - Exception on pump web API call, possible timeout",ERROR)
 

@@ -1,9 +1,5 @@
 # Sensor package for AutoGrow
-# V14
-
-# Versions
-# V5 - fixed bugs in pH readings, added TDS formula
-# V7 - adding support for different times for diag, CSV and API logs, fully populate max soil sensors
+# V15
 
 # TDS calculation adapted from Arduino sample at:
 # https://wiki.keyestudio.com/KS0429_keyestudio_TDS_Meter_V1.0

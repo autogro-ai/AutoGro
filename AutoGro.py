@@ -1,4 +1,4 @@
-# V14
+# V15
 # AutoGrow - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
@@ -24,6 +24,7 @@
 # V12 6-7-23  Fixed logging bug related to no network connection and web api calls
 # V13 6-15-23 Changing scripts to Scripts
 # V14 6-16-23 Change pump API
+# V15 8-21-23 Close web api, water refresh,seperate pH and water cycle
 
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -76,6 +77,11 @@ AGsys("Ideal pH balance: " + str(IDEAL_PH))
 AGsys("Acceptable pH spread: " + str(PH_SPREAD))
 AGsys("pH valve open time: " + str(PH_VALVE_TIME))
 AGsys("pH auto balance interval: " + str(PH_BALANCE_INTERVAL))
+AGsys("pH auto balance water cycle limit: " + str(PH_BALANCE_WATER_CYCLE_LIMIT))
+AGsys("pH blanace retry after water cycle conflict: " + str(PH_BALANCE_RETRY))
+AGsys("Water refresh cycle time: " + str(WATER_REFRESH_CYCLE))
+AGsys("Water refresh cycle length: " + str(WATER_REFRESH_LENGTH))
+AGsys("Logging timer: " + str(LOGGING_TIMER))
 AGsys(".........................................")
 
 def all_relays_off(): # Force all relays off - shutoff pump and valves
@@ -111,39 +117,26 @@ def relay_control():
       else:
          GPIO.output(Relays[i],0)
 
-GPIO.setmode(GPIO.BCM)
-
-#Relay GPIO pin setup
-Relays = [5,6,13,16,19,20,21,26]
-all_relays_off()
-Relay_Status = [False,False,False,False,False,False,False,False] # Pi hat has eight relays
-
-flow_count = 0  # used to store total flow count
-# routine for flow meter pin interrupt
-def flow_meter_trigger(channel):
+def water_refresh():
    global flow_count
-   flow_count = flow_count + 1
+   AGsys("Starting Water refresh cycle");
+   AGlog("Starting Water refresh cycle ------ Flow = " + str(flow_count),PUMP)
+   Relay_Status[0] = True # Turn on water pump
+   APIpump(Relay_Status,flow_count)
+   relay_control()
+   log_water_valve_status()
+   time.sleep(WATER_REFRESH_LENGTH)
+   Relay_Status[0] = False # Turn off water pump
+   APIpump(Relay_Status,flow_count)
+   relay_control()
+   log_water_valve_status()
+   AGsys("Finished Water refresh cycle");
+   AGlog("Finished Water refresh cycle ----- Flow = " + str(flow_count),PUMP)
+   flow_count = 0
 
-# setup Flow meter input pin - 25
-GPIO.setup(FLOW_PIN_INPUT,GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
-GPIO.add_event_detect(FLOW_PIN_INPUT,GPIO.FALLING,callback=flow_meter_trigger,bouncetime=5)
-
-# Catch ctrl-c and turn off pump before exit
-def signal_handler(sig,frame):
-   all_relays_off()
-   AGsys("Program exit")
-   sys.exit(0)
-
-# Install signal handler for ctrl-c
-signal.signal(signal.SIGINT,signal_handler)
-signal.signal(signal.SIGTERM,signal_handler)
-
-# Start sensor thread
-threading.Thread(target=sensors,daemon=True).start()
-
-pH_time_limit = time.time() + PH_BALANCE_INTERVAL # Time when the next pH auto cycle can run
-
-while(True):
+# Water cycle routine ##########################################
+def run_water_cycle():
+   global flow_count
    AGsys("Starting Water Cycle - Flow = " + str(flow_count))
    AGlog("Starting Water Cycle -------- Flow = " + str(flow_count),PUMP)
    CSVlog(["Start_Water_Cycle",flow_count],CSV_PUMP)
@@ -185,47 +178,106 @@ while(True):
    AGlog("Water Cycle Complete ------- Flow = " + str(total_flow_count),PUMP)
    CSVlog(["End_Water_Cycle",total_flow_count],CSV_PUMP)
    APIpump(Relay_Status,total_flow_count)
+# End water cycle routine #####################################
 
-   # Auto balance pH routine #######################################
+# Adjust pH if needed #########################################
+def adjust_pH():
+   current_pH = AGconfig.global_pH # Storing to prevent reading change while doing auto pH correct
+   lower_pH = IDEAL_PH - PH_SPREAD
+   upper_pH = IDEAL_PH + PH_SPREAD
+   AGsys("Auto pH enabled, Current pH: " + str(current_pH) + ", Range goal (" + str(lower_pH) + " - " + str(upper_pH) + ")")
 
-   if (BALANCE_PH):
-      AGsys("Time until pH auto routine can run in minutes: " + str(round((pH_time_limit - time.time())/60,1)))
+   if (current_pH < 2 or current_pH > 12): # Prevent some odd pH reading from impacting auto ajustment
+      AGsys("pH reading is out of spec, no auto adjustment possible")
+      AGlog("ERROR - pH reading is out of spec and auto balance enabled",ERROR)
+   else:
+      if (current_pH < lower_pH): # pH too low, make higher
+         AGsys("Making pH higher")
+         Relay_Status[PH_UP_RELAY] = True
+         relay_control()
+         time.sleep(PH_VALVE_TIME)
+         Relay_Status[PH_UP_RELAY] = False
+         relay_control()
 
-   if (BALANCE_PH and (pH_time_limit - time.time()) < 1):
-      current_pH = AGconfig.global_pH # Storing to prevent reading change while doing auto pH correct
-      lower_pH = IDEAL_PH - PH_SPREAD
-      upper_pH = IDEAL_PH + PH_SPREAD
-      AGsys("Auto pH enabled, Current pH: " + str(current_pH) + ", Range goal (" + str(lower_pH) + " - " + str(upper_pH) + ")")
+      if (current_pH > upper_pH): # pH too high, make lower
+         AGsys("Making pH lower")
+         Relay_Status[PH_DOWN_RELAY] = True
+         relay_control()
+         time.sleep(PH_VALVE_TIME)
+         Relay_Status[PH_DOWN_RELAY] = False
+         relay_control()
 
-      if (current_pH < 2 or current_pH > 12): # Prevent some odd pH reading from impacting auto ajustment
-         AGsys("pH reading is out of spec, no auto adjustment possible")
-         AGlog("ERROR - pH reading is out of spec and auto balance enabled",ERROR)
-      else:
-         if (current_pH < lower_pH): # pH too low, make higher
-            AGsys("Making pH higher")
-            Relay_Status[PH_UP_RELAY] = True
-            relay_control()
-            time.sleep(PH_VALVE_TIME)
-            Relay_Status[PH_UP_RELAY] = False
-            relay_control()
+   pH_time_limit = time.time() + PH_BALANCE_INTERVAL
+   AGsys("pH auto adjustment routine complete")
+# End adjust pH if needed #####################################
 
-         if (current_pH > upper_pH): # pH too high, make lower
-            AGsys("Making pH lower")
-            Relay_Status[PH_DOWN_RELAY] = True
-            relay_control()
-            time.sleep(PH_VALVE_TIME)
-            Relay_Status[PH_DOWN_RELAY] = False
-            relay_control()
+GPIO.setmode(GPIO.BCM)
 
-      pH_time_limit = time.time() + PH_BALANCE_INTERVAL
-      AGsys("pH auto adjustment routine complete")
+#Relay GPIO pin setup
+Relays = [5,6,13,16,19,20,21,26]
+all_relays_off()
+Relay_Status = [False,False,False,False,False,False,False,False] # Pi hat has eight relays
 
-   ###### Sleep until next water cycle ######
-   sleep_finish_time = time.time() + WATER_CYCLE_TIME
+flow_count = 0  # used to store total flow count
+# routine for flow meter pin interrupt
+def flow_meter_trigger(channel):
+   global flow_count
+   flow_count = flow_count + 1
 
-   while (sleep_finish_time > time.time()):
-      AGsys("Sleeping until next water cycle - Seconds left: " + str(round(sleep_finish_time - time.time())))
-      if (sleep_finish_time - time.time() > 120):
-         time.sleep(60)
-      else:
-         time.sleep(5)
+# setup Flow meter input pin - 25
+GPIO.setup(FLOW_PIN_INPUT,GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
+GPIO.add_event_detect(FLOW_PIN_INPUT,GPIO.FALLING,callback=flow_meter_trigger,bouncetime=5)
+
+# Catch ctrl-c and turn off pump before exit
+def signal_handler(sig,frame):
+   all_relays_off()
+   AGsys("Program exit")
+   sys.exit(0)
+
+# Install signal handler for ctrl-c
+signal.signal(signal.SIGINT,signal_handler)
+signal.signal(signal.SIGTERM,signal_handler)
+
+# Make sure pH sample bucket is full before starting sensor thread
+water_refresh()
+
+# Start sensor thread
+threading.Thread(target=sensors,daemon=True).start()
+
+pH_time_limit = time.time() + PH_BALANCE_INTERVAL # Time when the next pH auto cycle can run
+water_time_limit = time.time() + WATER_CYCLE_TIME # Time when the next water cycle will run
+water_refresh_time_limit = time.time() + WATER_REFRESH_CYCLE # Time when the next water refresh cycle will run for pH  sensor
+logging_timer = 0 # Controls when logs output for timing status
+
+while(True): # Master loop for water cycle and pH rebalance
+
+   if (water_time_limit < time.time()): # Watering routine
+      run_water_cycle()
+      water_time_limit = time.time() + WATER_CYCLE_TIME # Time when the next water cycle will run
+
+   if (BALANCE_PH and (pH_time_limit - time.time()) < 1): # pH balance routine
+      if (PH_BALANCE_WATER_CYCLE_LIMIT <  water_time_limit - time.time()): # Check to see if too close to water cycle
+         adjust_pH()
+         pH_time_limit = time.time() + PH_BALANCE_INTERVAL # Time when the next pH auto cycle can run
+      else: # Water cycle too close, reschedule
+         AGsys("Water cycle too close to run pH balance routine, reschedule!!!!!")
+         AGsys("Limit: " + str(PH_BALANCE_WATER_CYCLE_LIMIT) + " Next Water Cycle: " + str(round(water_time_limit - time.time(),2)))
+         pH_time_limit = time.time() + PH_BALANCE_RETRY
+
+   if (water_refresh_time_limit < time.time()):  # Water refresh routine
+      water_refresh()
+      water_refresh_time_limit = time.time() + WATER_REFRESH_CYCLE
+
+   if (logging_timer < time.time()): # Log time left before cycles in this code block
+      log_string = "Cycle minutes left: water: "
+      current_time = time.time()
+      log_string = log_string + str(round((water_time_limit - current_time)/60,1))
+      log_string = log_string + " refresh: " + str(round((water_refresh_time_limit - current_time)/60,1))
+
+      if (BALANCE_PH):
+         log_string = log_string + " pH: " + str(round((pH_time_limit - current_time)/60,1))
+
+      AGsys(log_string)
+      logging_timer = time.time() + LOGGING_TIMER
+
+   time.sleep(5) # Master sleep in loop, must be smaller than all other sleep values
