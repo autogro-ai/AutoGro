@@ -1,0 +1,40 @@
+090323 18:44:07  Starting Water refresh cycle ------ Flow = 0
+090323 18:44:07  Pump: On   V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:44:17  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:44:17  Finished Water refresh cycle ----- Flow = 0
+090323 18:45:17  Starting Water Cycle Valve: 1 Flow = 0
+090323 18:45:17  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:45:18  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:45:23  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:45:24  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:45:25  Water Cycle Complete - Flow = 0
+090323 18:46:20  Starting Water Cycle Valve: 2 Flow = 0
+090323 18:46:20  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:46:21  Pump: On   V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:46:31  Pump: Off  V1: Off  V2: On   V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:46:32  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:46:33  Water Cycle Complete - Flow = 0
+090323 18:46:38  Starting Water Cycle Valve: 1 Flow = 0
+090323 18:46:38  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:46:39  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:46:44  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:46:45  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:46:46  Water Cycle Complete - Flow = 0
+090323 18:47:21  Starting Water Cycle Valve: 3 Flow = 0
+090323 18:47:21  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+090323 18:47:22  Pump: On   V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+090323 18:47:27  Pump: Off  V1: Off  V2: Off  V3: On   V4: Off  V5: Off  Flow Meter: 0
+090323 18:47:28  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:47:29  Water Cycle Complete - Flow = 0
+090323 18:47:49  Starting Water Cycle Valve: 1 Flow = 0
+090323 18:47:49  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:47:50  Pump: On   V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:47:55  Pump: Off  V1: On   V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:47:56  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:47:57  Water Cycle Complete - Flow = 0
+090323 18:48:27  Starting Water Cycle Valve: 4 Flow = 0
+090323 18:48:27  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+090323 18:48:28  Pump: On   V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+090323 18:48:48  Pump: Off  V1: Off  V2: Off  V3: Off  V4: On   V5: Off  Flow Meter: 0
+090323 18:48:49  Pump: Off  V1: Off  V2: Off  V3: Off  V4: Off  V5: Off  Flow Meter: 0
+090323 18:48:50  Water Cycle Complete - Flow = 0

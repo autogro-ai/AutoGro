@@ -1,5 +1,5 @@
 # AG config and support functions
-# V15
+# V16
 
 import time
 from datetime import datetime
@@ -10,14 +10,16 @@ import json
 import copy
 import requests
 
+################### Water cycle by valve ######################################################
+# 5 Water valves [ seconds between water cycles, duration of water cycle
+# Enter a zero into each value if you want to disable the valve
+VALVES = [ [60,5], [120,10], [180,5], [250,20], [300,7] ]
+
 ################### Constants #################################################################
-VERSION = 15                           # Version of this code
-NUM_WATER_VALVES = 5                   # Number of water valves
+VERSION = 16                           # Version of this code
 MAX_WATER_VALVES = 5                   # Max number of system water valves, used for pump API call
 FLOW_PIN_INPUT = 25                    # Pin that flow meter is attached
-WATER_CYCLE_TIME = 1800                # Time between running a water cycle in seconds
 PUMP_DELAY = 1                         # Time between stopping and starting pump to avoid back pressure
-WATER_CYCLE_LENGTH = 10                # Time to water per valve per cycle in seconds
 PRINT_TO_CONSOLE = True                # Print to console as well as log
 BALANCE_PH = True                      # Is pH auto balance enabled?
 IDEAL_PH = 6.5                         # pH value the system will attemp to maintain
@@ -27,11 +29,11 @@ PH_ENABLED = True                      # Is pH sensor enabled?
 PH_DOWN_RELAY = 7                      # Relay that controls pH down fluid
 PH_UP_RELAY = 6                        # Relay that controls pH up fluid
 PH_VALVE_TIME = 5                      # Time to open valve to adjust pH in seconds
-PH_BALANCE_INTERVAL = 600              # The shortest time between pH auto adjustments
-PH_BALANCE_WATER_CYCLE_LIMIT = 610     # The closest that a pH routine can occur to a water cycle
+PH_BALANCE_INTERVAL = 300              # The shortest time between pH auto adjustments
+PH_BALANCE_WATER_CYCLE_LIMIT = 30      # The closest that a pH routine can occur to a water cycle
 PH_BALANCE_RETRY = 30                  # Time to retry pH balance after watre cycle conflict
 WATER_REFRESH_CYCLE = 300              # Time between running water churn cycle for pH bucket refresh
-WATER_REFRESH_LENGTH = 20              # Time to run water refresh
+WATER_REFRESH_LENGTH = 10              # Time to run water refresh
 TDS_ENABLED = True                     # Is TDS water quality sensor enabled?
 TDS_SAMPLES = 4                        # Number of TDS samples to average together for result
 SENSOR_TIME_API = 180                  # Time delay between sensor API publications in seconds (1800 = 30 min)
@@ -46,9 +48,7 @@ LOGGING_TIMER = 3                      # Time between general logging for water 
 USB_PORT = "/dev/ttyUSB0"              # USB port pH meter is connected to
 SYS = "AGsys.log"                      # AG system log name
 PUMP = "AGpump.log"                    # AG pump log name
-CSV_PUMP = "AGpump.csv"                # AG pump log for csv
 SENSORS = "AGsensors.log"              # AG sensor log name
-CSV_SENSORS = "AGsensors.csv"          # AG sensors log for csv
 ERROR = "AGerror.log"                  # Log for system errors
 SENSOR_JSON_FILE = "sensor_json.log"   # Log file that records the sensor json data passed to the web api
 PUMP_JSON_FILE = "pump_json.log"       # Log file that records the pump json data passed to the web api
@@ -79,20 +79,6 @@ def AGlog(buf,file_name):
    try:
       file = open(file_name,"a")
       file.write(s)
-      file.close()
-   except Exception:
-      print("ERROR - Could not write to file: " + file_name)
-
-####### Log message to CSV
-def CSVlog(buf_list,file_name):
-   s = str(datetime.now())
-   # Making clone / copy of sent in list to preserve it for calling programs
-   buf_list_copy = copy.deepcopy(buf_list)
-   buf_list_copy.insert(0,s)
-   try:
-      file = open(file_name,"a")
-      data_writer = csv.writer(file)
-      data_writer.writerow(buf_list_copy)
       file.close()
    except Exception:
       print("ERROR - Could not write to file: " + file_name)
@@ -153,9 +139,7 @@ def APIpump(Relay_Status,flow): # String that identifies valve and then flow met
    for i in range (0,MAX_WATER_VALVES):
       s = "valve_" + str(i+1) # key common to all
 
-      if (i >= NUM_WATER_VALVES):
-         data[s] = ""
-      elif (Relay_Status[i+1] == True):
+      if (Relay_Status[i+1] == True):
          data[s] =  100 # Picked zero and hundred for backend graphinc purposes
       else:
          data[s] = 0

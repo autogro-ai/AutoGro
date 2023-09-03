@@ -1,4 +1,4 @@
-# V15
+# V16
 # AutoGrow - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
@@ -24,7 +24,8 @@
 # V12 6-7-23  Fixed logging bug related to no network connection and web api calls
 # V13 6-15-23 Changing scripts to Scripts
 # V14 6-16-23 Change pump API
-# V15 8-21-23 Close web api, water refresh,seperate pH and water cycle
+# V15 8-21-23 Close web api, water refresh, seperate pH and water cycle
+# V16 8-24-23 Changed water valves to be an independent schedule
 
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -54,10 +55,7 @@ from AGsensors import *
 AGsys("Starting")
 AGsys("Version: " + str(VERSION))
 AGsys("Flow control sensor GPIO pin: " + str(FLOW_PIN_INPUT))
-AGsys("Number of water valves: " + str(NUM_WATER_VALVES))
-AGsys("Water cycle length per valve: " + str(WATER_CYCLE_LENGTH))
 AGsys("Pump delay to prevent back pressure: " + str(PUMP_DELAY))
-AGsys("Time between water cycles: " + str(WATER_CYCLE_TIME))
 AGsys("Sensor API delay: " + str(SENSOR_TIME_API))
 AGsys("Sensor CSV delay: " + str(SENSOR_TIME_CSV))
 AGsys("Sensor DIAG delay: " + str(SENSOR_TIME_DIAG))
@@ -84,6 +82,13 @@ AGsys("Water refresh cycle length: " + str(WATER_REFRESH_LENGTH))
 AGsys("Logging timer: " + str(LOGGING_TIMER))
 AGsys(".........................................")
 
+AGsys("Water schedule in seconds")
+cnt = 1
+for valve in VALVES:
+   AGsys("Valve: " + str(cnt) + " Time: " + str(valve[0]) + " Duration: " + str(valve[1]))
+   cnt = cnt + 1
+AGsys("....................................")
+
 def all_relays_off(): # Force all relays off - shutoff pump and valves
    cnt = 0
    for a in Relays:
@@ -100,7 +105,7 @@ def log_water_valve_status(): # Log status of pump and valves
    else:
       output = output + "Off"
    cnt = 1
-   for a in range(1,NUM_WATER_VALVES+1):
+   for a in range(1,MAX_WATER_VALVES+1):
       output = output + "  V" + str(cnt) + ": "
       if (Relay_Status[a] == True):
          output = output + "On "
@@ -134,50 +139,44 @@ def water_refresh():
    AGlog("Finished Water refresh cycle ----- Flow = " + str(flow_count),PUMP)
    flow_count = 0
 
-# Water cycle routine ##########################################
-def run_water_cycle():
+# Water cycle routine, run a single passed in valve  ##########################################
+def run_water_cycle(valve_number):
    global flow_count
-   AGsys("Starting Water Cycle - Flow = " + str(flow_count))
-   AGlog("Starting Water Cycle -------- Flow = " + str(flow_count),PUMP)
-   CSVlog(["Start_Water_Cycle",flow_count],CSV_PUMP)
+   AGsys("Starting Water Cycle Valve: " + str(valve_number + 1) + " Flow = " + str(flow_count))
+   AGlog("Starting Water Cycle Valve: " + str(valve_number + 1) + " Flow = " + str(flow_count),PUMP)
    APIpump(Relay_Status,flow_count)
 
    flow_count = 0 # Reset flow count after logging start cycle to look for leaks during sleep
-   total_flow_count = 0 # total_flow_count is keeping track of all flow count for complete water cycle, flow_count is per valve
 
-   for a in range (1,NUM_WATER_VALVES+1): # Pump water through all valves one at a time
-      total_flow_count =  total_flow_count + flow_count
-      Relay_Status[a] = True # Turn valve on
-      APIpump(Relay_Status, flow_count) # Before relay engage incase web api is delayed
-      flow_count = 0
-      relay_control()
-      log_water_valve_status()
-      time.sleep(PUMP_DELAY)
+   Relay_Status[valve_number + 1] = True # Turn valve on, pump is zero, valves start at 1
+   APIpump(Relay_Status, flow_count) # Before relay engage incase web api is delayed
+   flow_count = 0
+   relay_control()
+   log_water_valve_status()
+   time.sleep(PUMP_DELAY)
 
-      Relay_Status[0] = True # Turn on water pump (Zero is pump relay)
-      APIpump(Relay_Status, flow_count)
-      relay_control()
-      log_water_valve_status()
-      time.sleep(WATER_CYCLE_LENGTH)
+   Relay_Status[0] = True # Turn on water pump (Zero is pump relay)
+   APIpump(Relay_Status, flow_count)
+   relay_control()
+   log_water_valve_status()
+   time.sleep(VALVES[valve_number][1])
 
-      Relay_Status[0] = False # Turn off water pump (Zero is pump relay)
-      APIpump(Relay_Status, flow_count)
-      relay_control()
-      log_water_valve_status()
-      time.sleep(PUMP_DELAY)
+   Relay_Status[0] = False # Turn off water pump (Zero is pump relay)
+   APIpump(Relay_Status, flow_count)
+   relay_control()
+   log_water_valve_status()
+   time.sleep(PUMP_DELAY)
 
-      Relay_Status[a] = False # Turn off valve
-      relay_control()
-      log_water_valve_status()
-      APIpump(Relay_Status, flow_count) # After relay engage incase web api delay
-      total_flow_count = total_flow_count + flow_count
-      flow_count = 0
-      time.sleep(PUMP_DELAY)
+   Relay_Status[valve_number + 1] = False # Turn off valve
+   relay_control()
+   log_water_valve_status()
+   APIpump(Relay_Status, flow_count) # After relay engage incase web api delay
+   flow_count = 0
+   time.sleep(PUMP_DELAY)
 
-   AGsys("Water Cycle Complete - Flow = " + str(total_flow_count))
-   AGlog("Water Cycle Complete ------- Flow = " + str(total_flow_count),PUMP)
-   CSVlog(["End_Water_Cycle",total_flow_count],CSV_PUMP)
-   APIpump(Relay_Status,total_flow_count)
+   AGsys("Water Cycle Complete - Flow = " + str(flow_count))
+   AGlog("Water Cycle Complete - Flow = " + str(flow_count),PUMP)
+   APIpump(Relay_Status, flow_count)
 # End water cycle routine #####################################
 
 # Adjust pH if needed #########################################
@@ -245,37 +244,63 @@ water_refresh()
 threading.Thread(target=sensors,daemon=True).start()
 
 pH_time_limit = time.time() + PH_BALANCE_INTERVAL # Time when the next pH auto cycle can run
-water_time_limit = time.time() + WATER_CYCLE_TIME # Time when the next water cycle will run
 water_refresh_time_limit = time.time() + WATER_REFRESH_CYCLE # Time when the next water refresh cycle will run for pH  sensor
 logging_timer = 0 # Controls when logs output for timing status
 
+valve_timers = [] # Setup initial time numbers for valves
+for valve in VALVES:
+   valve_timers.append(valve[0] + time.time())
+
 while(True): # Master loop for water cycle and pH rebalance
 
-   if (water_time_limit < time.time()): # Watering routine
-      run_water_cycle()
-      water_time_limit = time.time() + WATER_CYCLE_TIME # Time when the next water cycle will run
-
    if (BALANCE_PH and (pH_time_limit - time.time()) < 1): # pH balance routine
-      if (PH_BALANCE_WATER_CYCLE_LIMIT <  water_time_limit - time.time()): # Check to see if too close to water cycle
+      valve_number = -1 # Must be -1 for logic below to work
+      cnt = 0
+      shortest_timer = -1 # This must be -1 for logic below
+      for valve_time in valve_timers:
+         if (VALVES[cnt][0] != 0 and (valve_time < shortest_timer or valve_number == -1)):
+            shortest_timer = valve_time
+            valve_number = cnt
+         cnt = cnt + 1
+
+      # Check and see if too close to a water cycle to adjust pH
+      # shortest_timer == -1 if there are no valves enabled
+      if (PH_BALANCE_WATER_CYCLE_LIMIT <  shortest_timer - time.time() or shortest_timer == -1):
          adjust_pH()
          pH_time_limit = time.time() + PH_BALANCE_INTERVAL # Time when the next pH auto cycle can run
       else: # Water cycle too close, reschedule
          AGsys("Water cycle too close to run pH balance routine, reschedule!!!!!")
-         AGsys("Limit: " + str(PH_BALANCE_WATER_CYCLE_LIMIT) + " Next Water Cycle: " + str(round(water_time_limit - time.time(),2)))
+         AGsys("Limit: " + str(round((PH_BALANCE_WATER_CYCLE_LIMIT / 60),1)) + " Next water cycle valve: "\
+ + str(valve_number) + " Time: " + str(round((shortest_timer - time.time())/60,1)))
          pH_time_limit = time.time() + PH_BALANCE_RETRY
+
+   # If needed run valve water cycle if timer is up
+   # Check all valves here
+   cnt = 0
+   for valve_time in valve_timers:
+      if (valve_time < time.time()):
+         if (VALVES[cnt][0] != 0): # Zero here means valve is disabled
+            run_water_cycle(cnt)
+         valve_timers[cnt] = time.time() + VALVES[cnt][0]
+      cnt = cnt + 1
 
    if (water_refresh_time_limit < time.time()):  # Water refresh routine
       water_refresh()
       water_refresh_time_limit = time.time() + WATER_REFRESH_CYCLE
 
    if (logging_timer < time.time()): # Log time left before cycles in this code block
-      log_string = "Cycle minutes left: water: "
+      log_string = "Cycle minutes left: refresh:"
       current_time = time.time()
-      log_string = log_string + str(round((water_time_limit - current_time)/60,1))
-      log_string = log_string + " refresh: " + str(round((water_refresh_time_limit - current_time)/60,1))
+      log_string = log_string + str(round((water_refresh_time_limit - current_time)/60,1))
 
       if (BALANCE_PH):
-         log_string = log_string + " pH: " + str(round((pH_time_limit - current_time)/60,1))
+         log_string = log_string + " pH:" + str(round((pH_time_limit - current_time)/60,1))
+
+      cnt = 0
+      for valve_time in valve_timers:
+         if (VALVES[cnt][0] != 0):
+            log_string = log_string + " V:" + str(cnt + 1) + " T:" + str(round((valve_time - current_time)/60,1))
+         cnt = cnt + 1
 
       AGsys(log_string)
       logging_timer = time.time() + LOGGING_TIMER

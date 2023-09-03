@@ -1,5 +1,5 @@
 # Sensor package for AutoGrow
-# V15
+# V16
 
 # TDS calculation adapted from Arduino sample at:
 # https://wiki.keyestudio.com/KS0429_keyestudio_TDS_Meter_V1.0
@@ -176,19 +176,18 @@ def sensors():
       buf = buf + " pH: " + str(pH) # pH from USB probe
 
 
-      # Prepping SensorCSV list for CSV log call and web API call
+      # Prepping SensorAPI list for web API call
       # The list will contain all possible max soil sensors with ones not in use ""
-      # This is being done for the web API  and CSV logs so DBs can populate all their columns
-      # Note that the list is order dependent and as of this note, API call and CSV log require same order and type
-      SensorCSV = []
+      # This is being done for the web API so DBs can populate all their columns
+      SensorAPI = []
       for i in range (0,MAX_SOIL_SENSORS):
          if (i < NUM_SOIL_SENSORS):
-            SensorCSV.append(SoilPercent[i])
+            SensorAPI.append(SoilPercent[i])
          else:
-            SensorCSV.append("")  # Forcing full Soil Sensor List for DB purposes, ones not in use get ""
+            SensorAPI.append("")  # Forcing full Soil Sensor List for DB purposes, ones not in use get ""
 
-      SensorCSV.append(tdsValue)
-      SensorCSV.append(pH)
+      SensorAPI.append(tdsValue)
+      SensorAPI.append(pH)
 
       ###### Decide here what to log based on time delay counts - all logging funcs can have different log times
       current_clock = time.time()
@@ -197,12 +196,8 @@ def sensors():
          AGlog(str(buf),SENSORS)
          sensor_time_diag_clock = current_clock + SENSOR_TIME_DIAG
 
-      if (sensor_time_csv_clock < current_clock): # CSV log block
-         CSVlog(SensorCSV,CSV_SENSORS)
-         sensor_time_csv_clock = current_clock + SENSOR_TIME_CSV
-
       if (sensor_time_api_clock < current_clock): # API web call block, note SensorCSV is used same as CSVlog
-         APIsensor(SensorCSV)
+         APIsensor(SensorAPI)
          sensor_time_api_clock = current_clock + SENSOR_TIME_API
 
       time.sleep(3) # Time delay on master sensor loop, must be smaller than smallest logging delay

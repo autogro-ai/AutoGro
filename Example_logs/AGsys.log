@@ -1,0 +1,133 @@
+090323 18:44:06  Starting
+090323 18:44:06  Version: 16
+090323 18:44:06  Flow control sensor GPIO pin: 25
+090323 18:44:06  Pump delay to prevent back pressure: 1
+090323 18:44:06  Sensor API delay: 180
+090323 18:44:06  Sensor CSV delay: 600
+090323 18:44:06  Sensor DIAG delay: 5
+090323 18:44:06  Soil raw value wet: 21000
+090323 18:44:06  Soil raw value dry: 49000
+090323 18:44:06  Number of soil sensors: 5
+090323 18:44:06  Max number of soil sensors for the system: 5
+090323 18:44:06  pH sensor USB port: /dev/ttyUSB0
+090323 18:44:06  pH sensor enabled: True
+090323 18:44:06  Room temperature in Celsius: 25
+090323 18:44:06  SENSOR URL API endpoint: XXXXXXXXXXX
+090323 18:44:06  PUMP URL API endpoint: XXXXXXXXXXX
+090323 18:44:06  Enable web API: True
+090323 18:44:06  Enable TDS sensor: True
+090323 18:44:06  Enable auto pH balance: True
+090323 18:44:06  Ideal pH balance: 6.5
+090323 18:44:06  Acceptable pH spread: 0.5
+090323 18:44:06  pH valve open time: 5
+090323 18:44:06  pH auto balance interval: 300
+090323 18:44:06  pH auto balance water cycle limit: 30
+090323 18:44:06  pH blanace retry after water cycle conflict: 30
+090323 18:44:06  Water refresh cycle time: 300
+090323 18:44:06  Water refresh cycle length: 10
+090323 18:44:06  Logging timer: 3
+090323 18:44:06  .........................................
+090323 18:44:06  Water schedule in seconds
+090323 18:44:06  Valve: 1 Time: 60 Duration: 5
+090323 18:44:06  Valve: 2 Time: 120 Duration: 10
+090323 18:44:06  Valve: 3 Time: 180 Duration: 5
+090323 18:44:06  Valve: 4 Time: 250 Duration: 20
+090323 18:44:06  Valve: 5 Time: 300 Duration: 7
+090323 18:44:06  ....................................
+090323 18:44:07  Starting Water refresh cycle
+090323 18:44:07  Sending data to pump web API
+090323 18:44:17  Sending data to pump web API
+090323 18:44:17  Finished Water refresh cycle
+090323 18:44:17  Cycle minutes left: refresh:5.0 pH:5.0 V:1 T:1.0 V:2 T:2.0 V:3 T:3.0 V:4 T:4.2 V:5 T:5.0
+090323 18:44:17  Sending data to sensor web API
+090323 18:44:22  Cycle minutes left: refresh:4.9 pH:4.9 V:1 T:0.9 V:2 T:1.9 V:3 T:2.9 V:4 T:4.1 V:5 T:4.9
+090323 18:44:27  Cycle minutes left: refresh:4.8 pH:4.8 V:1 T:0.8 V:2 T:1.8 V:3 T:2.8 V:4 T:4.0 V:5 T:4.8
+090323 18:44:32  Cycle minutes left: refresh:4.7 pH:4.7 V:1 T:0.7 V:2 T:1.7 V:3 T:2.7 V:4 T:3.9 V:5 T:4.7
+090323 18:44:37  Cycle minutes left: refresh:4.7 pH:4.7 V:1 T:0.7 V:2 T:1.7 V:3 T:2.7 V:4 T:3.8 V:5 T:4.7
+090323 18:44:42  Cycle minutes left: refresh:4.6 pH:4.6 V:1 T:0.6 V:2 T:1.6 V:3 T:2.6 V:4 T:3.7 V:5 T:4.6
+090323 18:44:47  Cycle minutes left: refresh:4.5 pH:4.5 V:1 T:0.5 V:2 T:1.5 V:3 T:2.5 V:4 T:3.7 V:5 T:4.5
+090323 18:44:52  Cycle minutes left: refresh:4.4 pH:4.4 V:1 T:0.4 V:2 T:1.4 V:3 T:2.4 V:4 T:3.6 V:5 T:4.4
+090323 18:44:57  Cycle minutes left: refresh:4.3 pH:4.3 V:1 T:0.3 V:2 T:1.3 V:3 T:2.3 V:4 T:3.5 V:5 T:4.3
+090323 18:45:02  Cycle minutes left: refresh:4.2 pH:4.2 V:1 T:0.2 V:2 T:1.2 V:3 T:2.2 V:4 T:3.4 V:5 T:4.2
+090323 18:45:07  Cycle minutes left: refresh:4.2 pH:4.2 V:1 T:0.2 V:2 T:1.2 V:3 T:2.2 V:4 T:3.3 V:5 T:4.2
+090323 18:45:12  Cycle minutes left: refresh:4.1 pH:4.1 V:1 T:0.1 V:2 T:1.1 V:3 T:2.1 V:4 T:3.2 V:5 T:4.1
+090323 18:45:17  Starting Water Cycle Valve: 1 Flow = 0
+090323 18:45:17  Sending data to pump web API
+090323 18:45:17  Sending data to pump web API
+090323 18:45:18  Sending data to pump web API
+090323 18:45:23  Sending data to pump web API
+090323 18:45:24  Sending data to pump web API
+090323 18:45:25  Water Cycle Complete - Flow = 0
+090323 18:45:25  Sending data to pump web API
+090323 18:45:25  Cycle minutes left: refresh:3.9 pH:3.9 V:1 T:1.0 V:2 T:0.9 V:3 T:1.9 V:4 T:3.0 V:5 T:3.9
+090323 18:45:30  Cycle minutes left: refresh:3.8 pH:3.8 V:1 T:0.9 V:2 T:0.8 V:3 T:1.8 V:4 T:2.9 V:5 T:3.8
+090323 18:45:35  Cycle minutes left: refresh:3.7 pH:3.7 V:1 T:0.8 V:2 T:0.7 V:3 T:1.7 V:4 T:2.9 V:5 T:3.7
+090323 18:45:40  Cycle minutes left: refresh:3.6 pH:3.6 V:1 T:0.7 V:2 T:0.6 V:3 T:1.6 V:4 T:2.8 V:5 T:3.6
+090323 18:45:45  Cycle minutes left: refresh:3.5 pH:3.5 V:1 T:0.7 V:2 T:0.5 V:3 T:1.5 V:4 T:2.7 V:5 T:3.5
+090323 18:45:50  Cycle minutes left: refresh:3.4 pH:3.4 V:1 T:0.6 V:2 T:0.4 V:3 T:1.4 V:4 T:2.6 V:5 T:3.4
+090323 18:45:55  Cycle minutes left: refresh:3.4 pH:3.4 V:1 T:0.5 V:2 T:0.4 V:3 T:1.4 V:4 T:2.5 V:5 T:3.4
+090323 18:46:00  Cycle minutes left: refresh:3.3 pH:3.3 V:1 T:0.4 V:2 T:0.3 V:3 T:1.3 V:4 T:2.4 V:5 T:3.3
+090323 18:46:05  Cycle minutes left: refresh:3.2 pH:3.2 V:1 T:0.3 V:2 T:0.2 V:3 T:1.2 V:4 T:2.4 V:5 T:3.2
+090323 18:46:10  Cycle minutes left: refresh:3.1 pH:3.1 V:1 T:0.2 V:2 T:0.1 V:3 T:1.1 V:4 T:2.3 V:5 T:3.1
+090323 18:46:15  Cycle minutes left: refresh:3.0 pH:3.0 V:1 T:0.2 V:2 T:0.0 V:3 T:1.0 V:4 T:2.2 V:5 T:3.0
+090323 18:46:20  Starting Water Cycle Valve: 2 Flow = 0
+090323 18:46:20  Sending data to pump web API
+090323 18:46:20  Sending data to pump web API
+090323 18:46:21  Sending data to pump web API
+090323 18:46:31  Sending data to pump web API
+090323 18:46:32  Sending data to pump web API
+090323 18:46:33  Water Cycle Complete - Flow = 0
+090323 18:46:33  Sending data to pump web API
+090323 18:46:33  Cycle minutes left: refresh:2.7 pH:2.7 V:1 T:-0.1 V:2 T:2.0 V:3 T:0.7 V:4 T:1.9 V:5 T:2.7
+090323 18:46:38  Starting Water Cycle Valve: 1 Flow = 0
+090323 18:46:38  Sending data to pump web API
+090323 18:46:38  Sending data to pump web API
+090323 18:46:39  Sending data to pump web API
+090323 18:46:44  Sending data to pump web API
+090323 18:46:45  Sending data to pump web API
+090323 18:46:46  Water Cycle Complete - Flow = 0
+090323 18:46:46  Sending data to pump web API
+090323 18:46:46  Cycle minutes left: refresh:2.5 pH:2.5 V:1 T:1.0 V:2 T:1.8 V:3 T:0.5 V:4 T:1.7 V:5 T:2.5
+090323 18:46:51  Cycle minutes left: refresh:2.4 pH:2.4 V:1 T:0.9 V:2 T:1.7 V:3 T:0.4 V:4 T:1.6 V:5 T:2.4
+090323 18:46:56  Cycle minutes left: refresh:2.3 pH:2.3 V:1 T:0.8 V:2 T:1.6 V:3 T:0.3 V:4 T:1.5 V:5 T:2.3
+090323 18:47:01  Cycle minutes left: refresh:2.3 pH:2.3 V:1 T:0.7 V:2 T:1.5 V:3 T:0.3 V:4 T:1.4 V:5 T:2.3
+090323 18:47:06  Cycle minutes left: refresh:2.2 pH:2.2 V:1 T:0.7 V:2 T:1.4 V:3 T:0.2 V:4 T:1.3 V:5 T:2.2
+090323 18:47:11  Cycle minutes left: refresh:2.1 pH:2.1 V:1 T:0.6 V:2 T:1.4 V:3 T:0.1 V:4 T:1.3 V:5 T:2.1
+090323 18:47:16  Cycle minutes left: refresh:2.0 pH:2.0 V:1 T:0.5 V:2 T:1.3 V:3 T:0.0 V:4 T:1.2 V:5 T:2.0
+090323 18:47:18  Sending data to sensor web API
+090323 18:47:21  Starting Water Cycle Valve: 3 Flow = 0
+090323 18:47:21  Sending data to pump web API
+090323 18:47:21  Sending data to pump web API
+090323 18:47:22  Sending data to pump web API
+090323 18:47:27  Sending data to pump web API
+090323 18:47:28  Sending data to pump web API
+090323 18:47:29  Water Cycle Complete - Flow = 0
+090323 18:47:29  Sending data to pump web API
+090323 18:47:29  Cycle minutes left: refresh:1.8 pH:1.8 V:1 T:0.3 V:2 T:1.1 V:3 T:3.0 V:4 T:1.0 V:5 T:1.8
+090323 18:47:34  Cycle minutes left: refresh:1.7 pH:1.7 V:1 T:0.2 V:2 T:1.0 V:3 T:2.9 V:4 T:0.9 V:5 T:1.7
+090323 18:47:39  Cycle minutes left: refresh:1.6 pH:1.6 V:1 T:0.1 V:2 T:0.9 V:3 T:2.8 V:4 T:0.8 V:5 T:1.6
+090323 18:47:44  Cycle minutes left: refresh:1.5 pH:1.5 V:1 T:0.0 V:2 T:0.8 V:3 T:2.7 V:4 T:0.7 V:5 T:1.5
+090323 18:47:49  Starting Water Cycle Valve: 1 Flow = 0
+090323 18:47:49  Sending data to pump web API
+090323 18:47:49  Sending data to pump web API
+090323 18:47:50  Sending data to pump web API
+090323 18:47:55  Sending data to pump web API
+090323 18:47:56  Sending data to pump web API
+090323 18:47:57  Water Cycle Complete - Flow = 0
+090323 18:47:57  Sending data to pump web API
+090323 18:47:57  Cycle minutes left: refresh:1.3 pH:1.3 V:1 T:1.0 V:2 T:0.6 V:3 T:2.5 V:4 T:0.5 V:5 T:1.3
+090323 18:48:02  Cycle minutes left: refresh:1.2 pH:1.2 V:1 T:0.9 V:2 T:0.5 V:3 T:2.4 V:4 T:0.4 V:5 T:1.2
+090323 18:48:07  Cycle minutes left: refresh:1.2 pH:1.2 V:1 T:0.8 V:2 T:0.4 V:3 T:2.4 V:4 T:0.3 V:5 T:1.2
+090323 18:48:12  Cycle minutes left: refresh:1.1 pH:1.1 V:1 T:0.7 V:2 T:0.3 V:3 T:2.3 V:4 T:0.2 V:5 T:1.1
+090323 18:48:17  Cycle minutes left: refresh:1.0 pH:1.0 V:1 T:0.7 V:2 T:0.3 V:3 T:2.2 V:4 T:0.2 V:5 T:1.0
+090323 18:48:22  Cycle minutes left: refresh:0.9 pH:0.9 V:1 T:0.6 V:2 T:0.2 V:3 T:2.1 V:4 T:0.1 V:5 T:0.9
+090323 18:48:27  Starting Water Cycle Valve: 4 Flow = 0
+090323 18:48:27  Sending data to pump web API
+090323 18:48:27  Sending data to pump web API
+090323 18:48:28  Sending data to pump web API
+090323 18:48:48  Sending data to pump web API
+090323 18:48:49  Sending data to pump web API
+090323 18:48:50  Water Cycle Complete - Flow = 0
+090323 18:48:50  Sending data to pump web API
+090323 18:48:50  Cycle minutes left: refresh:0.4 pH:0.4 V:1 T:0.1 V:2 T:-0.3 V:3 T:1.6 V:4 T:4.2 V:5 T:0.4
+090323 18:48:54  Program exit

@@ -1,0 +1,418 @@
+{
+    "pump_status": 100,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:44:07.041573"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:44:17.057309"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:45:17.136943"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 100,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:45:17.140080"
+}
+ERROR
+{
+    "pump_status": 100,
+    "flow_meter_rotations": 0,
+    "valve_1": 100,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:45:18.144437"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 100,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:45:23.153159"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:45:24.158319"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:45:25.163149"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:20.230682"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 100,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:20.233643"
+}
+ERROR
+{
+    "pump_status": 100,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 100,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:21.238085"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 100,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:31.251529"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:32.256797"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:33.264553"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:38.272757"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 100,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:38.276317"
+}
+ERROR
+{
+    "pump_status": 100,
+    "flow_meter_rotations": 0,
+    "valve_1": 100,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:39.281308"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 100,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:44.290037"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:45.295331"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:46:46.300584"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:21.346935"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 100,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:21.350121"
+}
+ERROR
+{
+    "pump_status": 100,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 100,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:22.354443"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 100,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:27.363014"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:28.368359"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:29.373556"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:49.401724"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 100,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:49.407611"
+}
+ERROR
+{
+    "pump_status": 100,
+    "flow_meter_rotations": 0,
+    "valve_1": 100,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:50.412056"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 100,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:55.420698"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:56.426054"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:47:57.431049"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:48:27.471608"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 100,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:48:27.474751"
+}
+ERROR
+{
+    "pump_status": 100,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 100,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:48:28.479210"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 100,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:48:48.505189"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:48:49.510538"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-09-03 18:48:50.515486"
+}
+ERROR
