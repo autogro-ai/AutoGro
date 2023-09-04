@@ -1,5 +1,5 @@
 # Sensor package for AutoGrow
-# V16
+# V17
 
 # TDS calculation adapted from Arduino sample at:
 # https://wiki.keyestudio.com/KS0429_keyestudio_TDS_Meter_V1.0
@@ -28,8 +28,8 @@ def _map(x, in_min, in_max, out_min, out_max):
 def get_pH():
    try:
       ser = serial.Serial(USB_PORT,9600,timeout = 4)
-   except Exception:
-      AGlog("ERROR - Could not open USB port with pH probe",ERROR)
+   except Exception as e:
+      AGlog("ERROR - Could not open USB port with pH probe: " + str(e),ERROR)
       return -1
 
    time_out = False

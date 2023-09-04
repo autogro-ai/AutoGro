@@ -1,5 +1,5 @@
 # AG config and support functions
-# V16
+# V17
 
 import time
 from datetime import datetime
@@ -16,7 +16,7 @@ import requests
 VALVES = [ [60,5], [120,10], [180,5], [250,20], [300,7] ]
 
 ################### Constants #################################################################
-VERSION = 16                           # Version of this code
+VERSION = 17                           # Version of this code
 MAX_WATER_VALVES = 5                   # Max number of system water valves, used for pump API call
 FLOW_PIN_INPUT = 25                    # Pin that flow meter is attached
 PUMP_DELAY = 1                         # Time between stopping and starting pump to avoid back pressure

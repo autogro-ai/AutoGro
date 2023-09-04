@@ -1,4 +1,4 @@
-# V16
+# V17
 # AutoGrow - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
@@ -26,6 +26,7 @@
 # V14 6-16-23 Change pump API
 # V15 8-21-23 Close web api, water refresh, seperate pH and water cycle
 # V16 8-24-23 Changed water valves to be an independent schedule
+# V17 9-4-23  Detect sensor thread crash and auto restart, more logging on pH open fail
 
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -241,7 +242,8 @@ signal.signal(signal.SIGTERM,signal_handler)
 water_refresh()
 
 # Start sensor thread
-threading.Thread(target=sensors,daemon=True).start()
+sensor_thread = threading.Thread(target=sensors,daemon=True)
+sensor_thread.start()
 
 pH_time_limit = time.time() + PH_BALANCE_INTERVAL # Time when the next pH auto cycle can run
 water_refresh_time_limit = time.time() + WATER_REFRESH_CYCLE # Time when the next water refresh cycle will run for pH  sensor
@@ -303,6 +305,13 @@ while(True): # Master loop for water cycle and pH rebalance
          cnt = cnt + 1
 
       AGsys(log_string)
+
+      if (not sensor_thread.is_alive()):
+         AGsys("Sensor Thread has crashed !!!!!!!!, Restarting.....")
+         AGlog("ERROR:  Sensor Thread has crashed",ERROR)
+         sensor_thread = threading.Thread(target=sensors,daemon=True) # Restart crashed sensor thread
+         sensor_thread.start()
+
       logging_timer = time.time() + LOGGING_TIMER
 
    time.sleep(5) # Master sleep in loop, must be smaller than all other sleep values
