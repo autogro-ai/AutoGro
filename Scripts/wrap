@@ -1,31 +1,62 @@
 cd /home/pi/bin/AutoGro
 
-cp /home/pi/bin/AutoGro/AutoGroStart.log  /home/pi/bin/AutoGro/AutoGroStart.old
+cp /home/pi/bin/AutoGro/AutoGroStart.log3  /home/pi/bin/AutoGro/AutoGroStart.log4
+cp /home/pi/bin/AutoGro/AutoGroStart.log2  /home/pi/bin/AutoGro/AutoGroStart.log3
+cp /home/pi/bin/AutoGro/AutoGroStart.log1  /home/pi/bin/AutoGro/AutoGroStart.log2
+cp /home/pi/bin/AutoGro/AutoGroStart.log  /home/pi/bin/AutoGro/AutoGroStart.log1
 cat /dev/null > /home/pi/bin/AutoGro/AutoGroStart.log
 
-cp /home/pi/bin/AutoGro/nohup.out  /home/pi/bin/AutoGro/nohup.out.old
+cp /home/pi/bin/AutoGro/nohup.out.log3  /home/pi/bin/AutoGro/nohup.out.log4
+cp /home/pi/bin/AutoGro/nohup.out.log2  /home/pi/bin/AutoGro/nohup.out.log3
+cp /home/pi/bin/AutoGro/nohup.out.log1  /home/pi/bin/AutoGro/nohup.out.log2
+cp /home/pi/bin/AutoGro/nohup.out  /home/pi/bin/AutoGro/nohup.out.log1
 cat /dev/null > /home/pi/bin/AutoGro/nohup.out
 
-cp /home/pi/bin/AutoGro/AGerror.log  /home/pi/bin/AutoGro/AGerror.old
+cp /home/pi/bin/AutoGro/AGerror.log3  /home/pi/bin/AutoGro/AGerror.log4
+cp /home/pi/bin/AutoGro/AGerror.log2  /home/pi/bin/AutoGro/AGerror.log3
+cp /home/pi/bin/AutoGro/AGerror.log1  /home/pi/bin/AutoGro/AGerror.log2
+cp /home/pi/bin/AutoGro/AGerror.log  /home/pi/bin/AutoGro/AGerror.log1
 cat /dev/null > /home/pi/bin/AutoGro/AGerror.log
 
-cp /home/pi/bin/AutoGro/AGpump.log  /home/pi/bin/AutoGro/AGpump.old
+
+cp /home/pi/bin/AutoGro/AGpump.log3  /home/pi/bin/AutoGro/AGpump.log4
+cp /home/pi/bin/AutoGro/AGpump.log2  /home/pi/bin/AutoGro/AGpump.log3
+cp /home/pi/bin/AutoGro/AGpump.log1  /home/pi/bin/AutoGro/AGpump.log2
+cp /home/pi/bin/AutoGro/AGpump.log  /home/pi/bin/AutoGro/AGpump.log1
 cat /dev/null > /home/pi/bin/AutoGro/AGpump.log
 
-cp /home/pi/bin/AutoGro/AGsensors.log  /home/pi/bin/AutoGro/AGsensors.old
+cp /home/pi/bin/AutoGro/AGsensors.log3  /home/pi/bin/AutoGro/AGsensors.log4
+cp /home/pi/bin/AutoGro/AGsensors.log2  /home/pi/bin/AutoGro/AGsensors.log3
+cp /home/pi/bin/AutoGro/AGsensors.log1  /home/pi/bin/AutoGro/AGsensors.log2
+cp /home/pi/bin/AutoGro/AGsensors.log  /home/pi/bin/AutoGro/AGsensors.log1
 cat /dev/null > /home/pi/bin/AutoGro/AGsensors.log
 
-cp /home/pi/bin/AutoGro/AGsys.log  /home/pi/bin/AutoGro/AGsys.old
+cp /home/pi/bin/AutoGro/AGsys.log3  /home/pi/bin/AutoGro/AGsys.log4
+cp /home/pi/bin/AutoGro/AGsys.log2  /home/pi/bin/AutoGro/AGsys.log3
+cp /home/pi/bin/AutoGro/AGsys.log1  /home/pi/bin/AutoGro/AGsys.log2
+cp /home/pi/bin/AutoGro/AGsys.log  /home/pi/bin/AutoGro/AGsys.log1
 cat /dev/null > /home/pi/bin/AutoGro/AGsys.log
 
-cp /home/pi/bin/AutoGro/AGpump.csv /home/pi/bin/AutoGro/AGpump.csv.old
+cp /home/pi/bin/AutoGro/AGpump.csv.log3 /home/pi/bin/AutoGro/AGpump.csv.log4
+cp /home/pi/bin/AutoGro/AGpump.csv.log2 /home/pi/bin/AutoGro/AGpump.csv.log3
+cp /home/pi/bin/AutoGro/AGpump.csv.log1 /home/pi/bin/AutoGro/AGpump.csv.log2
+cp /home/pi/bin/AutoGro/AGpump.csv /home/pi/bin/AutoGro/AGpump.csv.log1
 cat /dev/null > /home/pi/bin/AutoGro/AGpump.csv
 
-cp /home/pi/bin/AutoGro/AGsensors.csv /home/pi/bin/AutoGro/AGsensors.csv.old
+cp /home/pi/bin/AutoGro/AGsensors.csv.log3 /home/pi/bin/AutoGro/AGsensors.csv.log4
+cp /home/pi/bin/AutoGro/AGsensors.csv.log2 /home/pi/bin/AutoGro/AGsensors.csv.log3
+cp /home/pi/bin/AutoGro/AGsensors.csv.log1 /home/pi/bin/AutoGro/AGsensors.csv.log2
+cp /home/pi/bin/AutoGro/AGsensors.csv /home/pi/bin/AutoGro/AGsensors.csv.log1
 cat /dev/null > /home/pi/bin/AutoGro/AGsensors.csv
 
-cp /home/pi/bin/AutoGro/sensor_json.log /home/pi/bin/AutoGro/sensor_json.old
+cp /home/pi/bin/AutoGro/sensor_json.log3 /home/pi/bin/AutoGro/sensor_json.log4
+cp /home/pi/bin/AutoGro/sensor_json.log2 /home/pi/bin/AutoGro/sensor_json.log3
+cp /home/pi/bin/AutoGro/sensor_json.log1 /home/pi/bin/AutoGro/sensor_json.log2
+cp /home/pi/bin/AutoGro/sensor_json.log /home/pi/bin/AutoGro/sensor_json.log1
 cat /dev/null > /home/pi/bin/AutoGro/sensor_json.log
 
-cp /home/pi/bin/AutoGro/pump_json.log /home/pi/bin/AutoGro/pump_json.old
+cp /home/pi/bin/AutoGro/pump_json.log3 /home/pi/bin/AutoGro/pump_json.log4
+cp /home/pi/bin/AutoGro/pump_json.log2 /home/pi/bin/AutoGro/pump_json.log3
+cp /home/pi/bin/AutoGro/pump_json.log1 /home/pi/bin/AutoGro/pump_json.log2
+cp /home/pi/bin/AutoGro/pump_json.log /home/pi/bin/AutoGro/pump_json.log1
 cat /dev/null > /home/pi/bin/AutoGro/pump_json.log
