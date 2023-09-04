@@ -4,3 +4,4 @@ rm -f /home/pi/bin/AutoGro/*.log
 rm -f /home/pi/bin/AutoGro/*.old
 rm -f /home/pi/bin/AutoGro/*.csv
 rm -f /home/pi/bin/AutoGro/nohup.out
+rm -f /home/pi/bin/AutoGro/*.log*
