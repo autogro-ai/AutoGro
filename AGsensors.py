@@ -1,5 +1,5 @@
 # Sensor package for AutoGrow
-# V17
+# V18
 
 # TDS calculation adapted from Arduino sample at:
 # https://wiki.keyestudio.com/KS0429_keyestudio_TDS_Meter_V1.0
@@ -27,7 +27,7 @@ def _map(x, in_min, in_max, out_min, out_max):
 # get_pH() reads the USB serial port and gets pH from probe #######################
 def get_pH():
    try:
-      ser = serial.Serial(USB_PORT,9600,timeout = 4)
+      ser = serial.Serial(run_parms["ph_sensor_port"],9600,timeout = 4)
    except Exception as e:
       AGlog("ERROR - Could not open USB port with pH probe: " + str(e),ERROR)
       return -1
@@ -101,24 +101,23 @@ def sensors():
    # Setup array to hold MCP objects
    SoilArray = []
    # create analog input channels
-   for i in range(0,NUM_SOIL_SENSORS):
+   for i in range(0,run_parms["number_of_soil_sensors"]):
       SoilArray.append(AnalogIn(mcp,i)) # i is the input pin on the mux
 
    wq = AnalogIn(mcp,7) # Water qaulity sensor is connected to last mux input - #7
    # wq.voltage is actual voltage measurement, same as volt meter
 
    # Setup array to hole raw soil sensor values
-   SoilRaw = [None] * NUM_SOIL_SENSORS
+   SoilRaw = [None] * run_parms["number_of_soil_sensors"]
    # Setup array to hold soil percent wet values
-   SoilPercent = [None] * NUM_SOIL_SENSORS
+   SoilPercent = [None] * run_parms["number_of_soil_sensors"]
 
    sensor_time_api_clock = 0  # Stores clock to trigger API web call
    sensor_time_diag_clock = 0 # Stores clock to trigger DIAG log call
-   sensor_time_csv_clock = 0  # Stores clock to trigger CSV log call
 
    while(True):
 
-      if (PH_ENABLED):
+      if (run_parms["balance_ph"]):
          pH = get_pH() # Call time for this function can be lengthy if pH probe is having trouble, look at error log
          if (pH == -1):
             pH = get_pH() # Attempting to get pH again after error to ride through a boot time startup issue
@@ -128,15 +127,15 @@ def sensors():
       AGconfig.global_pH = pH # Set system wide pH value for possible auto adjustment
 
       # TDS routine ###############################################
-      if (TDS_ENABLED):
+      if (run_parms["enable_tds_meter"]):
          # TDS water quality calc from Arduino example
          # Note: cannot determine if TDS is not plugged in based on zero since this is a valid value
          tds_average = 0
          TDS_FAULT = False # Set if TDS fault detected
-         for i in range (0,TDS_SAMPLES):
+         for i in range (0,run_parms["tds_samples"]):
             time.sleep(.1) # Time between TDS samples
             wq_voltage =  wq.voltage # Real voltage from TDS
-            temperatureCompensation = 1.0 + .02 * (ROOM_TEMPERATURE - 25)
+            temperatureCompensation = 1.0 + .02 * (run_parms["room_temperature"] - 25)
             voltageCompensation = wq_voltage / temperatureCompensation
             tdsValue = ((133.42 * voltageCompensation * voltageCompensation * voltageCompensation) - 255.86 * voltageCompensation * voltageCompensation + 857.39 * voltageCompensation) * .5
             if (tdsValue == 0): # Zero from the TDS sensor is considered an error condition
@@ -153,9 +152,9 @@ def sensors():
          tdsValue = -1 # if TDS is not enabled, same as error but no error logging
       # End TDS routine #############################################
 
-      for i in range(0,NUM_SOIL_SENSORS):
+      for i in range(0,run_parms["number_of_soil_sensors"]):
          SoilRaw[i] = SoilArray[i].value
-         SoilPercent[i] = _map(SoilRaw[i],SOIL_WET,SOIL_DRY,100,0)
+         SoilPercent[i] = _map(SoilRaw[i],run_parms["soil_wet"],run_parms["soil_dry"],100,0)
          if (SoilPercent[i] < 0): # Force Soil Percent to 0 or 100 if above or below
             SoilPercent[i] = 0
          if (SoilPercent[i] > 100):
@@ -169,7 +168,7 @@ def sensors():
       # Prepping buf string for regular diag log, just soil sensors that are active
       # Yes, prepping these on every loop even though they are just used once in a while
       buf = ""
-      for i in range(0,NUM_SOIL_SENSORS):
+      for i in range(0,run_parms["number_of_soil_sensors"]):
          buf = buf + "S" + str(i) + ": " + str(SoilRaw[i]) + " (" + str(SoilPercent[i]) + ") "
 
       buf = buf + "WC: " + str(tdsValue) # WC is water quality sensor
@@ -181,7 +180,7 @@ def sensors():
       # This is being done for the web API so DBs can populate all their columns
       SensorAPI = []
       for i in range (0,MAX_SOIL_SENSORS):
-         if (i < NUM_SOIL_SENSORS):
+         if (i < run_parms["number_of_soil_sensors"]):
             SensorAPI.append(SoilPercent[i])
          else:
             SensorAPI.append("")  # Forcing full Soil Sensor List for DB purposes, ones not in use get ""
@@ -198,6 +197,6 @@ def sensors():
 
       if (sensor_time_api_clock < current_clock): # API web call block, note SensorCSV is used same as CSVlog
          APIsensor(SensorAPI)
-         sensor_time_api_clock = current_clock + SENSOR_TIME_API
+         sensor_time_api_clock = current_clock + run_parms["sensor_time_api"]
 
       time.sleep(3) # Time delay on master sensor loop, must be smaller than smallest logging delay

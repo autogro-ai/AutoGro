@@ -1,4 +1,4 @@
-# V17
+# V18
 # AutoGrow - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
@@ -10,23 +10,24 @@
 
 # This Python script runs a water pump and valves
 
-# V1 4-16-23  Initial development
-# V2 4-18-23  Pump timer release
-# V3 4-20-23  Adding Soil Sensors via thread
-# V4 4-24-23  Adding pH Sensor
-# V5 5-08-23  Fixed a couple of bugs related to pH reading, added TDS formula, corrected spelling mistake
-# V6 5-11-23  Added timestamp to CSV logs
-# V7 5-12-23  Separate times for diag, CSV and API logs.  Fully populate max soil sensors
-# V8 5-14-23  More API logging, switch to disable pH meter
-# V9 5-23-23  Add pump API call
-# V10 5-29-23 Add pH balance routine, TDS enable flag, detect when TDS is not working
-# V11 6-3-23  Add pH balance time limit to balance routine
-# V12 6-7-23  Fixed logging bug related to no network connection and web api calls
-# V13 6-15-23 Changing scripts to Scripts
-# V14 6-16-23 Change pump API
-# V15 8-21-23 Close web api, water refresh, seperate pH and water cycle
-# V16 8-24-23 Changed water valves to be an independent schedule
-# V17 9-4-23  Detect sensor thread crash and auto restart, more logging on pH open fail
+# V1 4-16-23    Initial development
+# V2 4-18-23    Pump timer release
+# V3 4-20-23    Adding Soil Sensors via thread
+# V4 4-24-23    Adding pH Sensor
+# V5 5-08-23    Fixed a couple of bugs related to pH reading, added TDS formula, corrected spelling mistake
+# V6 5-11-23    Added timestamp to CSV logs
+# V7 5-12-23    Separate times for diag, CSV and API logs.  Fully populate max soil sensors
+# V8 5-14-23    More API logging, switch to disable pH meter
+# V9 5-23-23    Add pump API call
+# V10 5-29-23   Add pH balance routine, TDS enable flag, detect when TDS is not working
+# V11 6-3-23    Add pH balance time limit to balance routine
+# V12 6-7-23    Fixed logging bug related to no network connection and web api calls
+# V13 6-15-23   Changing scripts to Scripts
+# V14 6-16-23   Change pump API
+# V15 8-21-23   Close web api, water refresh, separate pH and water cycle
+# V16 8-24-23   Changed water valves to be an independent schedule
+# V17 9-4-23    Detect sensor thread crash and auto restart, more logging on pH open fail
+# V18 10-16-23  Adding support for remote api config and external disk config file 
 
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -37,6 +38,7 @@
 # Must turn on SPI via sudo raspi-config
 
 import array
+import copy
 import time
 import busio
 import digitalio
@@ -57,33 +59,77 @@ AGsys("Starting")
 AGsys("Version: " + str(VERSION))
 AGsys("Flow control sensor GPIO pin: " + str(FLOW_PIN_INPUT))
 AGsys("Pump delay to prevent back pressure: " + str(PUMP_DELAY))
-AGsys("Sensor API delay: " + str(SENSOR_TIME_API))
-AGsys("Sensor CSV delay: " + str(SENSOR_TIME_CSV))
 AGsys("Sensor DIAG delay: " + str(SENSOR_TIME_DIAG))
-AGsys("Soil raw value wet: " + str(SOIL_WET))
-AGsys("Soil raw value dry: " + str(SOIL_DRY))
-AGsys("Number of soil sensors: " + str(NUM_SOIL_SENSORS))
 AGsys("Max number of soil sensors for the system: " + str(MAX_SOIL_SENSORS))
-AGsys("pH sensor USB port: " + USB_PORT)
-AGsys("pH sensor enabled: " + str(PH_ENABLED))
-AGsys("Room temperature in Celsius: " + str(ROOM_TEMPERATURE))
-AGsys("SENSOR URL API endpoint: " + SENSOR_URL)
-AGsys("PUMP URL API endpoint: " + PUMP_URL)
-AGsys("Enable web API: " + str(WEB_API))
-AGsys("Enable TDS sensor: " + str(TDS_ENABLED))
-AGsys("Enable auto pH balance: " + str(BALANCE_PH))
-AGsys("Ideal pH balance: " + str(IDEAL_PH))
-AGsys("Acceptable pH spread: " + str(PH_SPREAD))
-AGsys("pH valve open time: " + str(PH_VALVE_TIME))
-AGsys("pH auto balance interval: " + str(PH_BALANCE_INTERVAL))
-AGsys("pH auto balance water cycle limit: " + str(PH_BALANCE_WATER_CYCLE_LIMIT))
-AGsys("pH blanace retry after water cycle conflict: " + str(PH_BALANCE_RETRY))
-AGsys("Water refresh cycle time: " + str(WATER_REFRESH_CYCLE))
-AGsys("Water refresh cycle length: " + str(WATER_REFRESH_LENGTH))
 AGsys("Logging timer: " + str(LOGGING_TIMER))
+AGsys("Max water valves: " + str(MAX_WATER_VALVES))
+AGsys("Print to console: " + str(PRINT_TO_CONSOLE))
+AGsys("pH down relay: " + str(PH_DOWN_RELAY))
+AGsys("pH up relay: " + str(PH_UP_RELAY))
+AGsys("AG system log: " + SYS)
+AGsys("AG pump log: " + PUMP)
+AGsys("AG sensor log: " + SENSORS)
+AGsys("AG error log: " + ERROR)
+AGsys("AG sensor json log: " + SENSOR_JSON_FILE)
+AGsys("AG pump json log: " + PUMP_JSON_FILE)
+AGsys("AG file parm file: " + FILE_PARMS)
+AGsys("AG remote config url: " + REMOTE_CONFIG_URL)
+AGsys("Turn on remote parms: " + str(REMOTE_PARMS))
+AGsys("Remote parm interval: " + str(REMOTE_PARM_INTERVAL))
 AGsys(".........................................")
 
-AGsys("Water schedule in seconds")
+AGsys("Default parms ----------------------------------")
+write_json_to_log(run_parms)
+AGsys("End default parms ------------------------------")
+
+#write_parm_file()  #Uncomment to get a default parms file out to disk
+
+######## Read in old parms from file, verify, apply as needed #########################################
+file_parms = read_parm_file()
+if (len(file_parms) > 0):
+   AGsys("Checking file parms for runtime update")
+   if (update_parms(file_parms)):
+      AGsys("One or more runtime parms were updated from file")
+      AGsys("Updated parms from file -----------------------")
+      write_json_to_log(run_parms)
+      AGsys("End updated parms from file -------------------")
+   else:
+      AGsys("No parms were qualified for update")
+else:
+   AGsys("No file parms to check")
+
+############# Read initial remote parms #########################################
+if (REMOTE_PARMS):
+   AGsys("Getting remote parms from web api")
+   remote_parms = read_remote_parms()
+   old_remote_parms = copy.deepcopy(remote_parms) # keep copy of parms
+   if (remote_parms != {} and len(remote_parms) > 0):
+      AGsys("Received remote parms")
+      if (update_parms(remote_parms[0])):
+         AGsys("Parms updated, writing to file")
+         write_parm_file()
+         AGsys("New parms after remote update -----------------")
+         write_json_to_log(run_parms)
+         AGsys("End remote parm updates ----------------------")
+      else:
+         AGsys("No updated needed for remote parms")
+   else:
+      AGsys("No remote parms available")
+
+#################################################################################################
+
+# VALVES is capitalized since it was a constant in a prior config, it is now dynamic based on run_parms
+# The VALVES list contains the water valve timeing information
+# First value is time between valve watering and second value is the duration the valve is open
+# If the valve is disabled, before parms are set to zero
+VALVES = []
+for a in range(MAX_WATER_VALVES):
+   if (run_parms["valve" + str(a+1) + "_active"] == True):
+      VALVES.append( [ run_parms["valve" + str(a+1) + "_time"], run_parms["valve" + str(a+1) + "_duration"] ] )
+   else:
+      VALVES.append( [0,0] )
+
+AGsys("Water schedule in seconds, zero means valve disabled --------")
 cnt = 1
 for valve in VALVES:
    AGsys("Valve: " + str(cnt) + " Time: " + str(valve[0]) + " Duration: " + str(valve[1]))
@@ -131,7 +177,7 @@ def water_refresh():
    APIpump(Relay_Status,flow_count)
    relay_control()
    log_water_valve_status()
-   time.sleep(WATER_REFRESH_LENGTH)
+   time.sleep(run_parms["water_refresh_cycle_length"])
    Relay_Status[0] = False # Turn off water pump
    APIpump(Relay_Status,flow_count)
    relay_control()
@@ -183,8 +229,8 @@ def run_water_cycle(valve_number):
 # Adjust pH if needed #########################################
 def adjust_pH():
    current_pH = AGconfig.global_pH # Storing to prevent reading change while doing auto pH correct
-   lower_pH = IDEAL_PH - PH_SPREAD
-   upper_pH = IDEAL_PH + PH_SPREAD
+   lower_pH = run_parms["ideal_ph"] - run_parms["ph_spread"]
+   upper_pH = run_parms["ideal_ph"] + run_parms["ph_spread"]
    AGsys("Auto pH enabled, Current pH: " + str(current_pH) + ", Range goal (" + str(lower_pH) + " - " + str(upper_pH) + ")")
 
    if (current_pH < 2 or current_pH > 12): # Prevent some odd pH reading from impacting auto ajustment
@@ -195,7 +241,7 @@ def adjust_pH():
          AGsys("Making pH higher")
          Relay_Status[PH_UP_RELAY] = True
          relay_control()
-         time.sleep(PH_VALVE_TIME)
+         time.sleep(run_parms["ph_valve_time"])
          Relay_Status[PH_UP_RELAY] = False
          relay_control()
 
@@ -207,7 +253,7 @@ def adjust_pH():
          Relay_Status[PH_DOWN_RELAY] = False
          relay_control()
 
-   pH_time_limit = time.time() + PH_BALANCE_INTERVAL
+   pH_time_limit = time.time() + run_parms["ph_balance_interval"]
    AGsys("pH auto adjustment routine complete")
 # End adjust pH if needed #####################################
 
@@ -245,8 +291,9 @@ water_refresh()
 sensor_thread = threading.Thread(target=sensors,daemon=True)
 sensor_thread.start()
 
-pH_time_limit = time.time() + PH_BALANCE_INTERVAL # Time when the next pH auto cycle can run
-water_refresh_time_limit = time.time() + WATER_REFRESH_CYCLE # Time when the next water refresh cycle will run for pH  sensor
+remote_parm_time_limit = time.time() + REMOTE_PARM_INTERVAL # This is the timer for accessing remote web api parms
+pH_time_limit = time.time() + run_parms["ph_balance_interval"] # Time when the next pH auto cycle can run
+water_refresh_time_limit = time.time() + run_parms["water_refresh_cycle"] # Time when the next water refresh cycle will run for pH  sensor
 logging_timer = 0 # Controls when logs output for timing status
 
 valve_timers = [] # Setup initial time numbers for valves
@@ -255,7 +302,7 @@ for valve in VALVES:
 
 while(True): # Master loop for water cycle and pH rebalance
 
-   if (BALANCE_PH and (pH_time_limit - time.time()) < 1): # pH balance routine
+   if (run_parms["balance_ph"] and (pH_time_limit - time.time()) < 1): # pH balance routine
       valve_number = -1 # Must be -1 for logic below to work
       cnt = 0
       shortest_timer = -1 # This must be -1 for logic below
@@ -267,14 +314,14 @@ while(True): # Master loop for water cycle and pH rebalance
 
       # Check and see if too close to a water cycle to adjust pH
       # shortest_timer == -1 if there are no valves enabled
-      if (PH_BALANCE_WATER_CYCLE_LIMIT <  shortest_timer - time.time() or shortest_timer == -1):
+      if (run_parms["ph_balance_water_limit"] <  shortest_timer - time.time() or shortest_timer == -1):
          adjust_pH()
-         pH_time_limit = time.time() + PH_BALANCE_INTERVAL # Time when the next pH auto cycle can run
+         pH_time_limit = time.time() + run_parms["ph_balance_interval"] # Time when the next pH auto cycle can run
       else: # Water cycle too close, reschedule
          AGsys("Water cycle too close to run pH balance routine, reschedule!!!!!")
-         AGsys("Limit: " + str(round((PH_BALANCE_WATER_CYCLE_LIMIT / 60),1)) + " Next water cycle valve: "\
- + str(valve_number) + " Time: " + str(round((shortest_timer - time.time())/60,1)))
-         pH_time_limit = time.time() + PH_BALANCE_RETRY
+         AGsys("Limit: " + str(round((run_parms["ph_balance_water_limit"] / 60),1)) + " Next water cycle valve: "\
+ + str(valve_number + 1) + " Time: " + str(round((shortest_timer - time.time())/60,1)))
+         pH_time_limit = time.time() + run_parms["ph_balance_retry"]
 
    # If needed run valve water cycle if timer is up
    # Check all valves here
@@ -286,16 +333,39 @@ while(True): # Master loop for water cycle and pH rebalance
          valve_timers[cnt] = time.time() + VALVES[cnt][0]
       cnt = cnt + 1
 
+   if (remote_parm_time_limit < time.time()): # Remote parm update routine
+      remoet_parm_time_limit = time.time() + REMOTE_PARM_INTERVAL
+      if (REMOTE_PARMS):
+         AGsys("Getting remote parms from web api")
+         remote_parms = read_remote_parms()
+         if (remote_parms != {} and len(remote_parms) > 0):
+            AGsys("Received remote parms")
+            if (old_remote_parms != remote_parms):
+               old_remote_parms = copy.deepcopy(remote_parms) # Keep copy of parms, no need to check duplicate parms
+               if (update_parms(remote_parms[0])):
+                  AGsys("Parms updated, writing to file")
+                  write_parm_file()
+                  AGsys("New parms after remote update -----------------")
+                  write_json_to_log(run_parms)
+                  AGsys("End remote parm updates ----------------------")
+               else:
+                  AGsys("No updated needed for remote parms")
+            else:
+               AGsys("Old remote parms same as new parms no need to check")
+
+         else:
+            AGsys("No remote parms available")
+
    if (water_refresh_time_limit < time.time()):  # Water refresh routine
       water_refresh()
-      water_refresh_time_limit = time.time() + WATER_REFRESH_CYCLE
+      water_refresh_time_limit = time.time() + run_parms["water_refresh_cycle"]
 
    if (logging_timer < time.time()): # Log time left before cycles in this code block
       log_string = "Cycle minutes left: refresh:"
       current_time = time.time()
       log_string = log_string + str(round((water_refresh_time_limit - current_time)/60,1))
 
-      if (BALANCE_PH):
+      if (run_parms["balance_ph"]):
          log_string = log_string + " pH:" + str(round((pH_time_limit - current_time)/60,1))
 
       cnt = 0
