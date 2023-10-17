@@ -348,6 +348,8 @@ while(True): # Master loop for water cycle and pH rebalance
                   AGsys("New parms after remote update -----------------")
                   write_json_to_log(run_parms)
                   AGsys("End remote parm updates ----------------------")
+                  AGsys("Exiting program for restart")
+                  sys.exit(0)
                else:
                   AGsys("No updated needed for remote parms")
             else:
