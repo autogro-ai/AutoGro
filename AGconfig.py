@@ -1,5 +1,5 @@
 # AG config and support functions
-# V18
+# V19
 
 import time
 from datetime import datetime
@@ -12,7 +12,7 @@ import requests
 from urllib.request import urlopen
 
 ################### Constants NON remote config  #################################################################
-VERSION = 18                           # Version of this code
+VERSION = 19                           # Version of this code
 MAX_WATER_VALVES = 5                   # Max number of system water valves, used for pump API call
 FLOW_PIN_INPUT = 25                    # Pin that flow meter is attached
 PUMP_DELAY = 1                         # Time between stopping and starting pump to avoid back pressure

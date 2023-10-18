@@ -1,4 +1,4 @@
-# V18
+# V19
 # AutoGrow - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
@@ -28,6 +28,7 @@
 # V16 8-24-23   Changed water valves to be an independent schedule
 # V17 9-4-23    Detect sensor thread crash and auto restart, more logging on pH open fail
 # V18 10-16-23  Adding support for remote api config and external disk config file 
+# V19 10-18-23  Fix bug in pH balance code related to remote parms
 
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -229,6 +230,10 @@ def run_water_cycle(valve_number):
 # Adjust pH if needed #########################################
 def adjust_pH():
    current_pH = AGconfig.global_pH # Storing to prevent reading change while doing auto pH correct
+
+   # If you needed to force pH value to test
+   #   current_pH = 3
+
    lower_pH = run_parms["ideal_ph"] - run_parms["ph_spread"]
    upper_pH = run_parms["ideal_ph"] + run_parms["ph_spread"]
    AGsys("Auto pH enabled, Current pH: " + str(current_pH) + ", Range goal (" + str(lower_pH) + " - " + str(upper_pH) + ")")
@@ -249,7 +254,7 @@ def adjust_pH():
          AGsys("Making pH lower")
          Relay_Status[PH_DOWN_RELAY] = True
          relay_control()
-         time.sleep(PH_VALVE_TIME)
+         time.sleep(run_parms["ph_valve_time"])
          Relay_Status[PH_DOWN_RELAY] = False
          relay_control()
 

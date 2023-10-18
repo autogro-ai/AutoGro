@@ -1,5 +1,5 @@
 # Sensor package for AutoGrow
-# V18
+# V19
 
 # TDS calculation adapted from Arduino sample at:
 # https://wiki.keyestudio.com/KS0429_keyestudio_TDS_Meter_V1.0
