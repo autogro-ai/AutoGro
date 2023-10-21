@@ -1,0 +1,22 @@
+{
+    "pump_status": 100,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-10-21 17:04:20.158924"
+}
+ERROR
+{
+    "pump_status": 0,
+    "flow_meter_rotations": 0,
+    "valve_1": 0,
+    "valve_2": 0,
+    "valve_3": 0,
+    "valve_4": 0,
+    "valve_5": 0,
+    "accessed": "2023-10-21 17:04:34.105699"
+}
+ERROR

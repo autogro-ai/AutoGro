@@ -1,4 +1,4 @@
-# V19
+# V20
 # AutoGrow - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
@@ -29,6 +29,7 @@
 # V17 9-4-23    Detect sensor thread crash and auto restart, more logging on pH open fail
 # V18 10-16-23  Adding support for remote api config and external disk config file 
 # V19 10-18-23  Fix bug in pH balance code related to remote parms
+# V20 10-20-23  Add USB reset for pH problem
 
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -77,6 +78,7 @@ AGsys("AG file parm file: " + FILE_PARMS)
 AGsys("AG remote config url: " + REMOTE_CONFIG_URL)
 AGsys("Turn on remote parms: " + str(REMOTE_PARMS))
 AGsys("Remote parm interval: " + str(REMOTE_PARM_INTERVAL))
+AGsys("USB reset command: " + USB_RESET)
 AGsys(".........................................")
 
 AGsys("Default parms ----------------------------------")

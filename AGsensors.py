@@ -1,5 +1,5 @@
 # Sensor package for AutoGrow
-# V19
+# V20
 
 # TDS calculation adapted from Arduino sample at:
 # https://wiki.keyestudio.com/KS0429_keyestudio_TDS_Meter_V1.0
@@ -9,6 +9,7 @@
 # This site indicates what python libs to install etc
 
 import sys
+import os
 import time
 from AGconfig import *
 import AGconfig # Used to gain access to global_pH
@@ -24,8 +25,30 @@ from adafruit_mcp3xxx.analog_in import AnalogIn
 def _map(x, in_min, in_max, out_min, out_max):
     return int((x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min)
 
-# get_pH() reads the USB serial port and gets pH from probe #######################
+# get pH and return to main program, inserted for error recovery, USB reset
+# This calls get_pH_driver where the work is done, this is only error recovery
 def get_pH():
+   driver_pH = get_pH_driver()
+   if (driver_pH != -1):
+      return driver_pH
+   driver_pH = get_pH_driver() # Trying get pH twice due to boot time problem
+   if (driver_pH != -1):
+      return driver_pH
+
+   if (get_pH.usb_reset_time == 0 or (get_pH.usb_reset_time + 1200) < time.time()): # Just allow usb reset once in 20 minutes (1200 is seconds in 20 minutes)
+      AGlog("Resetting USB bus!!!!!",ERROR)
+      AGlog("Resetting USB bus!!!!!",SENSORS)
+      get_pH.usb_reset_time = time.time()
+      os.system(USB_RESET) # Rest USB bus and try pH again
+      time.sleep(3)
+      return get_pH_driver()
+   else:
+      return -1
+get_pH.usb_reset_time = 0 # This is used as a static variable substitute in above function
+
+
+# get_pH_driver() reads the USB serial port and gets pH from probe #######################
+def get_pH_driver():
    try:
       ser = serial.Serial(run_parms["ph_sensor_port"],9600,timeout = 4)
    except Exception as e:
@@ -86,12 +109,14 @@ def get_pH():
    if (end_time > time.time()):
       return pH_value
    else:
-      AGlog("ERROR - pH routine received a global timout, no pH reading",ERROR)
+      AGlog("ERROR - pH routine received a global time out, no pH reading",ERROR)
       return -1
 
 # Begin main sensor thread ##############################################
 
 def sensors():
+   # Store last good ph reading time - used for caching incase of pH error
+   last_good_pH_time = 0
    # create the spi bus
    spi = busio.SPI(clock=board.SCK, MISO=board.MISO, MOSI=board.MOSI)
    # create the cs (chip select)
@@ -119,12 +144,19 @@ def sensors():
 
       if (run_parms["balance_ph"]):
          pH = get_pH() # Call time for this function can be lengthy if pH probe is having trouble, look at error log
-         if (pH == -1):
-            pH = get_pH() # Attempting to get pH again after error to ride through a boot time startup issue
       else:
          pH = -1 # If pH meter is not enabled just insert -1, same as error
 
-      AGconfig.global_pH = pH # Set system wide pH value for possible auto adjustment
+      if (pH != -1):
+         AGconfig.global_pH = pH # Set system wide pH value for possible auto adjustment
+         last_good_pH_time = time.time()
+      else:
+         # Thinking through initial run with last_goo_ph_time = 0, the logic still works
+         if ((last_good_pH_time + 1500) > time.time()): # Use old pH value for 25 minutes if pH system is offline (1500 seconds is 25 minutes)
+            AGlog("Using cached pH reading",SENSORS)
+            # Don't update pH value just use old one unless too old
+         else:
+            AGconfig.global_pH = -1
 
       # TDS routine ###############################################
       if (run_parms["enable_tds_meter"]):
@@ -172,7 +204,7 @@ def sensors():
          buf = buf + "S" + str(i) + ": " + str(SoilRaw[i]) + " (" + str(SoilPercent[i]) + ") "
 
       buf = buf + "WC: " + str(tdsValue) # WC is water quality sensor
-      buf = buf + " pH: " + str(pH) # pH from USB probe
+      buf = buf + " pH: " + str(AGconfig.global_pH) # pH from USB probe
 
 
       # Prepping SensorAPI list for web API call
@@ -186,7 +218,7 @@ def sensors():
             SensorAPI.append("")  # Forcing full Soil Sensor List for DB purposes, ones not in use get ""
 
       SensorAPI.append(tdsValue)
-      SensorAPI.append(pH)
+      SensorAPI.append(AGconfig.global_pH)
 
       ###### Decide here what to log based on time delay counts - all logging funcs can have different log times
       current_clock = time.time()

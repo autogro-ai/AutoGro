@@ -1,0 +1,381 @@
+102123 17:04:24  ERROR - Exception on pump web API call, possible timeout
+102123 17:04:39  ERROR - Exception on pump web API call, possible timeout
+102123 17:04:39  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:04:39  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:04:39  Resetting USB bus!!!!!
+102123 17:04:43  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:04:43  ERROR - TDS fault
+102123 17:04:43  Possible disconnected soil sensor: 0
+102123 17:04:43  Possible disconnected soil sensor: 1
+102123 17:04:43  Possible disconnected soil sensor: 2
+102123 17:04:43  Possible disconnected soil sensor: 3
+102123 17:04:43  Possible disconnected soil sensor: 4
+102123 17:04:48  ERROR - Exception on sensor web API call, possible timeout
+102123 17:04:51  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:04:51  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:04:52  ERROR - TDS fault
+102123 17:04:52  Possible disconnected soil sensor: 0
+102123 17:04:52  Possible disconnected soil sensor: 1
+102123 17:04:52  Possible disconnected soil sensor: 2
+102123 17:04:52  Possible disconnected soil sensor: 3
+102123 17:04:52  Possible disconnected soil sensor: 4
+102123 17:04:55  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:04:55  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:04:55  ERROR - TDS fault
+102123 17:04:55  Possible disconnected soil sensor: 0
+102123 17:04:55  Possible disconnected soil sensor: 1
+102123 17:04:55  Possible disconnected soil sensor: 2
+102123 17:04:55  Possible disconnected soil sensor: 3
+102123 17:04:55  Possible disconnected soil sensor: 4
+102123 17:04:58  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:04:58  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:04:59  ERROR - TDS fault
+102123 17:04:59  Possible disconnected soil sensor: 0
+102123 17:04:59  Possible disconnected soil sensor: 1
+102123 17:04:59  Possible disconnected soil sensor: 2
+102123 17:04:59  Possible disconnected soil sensor: 3
+102123 17:04:59  Possible disconnected soil sensor: 4
+102123 17:05:02  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:02  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:02  ERROR - TDS fault
+102123 17:05:02  Possible disconnected soil sensor: 0
+102123 17:05:02  Possible disconnected soil sensor: 1
+102123 17:05:02  Possible disconnected soil sensor: 2
+102123 17:05:02  Possible disconnected soil sensor: 3
+102123 17:05:02  Possible disconnected soil sensor: 4
+102123 17:05:05  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:05  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:06  ERROR - TDS fault
+102123 17:05:06  Possible disconnected soil sensor: 0
+102123 17:05:06  Possible disconnected soil sensor: 1
+102123 17:05:06  Possible disconnected soil sensor: 2
+102123 17:05:06  Possible disconnected soil sensor: 3
+102123 17:05:06  Possible disconnected soil sensor: 4
+102123 17:05:09  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:09  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:09  ERROR - TDS fault
+102123 17:05:09  Possible disconnected soil sensor: 0
+102123 17:05:09  Possible disconnected soil sensor: 1
+102123 17:05:09  Possible disconnected soil sensor: 2
+102123 17:05:09  Possible disconnected soil sensor: 3
+102123 17:05:09  Possible disconnected soil sensor: 4
+102123 17:05:12  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:12  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:13  ERROR - TDS fault
+102123 17:05:13  Possible disconnected soil sensor: 0
+102123 17:05:13  Possible disconnected soil sensor: 1
+102123 17:05:13  Possible disconnected soil sensor: 2
+102123 17:05:13  Possible disconnected soil sensor: 3
+102123 17:05:13  Possible disconnected soil sensor: 4
+102123 17:05:16  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:16  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:16  ERROR - TDS fault
+102123 17:05:16  Possible disconnected soil sensor: 0
+102123 17:05:16  Possible disconnected soil sensor: 1
+102123 17:05:16  Possible disconnected soil sensor: 2
+102123 17:05:16  Possible disconnected soil sensor: 3
+102123 17:05:16  Possible disconnected soil sensor: 4
+102123 17:05:19  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:19  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:20  ERROR - TDS fault
+102123 17:05:20  Possible disconnected soil sensor: 0
+102123 17:05:20  Possible disconnected soil sensor: 1
+102123 17:05:20  Possible disconnected soil sensor: 2
+102123 17:05:20  Possible disconnected soil sensor: 3
+102123 17:05:20  Possible disconnected soil sensor: 4
+102123 17:05:23  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:23  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:23  ERROR - TDS fault
+102123 17:05:23  Possible disconnected soil sensor: 0
+102123 17:05:23  Possible disconnected soil sensor: 1
+102123 17:05:23  Possible disconnected soil sensor: 2
+102123 17:05:23  Possible disconnected soil sensor: 3
+102123 17:05:23  Possible disconnected soil sensor: 4
+102123 17:05:26  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:26  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:27  ERROR - TDS fault
+102123 17:05:27  Possible disconnected soil sensor: 0
+102123 17:05:27  Possible disconnected soil sensor: 1
+102123 17:05:27  Possible disconnected soil sensor: 2
+102123 17:05:27  Possible disconnected soil sensor: 3
+102123 17:05:27  Possible disconnected soil sensor: 4
+102123 17:05:30  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:30  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:30  ERROR - TDS fault
+102123 17:05:30  Possible disconnected soil sensor: 0
+102123 17:05:30  Possible disconnected soil sensor: 1
+102123 17:05:30  Possible disconnected soil sensor: 2
+102123 17:05:30  Possible disconnected soil sensor: 3
+102123 17:05:30  Possible disconnected soil sensor: 4
+102123 17:05:33  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:33  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:34  ERROR - TDS fault
+102123 17:05:34  Possible disconnected soil sensor: 0
+102123 17:05:34  Possible disconnected soil sensor: 1
+102123 17:05:34  Possible disconnected soil sensor: 2
+102123 17:05:34  Possible disconnected soil sensor: 3
+102123 17:05:34  Possible disconnected soil sensor: 4
+102123 17:05:37  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:37  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:37  ERROR - TDS fault
+102123 17:05:37  Possible disconnected soil sensor: 0
+102123 17:05:37  Possible disconnected soil sensor: 1
+102123 17:05:37  Possible disconnected soil sensor: 2
+102123 17:05:37  Possible disconnected soil sensor: 3
+102123 17:05:37  Possible disconnected soil sensor: 4
+102123 17:05:40  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:40  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:41  ERROR - TDS fault
+102123 17:05:41  Possible disconnected soil sensor: 0
+102123 17:05:41  Possible disconnected soil sensor: 1
+102123 17:05:41  Possible disconnected soil sensor: 2
+102123 17:05:41  Possible disconnected soil sensor: 3
+102123 17:05:41  Possible disconnected soil sensor: 4
+102123 17:05:44  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:44  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:44  ERROR - TDS fault
+102123 17:05:44  Possible disconnected soil sensor: 0
+102123 17:05:44  Possible disconnected soil sensor: 1
+102123 17:05:44  Possible disconnected soil sensor: 2
+102123 17:05:44  Possible disconnected soil sensor: 3
+102123 17:05:44  Possible disconnected soil sensor: 4
+102123 17:05:47  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:47  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:48  ERROR - TDS fault
+102123 17:05:48  Possible disconnected soil sensor: 0
+102123 17:05:48  Possible disconnected soil sensor: 1
+102123 17:05:48  Possible disconnected soil sensor: 2
+102123 17:05:48  Possible disconnected soil sensor: 3
+102123 17:05:48  Possible disconnected soil sensor: 4
+102123 17:05:51  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:51  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:51  ERROR - TDS fault
+102123 17:05:51  Possible disconnected soil sensor: 0
+102123 17:05:51  Possible disconnected soil sensor: 1
+102123 17:05:51  Possible disconnected soil sensor: 2
+102123 17:05:51  Possible disconnected soil sensor: 3
+102123 17:05:51  Possible disconnected soil sensor: 4
+102123 17:05:54  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:54  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:55  ERROR - TDS fault
+102123 17:05:55  Possible disconnected soil sensor: 0
+102123 17:05:55  Possible disconnected soil sensor: 1
+102123 17:05:55  Possible disconnected soil sensor: 2
+102123 17:05:55  Possible disconnected soil sensor: 3
+102123 17:05:55  Possible disconnected soil sensor: 4
+102123 17:05:58  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:58  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:05:58  ERROR - TDS fault
+102123 17:05:58  Possible disconnected soil sensor: 0
+102123 17:05:58  Possible disconnected soil sensor: 1
+102123 17:05:58  Possible disconnected soil sensor: 2
+102123 17:05:58  Possible disconnected soil sensor: 3
+102123 17:05:58  Possible disconnected soil sensor: 4
+102123 17:06:01  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:01  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:02  ERROR - TDS fault
+102123 17:06:02  Possible disconnected soil sensor: 0
+102123 17:06:02  Possible disconnected soil sensor: 1
+102123 17:06:02  Possible disconnected soil sensor: 2
+102123 17:06:02  Possible disconnected soil sensor: 3
+102123 17:06:02  Possible disconnected soil sensor: 4
+102123 17:06:05  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:05  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:06  ERROR - TDS fault
+102123 17:06:06  Possible disconnected soil sensor: 0
+102123 17:06:06  Possible disconnected soil sensor: 1
+102123 17:06:06  Possible disconnected soil sensor: 2
+102123 17:06:06  Possible disconnected soil sensor: 3
+102123 17:06:06  Possible disconnected soil sensor: 4
+102123 17:06:09  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:09  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:09  ERROR - TDS fault
+102123 17:06:09  Possible disconnected soil sensor: 0
+102123 17:06:09  Possible disconnected soil sensor: 1
+102123 17:06:09  Possible disconnected soil sensor: 2
+102123 17:06:09  Possible disconnected soil sensor: 3
+102123 17:06:09  Possible disconnected soil sensor: 4
+102123 17:06:12  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:12  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:13  ERROR - TDS fault
+102123 17:06:13  Possible disconnected soil sensor: 0
+102123 17:06:13  Possible disconnected soil sensor: 1
+102123 17:06:13  Possible disconnected soil sensor: 2
+102123 17:06:13  Possible disconnected soil sensor: 3
+102123 17:06:13  Possible disconnected soil sensor: 4
+102123 17:06:16  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:16  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:16  ERROR - TDS fault
+102123 17:06:16  Possible disconnected soil sensor: 0
+102123 17:06:16  Possible disconnected soil sensor: 1
+102123 17:06:16  Possible disconnected soil sensor: 2
+102123 17:06:16  Possible disconnected soil sensor: 3
+102123 17:06:16  Possible disconnected soil sensor: 4
+102123 17:06:19  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:19  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:20  ERROR - TDS fault
+102123 17:06:20  Possible disconnected soil sensor: 0
+102123 17:06:20  Possible disconnected soil sensor: 1
+102123 17:06:20  Possible disconnected soil sensor: 2
+102123 17:06:20  Possible disconnected soil sensor: 3
+102123 17:06:20  Possible disconnected soil sensor: 4
+102123 17:06:23  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:23  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:23  ERROR - TDS fault
+102123 17:06:23  Possible disconnected soil sensor: 0
+102123 17:06:23  Possible disconnected soil sensor: 1
+102123 17:06:23  Possible disconnected soil sensor: 2
+102123 17:06:23  Possible disconnected soil sensor: 3
+102123 17:06:23  Possible disconnected soil sensor: 4
+102123 17:06:26  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:26  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:27  ERROR - TDS fault
+102123 17:06:27  Possible disconnected soil sensor: 0
+102123 17:06:27  Possible disconnected soil sensor: 1
+102123 17:06:27  Possible disconnected soil sensor: 2
+102123 17:06:27  Possible disconnected soil sensor: 3
+102123 17:06:27  Possible disconnected soil sensor: 4
+102123 17:06:30  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:30  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:30  ERROR - TDS fault
+102123 17:06:30  Possible disconnected soil sensor: 0
+102123 17:06:30  Possible disconnected soil sensor: 1
+102123 17:06:30  Possible disconnected soil sensor: 2
+102123 17:06:30  Possible disconnected soil sensor: 3
+102123 17:06:30  Possible disconnected soil sensor: 4
+102123 17:06:33  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:33  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:34  ERROR - TDS fault
+102123 17:06:34  Possible disconnected soil sensor: 0
+102123 17:06:34  Possible disconnected soil sensor: 1
+102123 17:06:34  Possible disconnected soil sensor: 2
+102123 17:06:34  Possible disconnected soil sensor: 3
+102123 17:06:34  Possible disconnected soil sensor: 4
+102123 17:06:37  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:37  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:37  ERROR - TDS fault
+102123 17:06:37  Possible disconnected soil sensor: 0
+102123 17:06:37  Possible disconnected soil sensor: 1
+102123 17:06:37  Possible disconnected soil sensor: 2
+102123 17:06:37  Possible disconnected soil sensor: 3
+102123 17:06:37  Possible disconnected soil sensor: 4
+102123 17:06:40  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:40  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:41  ERROR - TDS fault
+102123 17:06:41  Possible disconnected soil sensor: 0
+102123 17:06:41  Possible disconnected soil sensor: 1
+102123 17:06:41  Possible disconnected soil sensor: 2
+102123 17:06:41  Possible disconnected soil sensor: 3
+102123 17:06:41  Possible disconnected soil sensor: 4
+102123 17:06:44  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:44  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:44  ERROR - TDS fault
+102123 17:06:44  Possible disconnected soil sensor: 0
+102123 17:06:44  Possible disconnected soil sensor: 1
+102123 17:06:44  Possible disconnected soil sensor: 2
+102123 17:06:44  Possible disconnected soil sensor: 3
+102123 17:06:44  Possible disconnected soil sensor: 4
+102123 17:06:47  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:47  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:48  ERROR - TDS fault
+102123 17:06:48  Possible disconnected soil sensor: 0
+102123 17:06:48  Possible disconnected soil sensor: 1
+102123 17:06:48  Possible disconnected soil sensor: 2
+102123 17:06:48  Possible disconnected soil sensor: 3
+102123 17:06:48  Possible disconnected soil sensor: 4
+102123 17:06:51  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:51  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:51  ERROR - TDS fault
+102123 17:06:51  Possible disconnected soil sensor: 0
+102123 17:06:51  Possible disconnected soil sensor: 1
+102123 17:06:51  Possible disconnected soil sensor: 2
+102123 17:06:51  Possible disconnected soil sensor: 3
+102123 17:06:51  Possible disconnected soil sensor: 4
+102123 17:06:54  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:54  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:55  ERROR - TDS fault
+102123 17:06:55  Possible disconnected soil sensor: 0
+102123 17:06:55  Possible disconnected soil sensor: 1
+102123 17:06:55  Possible disconnected soil sensor: 2
+102123 17:06:55  Possible disconnected soil sensor: 3
+102123 17:06:55  Possible disconnected soil sensor: 4
+102123 17:06:58  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:58  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:06:58  ERROR - TDS fault
+102123 17:06:58  Possible disconnected soil sensor: 0
+102123 17:06:58  Possible disconnected soil sensor: 1
+102123 17:06:58  Possible disconnected soil sensor: 2
+102123 17:06:58  Possible disconnected soil sensor: 3
+102123 17:06:58  Possible disconnected soil sensor: 4
+102123 17:07:01  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:01  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:02  ERROR - TDS fault
+102123 17:07:02  Possible disconnected soil sensor: 0
+102123 17:07:02  Possible disconnected soil sensor: 1
+102123 17:07:02  Possible disconnected soil sensor: 2
+102123 17:07:02  Possible disconnected soil sensor: 3
+102123 17:07:02  Possible disconnected soil sensor: 4
+102123 17:07:05  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:05  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:05  ERROR - TDS fault
+102123 17:07:05  Possible disconnected soil sensor: 0
+102123 17:07:05  Possible disconnected soil sensor: 1
+102123 17:07:05  Possible disconnected soil sensor: 2
+102123 17:07:05  Possible disconnected soil sensor: 3
+102123 17:07:05  Possible disconnected soil sensor: 4
+102123 17:07:08  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:08  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:09  ERROR - TDS fault
+102123 17:07:09  Possible disconnected soil sensor: 0
+102123 17:07:09  Possible disconnected soil sensor: 1
+102123 17:07:09  Possible disconnected soil sensor: 2
+102123 17:07:09  Possible disconnected soil sensor: 3
+102123 17:07:09  Possible disconnected soil sensor: 4
+102123 17:07:12  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:12  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:12  ERROR - TDS fault
+102123 17:07:12  Possible disconnected soil sensor: 0
+102123 17:07:12  Possible disconnected soil sensor: 1
+102123 17:07:12  Possible disconnected soil sensor: 2
+102123 17:07:12  Possible disconnected soil sensor: 3
+102123 17:07:12  Possible disconnected soil sensor: 4
+102123 17:07:15  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:15  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:16  ERROR - TDS fault
+102123 17:07:16  Possible disconnected soil sensor: 0
+102123 17:07:16  Possible disconnected soil sensor: 1
+102123 17:07:16  Possible disconnected soil sensor: 2
+102123 17:07:16  Possible disconnected soil sensor: 3
+102123 17:07:16  Possible disconnected soil sensor: 4
+102123 17:07:19  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:19  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:19  ERROR - TDS fault
+102123 17:07:19  Possible disconnected soil sensor: 0
+102123 17:07:19  Possible disconnected soil sensor: 1
+102123 17:07:19  Possible disconnected soil sensor: 2
+102123 17:07:19  Possible disconnected soil sensor: 3
+102123 17:07:19  Possible disconnected soil sensor: 4
+102123 17:07:22  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:22  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:23  ERROR - TDS fault
+102123 17:07:23  Possible disconnected soil sensor: 0
+102123 17:07:23  Possible disconnected soil sensor: 1
+102123 17:07:23  Possible disconnected soil sensor: 2
+102123 17:07:23  Possible disconnected soil sensor: 3
+102123 17:07:23  Possible disconnected soil sensor: 4
+102123 17:07:26  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:26  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:26  ERROR - TDS fault
+102123 17:07:26  Possible disconnected soil sensor: 0
+102123 17:07:26  Possible disconnected soil sensor: 1
+102123 17:07:26  Possible disconnected soil sensor: 2
+102123 17:07:26  Possible disconnected soil sensor: 3
+102123 17:07:26  Possible disconnected soil sensor: 4
+102123 17:07:29  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:29  ERROR - Could not open USB port with pH probe: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+102123 17:07:30  ERROR - TDS fault
+102123 17:07:30  Possible disconnected soil sensor: 0
+102123 17:07:30  Possible disconnected soil sensor: 1
+102123 17:07:30  Possible disconnected soil sensor: 2
+102123 17:07:30  Possible disconnected soil sensor: 3
+102123 17:07:30  Possible disconnected soil sensor: 4

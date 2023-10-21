@@ -1,0 +1,29 @@
+#!/bin/bash
+# 10-20-23 - Stephen Witty wrote shell script
+#
+# The actual C rest code came fromo here
+# https://askubuntu.com/questions/645/how-do-you-reset-a-usb-device-from-the-command-line
+#
+# VIA Labs is the line from lsusb to find to reset
+# This script finds the bus and device number to pass with C usb_reset command
+# Command exmaple would be:
+# usb_reset /dev/bus/usb/001/002
+# usb_reset command must be setuid as root
+# This allows usb_reset to be run with root authority to reset usb bus 
+# sudo chown root usb_reset
+# sudo chmod u+s usb_reset
+#
+cd /home/pi/bin/AutoGro/usb_reset
+echo "Starting" > /home/pi/bin/AutoGro/usb_reset/reset.log
+
+VAR=`lsusb | grep "VIA Labs, Inc. Hub"`
+if [ $? -ne 0 ]; then
+   echo "Could not find USB" >> /home/pi/bin/AutoGro/usb_reset/reset.log
+   exit
+fi
+
+FIRST=$(echo $VAR | awk '{print $2}')
+SECOND=$(echo $VAR | awk '{print $4}')
+SECOND=$(echo "${SECOND::-1}") 
+echo $FIRST $SECOND >> /home/pi/bin/AutoGro/usb_reset/reset.log
+/home/pi/bin/AutoGro/usb_reset/usb_reset /dev/bus/usb/$FIRST/$SECOND >> /home/pi/bin/AutoGro/usb_reset/reset.log 2>&1

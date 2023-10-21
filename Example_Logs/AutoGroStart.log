@@ -1,0 +1,147 @@
+102123 17:04:19  Starting
+102123 17:04:19  Version: 20
+102123 17:04:19  Flow control sensor GPIO pin: 25
+102123 17:04:19  Pump delay to prevent back pressure: 1
+102123 17:04:19  Sensor DIAG delay: 5
+102123 17:04:19  Max number of soil sensors for the system: 5
+102123 17:04:19  Logging timer: 3
+102123 17:04:19  Max water valves: 5
+102123 17:04:19  Print to console: True
+102123 17:04:19  pH down relay: 7
+102123 17:04:19  pH up relay: 6
+102123 17:04:19  AG system log: AGsys.log
+102123 17:04:19  AG pump log: AGpump.log
+102123 17:04:19  AG sensor log: AGsensors.log
+102123 17:04:19  AG error log: AGerror.log
+102123 17:04:19  AG sensor json log: sensor_json.log
+102123 17:04:19  AG pump json log: pump_json.log
+102123 17:04:19  AG file parm file: AG_Parms.txt
+102123 17:04:19  AG remote config url: https://autogro.pythonanywhere.com/autogro_app_api/XXXXXXXXX
+102123 17:04:19  Turn on remote parms: False
+102123 17:04:19  Remote parm interval: 30
+102123 17:04:19  USB reset command: /home/pi/bin/AutoGro/usb_reset/fix_usb
+102123 17:04:19  .........................................
+102123 17:04:19  Default parms ----------------------------------
+102123 17:04:19  Key: valve1_active                Value: True
+102123 17:04:19  Key: valve1_time                  Value: 600
+102123 17:04:19  Key: valve1_duration              Value: 10
+102123 17:04:19  Key: valve2_active                Value: True
+102123 17:04:19  Key: valve2_time                  Value: 600
+102123 17:04:19  Key: valve2_duration              Value: 10
+102123 17:04:19  Key: valve3_active                Value: True
+102123 17:04:19  Key: valve3_time                  Value: 600
+102123 17:04:19  Key: valve3_duration              Value: 10
+102123 17:04:19  Key: valve4_active                Value: True
+102123 17:04:19  Key: valve4_time                  Value: 600
+102123 17:04:19  Key: valve4_duration              Value: 10
+102123 17:04:19  Key: valve5_active                Value: False
+102123 17:04:19  Key: valve5_time                  Value: 600
+102123 17:04:19  Key: valve5_duration              Value: 10
+102123 17:04:19  Key: water_refresh_cycle          Value: 900
+102123 17:04:19  Key: water_refresh_cycle_length   Value: 10
+102123 17:04:19  Key: ph_sensor_enabled            Value: True
+102123 17:04:19  Key: balance_ph                   Value: True
+102123 17:04:19  Key: ideal_ph                     Value: 6.5
+102123 17:04:19  Key: ph_spread                    Value: 0.5
+102123 17:04:19  Key: ph_valve_time                Value: 1
+102123 17:04:19  Key: ph_balance_interval          Value: 2000
+102123 17:04:19  Key: ph_balance_water_limit       Value: 10
+102123 17:04:19  Key: ph_balance_retry             Value: 30
+102123 17:04:19  Key: ph_sensor_port               Value: /dev/ttyUSB0
+102123 17:04:19  Key: enable_web_api               Value: True
+102123 17:04:19  Key: pump_url                     Value: https://autogro.pythonanywhere.com/XXXXXXX
+102123 17:04:19  Key: sensor_url                   Value: https://autogro.pythonanywhere.com/XXXXXXXX
+102123 17:04:19  Key: enable_tds_meter             Value: True
+102123 17:04:19  Key: tds_samples                  Value: 5
+102123 17:04:19  Key: room_temperature             Value: 23
+102123 17:04:19  Key: sensor_time_api              Value: 900
+102123 17:04:19  Key: soil_dry                     Value: 49000
+102123 17:04:19  Key: soil_wet                     Value: 21000
+102123 17:04:19  Key: number_of_soil_sensors       Value: 5
+102123 17:04:19  End default parms ------------------------------
+102123 17:04:19  Checking file parms for runtime update
+102123 17:04:19  Key valve1_active is the same
+102123 17:04:19  Key valve2_active is the same
+102123 17:04:19  Key valve3_active is the same
+102123 17:04:19  Key valve4_active is the same
+102123 17:04:19  Key valve5_active is the same
+102123 17:04:19  Key valve1_time is the same
+102123 17:04:19  Key valve2_time is the same
+102123 17:04:19  Key valve3_time is the same
+102123 17:04:19  Key valve4_time is the same
+102123 17:04:19  Key valve5_time is the same
+102123 17:04:19  Key valve1_duration is the same
+102123 17:04:19  Key valve2_duration is the same
+102123 17:04:19  Key valve3_duration is the same
+102123 17:04:19  Key valve4_duration is the same
+102123 17:04:19  Key valve5_duration is the same
+102123 17:04:19  Key water_refresh_cycle is the same
+102123 17:04:19  Key water_refresh_cycle_length is the same
+102123 17:04:19  Key ph_sensor_enabled is the same
+102123 17:04:19  Key enable_web_api is the same
+102123 17:04:19  Key enable_tds_meter is the same
+102123 17:04:19  Key balance_ph is the same
+102123 17:04:19  Key tds_samples is the same
+102123 17:04:19  Key number_of_soil_sensors is the same
+102123 17:04:19  Key soil_dry is the same
+102123 17:04:19  Key soil_wet is the same
+102123 17:04:19  Key ideal_ph is the same
+102123 17:04:19  Key ph_spread is the same
+102123 17:04:19  Key ph_valve_time is the same
+102123 17:04:19  Key ph_balance_interval is the same
+102123 17:04:19  Key: ph_balance_water_limit is out of range
+102123 17:04:19  Key ph_balance_retry is the same
+102123 17:04:19  Key room_temperature is the same
+102123 17:04:19  Key sensor_time_api is the same
+102123 17:04:19  Key ph_sensor_port is the same
+102123 17:04:19  Key pump_url is the same
+102123 17:04:19  Key sensor_url is the same
+102123 17:04:19  No parms were qualified for update
+102123 17:04:19  Water schedule in seconds, zero means valve disabled --------
+102123 17:04:19  Valve: 1 Time: 600 Duration: 10
+102123 17:04:19  Valve: 2 Time: 600 Duration: 10
+102123 17:04:19  Valve: 3 Time: 600 Duration: 10
+102123 17:04:19  Valve: 4 Time: 600 Duration: 10
+102123 17:04:19  Valve: 5 Time: 0 Duration: 0
+102123 17:04:19  ....................................
+102123 17:04:20  Starting Water refresh cycle
+102123 17:04:20  Sending data to pump web API
+102123 17:04:34  Sending data to pump web API
+102123 17:04:39  Finished Water refresh cycle
+102123 17:04:39  Cycle minutes left: refresh:15.0 pH:33.3 V:1 T:10.0 V:2 T:10.0 V:3 T:10.0 V:4 T:10.0
+102123 17:04:43  Sending data to sensor web API
+102123 17:04:44  Cycle minutes left: refresh:14.9 pH:33.2 V:1 T:9.9 V:2 T:9.9 V:3 T:9.9 V:4 T:9.9
+102123 17:04:49  Cycle minutes left: refresh:14.8 pH:33.2 V:1 T:9.8 V:2 T:9.8 V:3 T:9.8 V:4 T:9.8
+102123 17:04:54  Cycle minutes left: refresh:14.7 pH:33.1 V:1 T:9.7 V:2 T:9.7 V:3 T:9.7 V:4 T:9.7
+102123 17:04:59  Cycle minutes left: refresh:14.7 pH:33.0 V:1 T:9.7 V:2 T:9.7 V:3 T:9.7 V:4 T:9.7
+102123 17:05:04  Cycle minutes left: refresh:14.6 pH:32.9 V:1 T:9.6 V:2 T:9.6 V:3 T:9.6 V:4 T:9.6
+102123 17:05:09  Cycle minutes left: refresh:14.5 pH:32.8 V:1 T:9.5 V:2 T:9.5 V:3 T:9.5 V:4 T:9.5
+102123 17:05:14  Cycle minutes left: refresh:14.4 pH:32.7 V:1 T:9.4 V:2 T:9.4 V:3 T:9.4 V:4 T:9.4
+102123 17:05:19  Cycle minutes left: refresh:14.3 pH:32.7 V:1 T:9.3 V:2 T:9.3 V:3 T:9.3 V:4 T:9.3
+102123 17:05:24  Cycle minutes left: refresh:14.2 pH:32.6 V:1 T:9.2 V:2 T:9.2 V:3 T:9.2 V:4 T:9.2
+102123 17:05:29  Cycle minutes left: refresh:14.2 pH:32.5 V:1 T:9.2 V:2 T:9.2 V:3 T:9.2 V:4 T:9.2
+102123 17:05:34  Cycle minutes left: refresh:14.1 pH:32.4 V:1 T:9.1 V:2 T:9.1 V:3 T:9.1 V:4 T:9.1
+102123 17:05:39  Cycle minutes left: refresh:14.0 pH:32.3 V:1 T:9.0 V:2 T:9.0 V:3 T:9.0 V:4 T:9.0
+102123 17:05:44  Cycle minutes left: refresh:13.9 pH:32.2 V:1 T:8.9 V:2 T:8.9 V:3 T:8.9 V:4 T:8.9
+102123 17:05:49  Cycle minutes left: refresh:13.8 pH:32.2 V:1 T:8.8 V:2 T:8.8 V:3 T:8.8 V:4 T:8.8
+102123 17:05:54  Cycle minutes left: refresh:13.7 pH:32.1 V:1 T:8.7 V:2 T:8.7 V:3 T:8.7 V:4 T:8.7
+102123 17:05:59  Cycle minutes left: refresh:13.7 pH:32.0 V:1 T:8.7 V:2 T:8.7 V:3 T:8.7 V:4 T:8.7
+102123 17:06:04  Cycle minutes left: refresh:13.6 pH:31.9 V:1 T:8.6 V:2 T:8.6 V:3 T:8.6 V:4 T:8.6
+102123 17:06:09  Cycle minutes left: refresh:13.5 pH:31.8 V:1 T:8.5 V:2 T:8.5 V:3 T:8.5 V:4 T:8.5
+102123 17:06:14  Cycle minutes left: refresh:13.4 pH:31.7 V:1 T:8.4 V:2 T:8.4 V:3 T:8.4 V:4 T:8.4
+102123 17:06:19  Cycle minutes left: refresh:13.3 pH:31.7 V:1 T:8.3 V:2 T:8.3 V:3 T:8.3 V:4 T:8.3
+102123 17:06:24  Cycle minutes left: refresh:13.2 pH:31.6 V:1 T:8.2 V:2 T:8.2 V:3 T:8.2 V:4 T:8.2
+102123 17:06:29  Cycle minutes left: refresh:13.2 pH:31.5 V:1 T:8.2 V:2 T:8.2 V:3 T:8.2 V:4 T:8.2
+102123 17:06:34  Cycle minutes left: refresh:13.1 pH:31.4 V:1 T:8.1 V:2 T:8.1 V:3 T:8.1 V:4 T:8.1
+102123 17:06:39  Cycle minutes left: refresh:13.0 pH:31.3 V:1 T:8.0 V:2 T:8.0 V:3 T:8.0 V:4 T:8.0
+102123 17:06:44  Cycle minutes left: refresh:12.9 pH:31.2 V:1 T:7.9 V:2 T:7.9 V:3 T:7.9 V:4 T:7.9
+102123 17:06:49  Cycle minutes left: refresh:12.8 pH:31.2 V:1 T:7.8 V:2 T:7.8 V:3 T:7.8 V:4 T:7.8
+102123 17:06:54  Cycle minutes left: refresh:12.7 pH:31.1 V:1 T:7.7 V:2 T:7.7 V:3 T:7.7 V:4 T:7.7
+102123 17:06:59  Cycle minutes left: refresh:12.7 pH:31.0 V:1 T:7.7 V:2 T:7.7 V:3 T:7.7 V:4 T:7.7
+102123 17:07:04  Cycle minutes left: refresh:12.6 pH:30.9 V:1 T:7.6 V:2 T:7.6 V:3 T:7.6 V:4 T:7.6
+102123 17:07:09  Cycle minutes left: refresh:12.5 pH:30.8 V:1 T:7.5 V:2 T:7.5 V:3 T:7.5 V:4 T:7.5
+102123 17:07:14  Cycle minutes left: refresh:12.4 pH:30.7 V:1 T:7.4 V:2 T:7.4 V:3 T:7.4 V:4 T:7.4
+102123 17:07:19  Cycle minutes left: refresh:12.3 pH:30.7 V:1 T:7.3 V:2 T:7.3 V:3 T:7.3 V:4 T:7.3
+102123 17:07:24  Cycle minutes left: refresh:12.2 pH:30.6 V:1 T:7.2 V:2 T:7.2 V:3 T:7.2 V:4 T:7.2
+102123 17:07:29  Cycle minutes left: refresh:12.2 pH:30.5 V:1 T:7.2 V:2 T:7.2 V:3 T:7.2 V:4 T:7.2
+102123 17:07:31  Program exit

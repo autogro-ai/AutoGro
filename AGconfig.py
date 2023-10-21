@@ -1,5 +1,5 @@
 # AG config and support functions
-# V19
+# V20
 
 import time
 from datetime import datetime
@@ -12,7 +12,7 @@ import requests
 from urllib.request import urlopen
 
 ################### Constants NON remote config  #################################################################
-VERSION = 19                           # Version of this code
+VERSION = 20                           # Version of this code
 MAX_WATER_VALVES = 5                   # Max number of system water valves, used for pump API call
 FLOW_PIN_INPUT = 25                    # Pin that flow meter is attached
 PUMP_DELAY = 1                         # Time between stopping and starting pump to avoid back pressure
@@ -33,6 +33,8 @@ REMOTE_PARMS = False                   # Get remote parms from web api
 REMOTE_PARM_INTERVAL = 30              # Time between getting remote parms in seconds
                                        # Remote config URL
 REMOTE_CONFIG_URL = "https://autogro.pythonanywhere.com/autogro_app_api/XXXXXXXXX"
+                                       # Location of USB reset command for pH USB bug
+USB_RESET = "/home/pi/bin/AutoGro/usb_reset/fix_usb"
 ##################################################################################################################
 
 ############### Default runtime parms, override via file config or remote API #####################
