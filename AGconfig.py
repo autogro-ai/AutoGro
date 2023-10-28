@@ -1,5 +1,5 @@
 # AG config and support functions
-# V20
+# V21
 
 import time
 from datetime import datetime
@@ -12,7 +12,7 @@ import requests
 from urllib.request import urlopen
 
 ################### Constants NON remote config  #################################################################
-VERSION = 20                           # Version of this code
+VERSION = 21                           # Version of this code
 MAX_WATER_VALVES = 5                   # Max number of system water valves, used for pump API call
 FLOW_PIN_INPUT = 25                    # Pin that flow meter is attached
 PUMP_DELAY = 1                         # Time between stopping and starting pump to avoid back pressure
@@ -30,9 +30,12 @@ SENSOR_JSON_FILE = "sensor_json.log"   # Log file that records the sensor json d
 PUMP_JSON_FILE = "pump_json.log"       # Log file that records the pump json data passed to the web api
 FILE_PARMS = "AG_Parms.txt"            # Parms config file, updated from remote API call
 REMOTE_PARMS = False                   # Get remote parms from web api
+REFLECT_PARMS = False                  # Reflect back running parms to web api
 REMOTE_PARM_INTERVAL = 30              # Time between getting remote parms in seconds
                                        # Remote config URL
-REMOTE_CONFIG_URL = "https://autogro.pythonanywhere.com/autogro_app_api/XXXXXXXXX"
+REMOTE_PARM_URL = "https://autogro.pythonanywhere.com/autogro_app_api/XXXXXXX"
+                                       # URL will running parms will be pushed
+REFLECT_PARM_URL = "https://autogro.pythonanywhere.com/autogro_app_api/XXXXXXXX"
                                        # Location of USB reset command for pH USB bug
 USB_RESET = "/home/pi/bin/AutoGro/usb_reset/fix_usb"
 ##################################################################################################################
@@ -108,6 +111,18 @@ def write_parm_file():
    except Exception:
       AGlog("Could not write parameter file to disk",ERROR)
 
+# Write running parms back to API
+def write_parm_api():
+   AGsys("Sending data to parm API")
+   try:
+      response = requests.post(REMOTE_PARM_URL, data=run_parms, timeout=5)
+      if (response.status_code != 200):
+         AGlog("ERROR - API parm web call failed.  Return code: " + str(response.status_code),ERROR)
+      else:
+         AGsys("Sensor web API successful")
+   except Exception as e:
+      AGlog("ERROR - Exception on parm web API call, possible timeout",ERROR)
+
 # Read the parm file from disk, return empty dict for error
 def read_parm_file():
    file_parms = {}
@@ -131,7 +146,7 @@ def read_parm_file():
 def read_remote_parms():
    remote_parms = {}
    try:
-      response = urlopen(REMOTE_CONFIG_URL,timeout=5)
+      response = urlopen(REMOTE_PARM_URL,timeout=5)
       if (response.getcode() == 200):
          remote_parms = json.loads(response.read())
       if (remote_parms == {}):
@@ -160,7 +175,7 @@ def check_bool_parm(new_parms, key): # Return true/false if running parm is chan
       return False
 
 # Check to see if data coming in is a valid string
-def check_string_parm(new_parms, key, length, sub_string): # Return true/false if running parm is changed
+def check_string_parm(new_parms, key, length, sub_string, case_sensitive): # Return true/false if running parm is changed
    if (key not in new_parms):
       AGsys("Key: " + key + " Not found in dictionary")
       return False
@@ -170,9 +185,14 @@ def check_string_parm(new_parms, key, length, sub_string): # Return true/false i
    if (len(new_parms[key]) < length):
       AGsys("Key: " + key + " is too short")
       return False
-   if (sub_string not in new_parms[key]):
-      AGsys("Key: " + key + " is not valid")
-      return False
+   if (case_sensitive ==  True):  # Routine can check with sensitivity or not
+      if (sub_string not in new_parms[key]):
+         AGsys("Key: " + key + " is not valid")
+         return False
+      else:
+         if (sub_string.lower() not in new_parms[key].lower()): # Force everything to lowercase to check
+            AGsys("Key: " + key + " is not valid")
+            return False
    if (new_parms[key] != run_parms[key]):
       run_parms[key] = new_parms[key]
       AGsys("Key: " + key + " Updating value <<<<<<<<<<")
@@ -277,11 +297,11 @@ def update_parms(new_parms):
       changed = True
    if (check_number_parm(new_parms,"sensor_time_api",float,.1,300000)):
       changed = True
-   if (check_string_parm(new_parms,"ph_sensor_port",8,"/dev/tty")):
+   if (check_string_parm(new_parms,"ph_sensor_port",8,"/dev/tty",True)):
       changed = True
-   if (check_string_parm(new_parms,"pump_url",10,"https://")):
+   if (check_string_parm(new_parms,"pump_url",10,"https://",False)):
       changed = True
-   if (check_string_parm(new_parms,"sensor_url",10,"https://")):
+   if (check_string_parm(new_parms,"sensor_url",10,"https://",False)):
       changed = True
    return changed
 

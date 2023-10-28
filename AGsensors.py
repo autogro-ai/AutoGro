@@ -1,5 +1,5 @@
 # Sensor package for AutoGrow
-# V20
+# V21
 
 # TDS calculation adapted from Arduino sample at:
 # https://wiki.keyestudio.com/KS0429_keyestudio_TDS_Meter_V1.0
@@ -142,21 +142,21 @@ def sensors():
 
    while(True):
 
-      if (run_parms["balance_ph"]):
+      if (run_parms["ph_sensor_enabled"]):
          pH = get_pH() # Call time for this function can be lengthy if pH probe is having trouble, look at error log
-      else:
-         pH = -1 # If pH meter is not enabled just insert -1, same as error
-
-      if (pH != -1):
-         AGconfig.global_pH = pH # Set system wide pH value for possible auto adjustment
-         last_good_pH_time = time.time()
-      else:
-         # Thinking through initial run with last_goo_ph_time = 0, the logic still works
-         if ((last_good_pH_time + 1500) > time.time()): # Use old pH value for 25 minutes if pH system is offline (1500 seconds is 25 minutes)
-            AGlog("Using cached pH reading",SENSORS)
-            # Don't update pH value just use old one unless too old
+         if (pH != -1):
+            AGconfig.global_pH = pH # Set system wide pH value for possible auto adjustment
+            last_good_pH_time = time.time()
          else:
-            AGconfig.global_pH = -1
+            # Thinking through initial run with last_good_ph_time = 0, the logic still works
+            if ((last_good_pH_time + 1500) > time.time()): # Use old pH value for 25 minutes if pH system is offline (1500 seconds is 25 minutes)
+               AGlog("Using cached pH reading",SENSORS)
+               # Don't update pH value just use old one unless too old
+            else:
+               AGconfig.global_pH = -1
+      else:
+         pH = -1 # Since pH meter is not enabled just set to -1, same as an error
+
 
       # TDS routine ###############################################
       if (run_parms["enable_tds_meter"]):

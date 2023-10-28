@@ -1,4 +1,4 @@
-# V20
+# V21
 # AutoGrow - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
@@ -30,6 +30,7 @@
 # V18 10-16-23  Adding support for remote api config and external disk config file 
 # V19 10-18-23  Fix bug in pH balance code related to remote parms
 # V20 10-20-23  Add USB reset for pH problem
+# V21 10-27-23  Made URL parm check non-case sensitive, changed pH_enabled logic, print web parms before checking
 
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -75,9 +76,11 @@ AGsys("AG error log: " + ERROR)
 AGsys("AG sensor json log: " + SENSOR_JSON_FILE)
 AGsys("AG pump json log: " + PUMP_JSON_FILE)
 AGsys("AG file parm file: " + FILE_PARMS)
-AGsys("AG remote config url: " + REMOTE_CONFIG_URL)
+AGsys("AG remote config url: " + REMOTE_PARM_URL)
 AGsys("Turn on remote parms: " + str(REMOTE_PARMS))
 AGsys("Remote parm interval: " + str(REMOTE_PARM_INTERVAL))
+AGsys("Reflect parm url: " + REFLECT_PARM_URL)
+AGsys("Enable reflect parms: " + str(REFLECT_PARMS))
 AGsys("USB reset command: " + USB_RESET)
 AGsys(".........................................")
 
@@ -107,7 +110,9 @@ if (REMOTE_PARMS):
    remote_parms = read_remote_parms()
    old_remote_parms = copy.deepcopy(remote_parms) # keep copy of parms
    if (remote_parms != {} and len(remote_parms) > 0):
-      AGsys("Received remote parms")
+      AGsys("Received remote parms, these are parms ---------")
+      write_json_to_log(remote_parms[0])
+      AGsys("Checking remote parms ----------")
       if (update_parms(remote_parms[0])):
          AGsys("Parms updated, writing to file")
          write_parm_file()
@@ -118,6 +123,9 @@ if (REMOTE_PARMS):
          AGsys("No updated needed for remote parms")
    else:
       AGsys("No remote parms available")
+
+if (REFLECT_PARMS): # Push running parms back to web api if enabled
+   write_parm_api()
 
 #################################################################################################
 
@@ -349,10 +357,13 @@ while(True): # Master loop for water cycle and pH rebalance
             AGsys("Received remote parms")
             if (old_remote_parms != remote_parms):
                old_remote_parms = copy.deepcopy(remote_parms) # Keep copy of parms, no need to check duplicate parms
+               AGsys("New remote parms are different than last set, these are received parms --------")
+               write_json_to_log(remote_parms[0])
+               AGsys("Checking parms ----------------")
                if (update_parms(remote_parms[0])):
                   AGsys("Parms updated, writing to file")
                   write_parm_file()
-                  AGsys("New parms after remote update -----------------")
+                  AGsys("Running parms after remote update -----------------")
                   write_json_to_log(run_parms)
                   AGsys("End remote parm updates ----------------------")
                   AGsys("Exiting program for restart")
