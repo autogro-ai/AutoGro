@@ -89,7 +89,7 @@ AGsys("Default parms ----------------------------------")
 write_json_to_log(run_parms)
 AGsys("End default parms ------------------------------")
 
-write_parm_file()  #Uncomment to get a default parms file out to disk
+#write_parm_file()  #Uncomment to get a default parms file out to disk
 
 ######## Read in old parms from file, verify, apply as needed #########################################
 file_parms = read_parm_file()
