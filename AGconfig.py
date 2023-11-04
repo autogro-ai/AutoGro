@@ -1,5 +1,5 @@
 # AG config and support functions
-# V21
+# V22
 
 import time
 from datetime import datetime
@@ -12,11 +12,11 @@ import requests
 from urllib.request import urlopen
 
 ################### Constants NON remote config  #################################################################
-VERSION = 21                           # Version of this code
+VERSION = 22                           # Version of this code
 MAX_WATER_VALVES = 5                   # Max number of system water valves, used for pump API call
 FLOW_PIN_INPUT = 25                    # Pin that flow meter is attached
 PUMP_DELAY = 1                         # Time between stopping and starting pump to avoid back pressure
-PRINT_TO_CONSOLE = True                # Print to console as well as log
+PRINT_TO_CONSOLE = 1                   # Print to console as well as log (1 is true 0 is false)
 PH_DOWN_RELAY = 7                      # Relay that controls pH down fluid
 PH_UP_RELAY = 6                        # Relay that controls pH up fluid
 SENSOR_TIME_DIAG = 5                   # Time delay between sensor DIAG publications in seconds
@@ -29,8 +29,8 @@ ERROR = "AGerror.log"                  # Log for system errors
 SENSOR_JSON_FILE = "sensor_json.log"   # Log file that records the sensor json data passed to the web api
 PUMP_JSON_FILE = "pump_json.log"       # Log file that records the pump json data passed to the web api
 FILE_PARMS = "AG_Parms.txt"            # Parms config file, updated from remote API call
-REMOTE_PARMS = False                   # Get remote parms from web api
-REFLECT_PARMS = False                  # Reflect back running parms to web api
+REMOTE_PARMS = 0                       # Get remote parms from web api (1 is true 0 is false)
+REFLECT_PARMS = 0                      # Reflect back running parms to web api (1 is true 0 is false)
 REMOTE_PARM_INTERVAL = 30              # Time between getting remote parms in seconds
                                        # Remote config URL
 REMOTE_PARM_URL = "https://autogro.pythonanywhere.com/autogro_app_api/XXXXXXX"
@@ -43,23 +43,23 @@ USB_RESET = "/home/pi/bin/AutoGro/usb_reset/fix_usb"
 ############### Default runtime parms, override via file config or remote API #####################
 run_parms = {
 # Valve parms ##########
-"valve1_active" : True,              # Valve 1 enabled - true / false
+"valve1_active" : 1,                 # Valve 1 enabled - (0/1 disabled/enabled)
 "valve1_time" : 600,                 # Valve 1 time between water cycles in seconds
 "valve1_duration" : 10,              # Valve 1 duration that valve is running / watering
 #
-"valve2_active" : True,              # Valve 2 enabled - true / false
+"valve2_active" : 1,                 # Valve 2 enabled - (0/1 disabled/enabled)
 "valve2_time" : 600,                 # Valve 2 time between water cycles in seconds
 "valve2_duration" : 10,              # Valve 2 duration that valve is running / watering
 #
-"valve3_active" : True,              # Valve 3 enabled - true / false
+"valve3_active" : 1,                 # Valve 3 enabled - (0/1 disabled/enabled)
 "valve3_time" : 600,                 # Valve 3 time between water cycles in seconds
 "valve3_duration" : 10,              # Valve 3 duration that valve is running / watering
 #
-"valve4_active" : True,              # Valve 4 enabled - true / false
+"valve4_active" : 1,                 # Valve 4 enabled - (0/1 disabled/enabled)
 "valve4_time" : 600,                 # Valve 4 time between water cycles in seconds
 "valve4_duration" : 10,              # Valve 4 duration that valve is running / watering
 #
-"valve5_active" : False,             # Valve 5 enabled - true / false
+"valve5_active" : 0,                 # Valve 5 enabled - (0/1 disabled/enabled)
 "valve5_time" : 600,                 # Valve 5 time between water cycles in seconds
 "valve5_duration" : 10,              # Valve 5 duration that valve is running / watering
 #
@@ -67,8 +67,8 @@ run_parms = {
 "water_refresh_cycle_length" : 10,   # Time in seconds for water refresh cycle duration
 
 # pH Routine parms ############
-"ph_sensor_enabled" : True,          # Is pH sensor enabled?
-"balance_ph" : True,                 # Should the system attempt to balance pH
+"ph_sensor_enabled" : 1,             # Is pH sensor enabled? (0/1 disabled/enabled)
+"balance_ph" : 1,                    # Should the system attempt to balance pH
 "ideal_ph" : 6.5,                    # pH Target value for system, used in balance routine
 "ph_spread" : .5,                    # +/- target range for pH centered on Ideal_pH value
 "ph_valve_time" : 1,                 # Amount of time pH adjustement value will stay open
@@ -78,14 +78,14 @@ run_parms = {
 "ph_sensor_port" : "/dev/ttyUSB0",   # tty device that USB pH sensor is attached to
 
 # Web APIs ###########
-"enable_web_api" : True,             # Should sensor data be published to web api(s)?
+"enable_web_api" : 1,                # Should sensor data be published to web api(s)?  (0/1 disabled/enabled)
                                      # PUMP_URL to send api data
 "pump_url" : "https://autogro.pythonanywhere.com/XXXXXXX",
                                      # SENSIR_URL to send api data
 "sensor_url" : "https://autogro.pythonanywhere.com/XXXXXXXX",
 
 # Sensor parms #######
-"enable_tds_meter" : True,           # Enabled TDS (water quality) sensor
+"enable_tds_meter" : 1,              # Enabled TDS (water quality) sensor (0/1 disabled/enabled)
 "tds_samples" : 5,                   # Number of TDS readings to average together for result
 "room_temperature" : 23,             # Room temperature for TDS calculation
 "sensor_time_api" : 900,             # Time in seconds between reporting sensor data to web api
@@ -155,15 +155,15 @@ def read_remote_parms():
       AGlog("Exception getting api parm data from website: " + str(e),ERROR)
    return remote_parms
 
-# Check to see if data coming in is a valid bool
+# Check to see if data coming in is a valid bool (in this case a 1 or 0)
 def check_bool_parm(new_parms, key): # Return true/false if running parm is changed
    if (key not in new_parms):
       AGsys("Key: " + key + " Not found in dictionary")
       return False
-   if (type(new_parms[key]) != bool):
-      AGsys("Key: " + key + " is not a bool")
-      return False 
-   if (new_parms[key] != True and new_parms[key] != False):
+   if (type(new_parms[key]) != int):
+      AGsys("Key: " + key + " is not a int")
+      return False
+   if (new_parms[key] != 1 and new_parms[key] != 0):
       AGsys("Key: " + key + " Invalid value")
       return False
    if (new_parms[key] != run_parms[key]):
@@ -289,7 +289,7 @@ def update_parms(new_parms):
       changed = True
    if (check_number_parm(new_parms,"ph_balance_interval",float,20,300000)):
       changed = True
-   if (check_number_parm(new_parms,"ph_balance_water_limit",float,30,300000)):
+   if (check_number_parm(new_parms,"ph_balance_water_limit",float,5,300000)):
       changed = True
    if (check_number_parm(new_parms,"ph_balance_retry",float,5,300000)):
       changed = True

@@ -1,4 +1,4 @@
-# V21
+# V22
 # AutoGrow - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
@@ -31,6 +31,7 @@
 # V19 10-18-23  Fix bug in pH balance code related to remote parms
 # V20 10-20-23  Add USB reset for pH problem
 # V21 10-27-23  Made URL parm check non-case sensitive, changed pH_enabled logic, print web parms before checking
+# V22 11-4-23   Process enable/disable fields in api stream as 1/0 instead of bool true/false
 
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -88,19 +89,21 @@ AGsys("Default parms ----------------------------------")
 write_json_to_log(run_parms)
 AGsys("End default parms ------------------------------")
 
-#write_parm_file()  #Uncomment to get a default parms file out to disk
+write_parm_file()  #Uncomment to get a default parms file out to disk
 
 ######## Read in old parms from file, verify, apply as needed #########################################
 file_parms = read_parm_file()
 if (len(file_parms) > 0):
-   AGsys("Checking file parms for runtime update")
+   AGsys("Checking file parms for runtime update, file parms ------------")
+   write_json_to_log(file_parms)
+   AGsys("End of file parms --------------------------")
    if (update_parms(file_parms)):
       AGsys("One or more runtime parms were updated from file")
       AGsys("Updated parms from file -----------------------")
       write_json_to_log(run_parms)
       AGsys("End updated parms from file -------------------")
    else:
-      AGsys("No parms were qualified for update")
+      AGsys("No file parms were qualified for update")
 else:
    AGsys("No file parms to check")
 
