@@ -1,5 +1,5 @@
 # V22
-# AutoGrow - A Hydroponics project 4-16-23
+# AutoGro - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
 # https://learn.adafruit.com/mcp3008-spi-adc/python-circuitpython
