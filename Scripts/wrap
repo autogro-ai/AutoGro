@@ -60,3 +60,9 @@ cp /home/pi/bin/AutoGro/pump_json.log2 /home/pi/bin/AutoGro/pump_json.log3
 cp /home/pi/bin/AutoGro/pump_json.log1 /home/pi/bin/AutoGro/pump_json.log2
 cp /home/pi/bin/AutoGro/pump_json.log /home/pi/bin/AutoGro/pump_json.log1
 cat /dev/null > /home/pi/bin/AutoGro/pump_json.log
+
+cp /home/pi/bin/AutoGro/ph_json.log3 /home/pi/bin/AutoGro/ph_json.log4
+cp /home/pi/bin/AutoGro/ph_json.log2 /home/pi/bin/AutoGro/ph_json.log3
+cp /home/pi/bin/AutoGro/ph_json.log1 /home/pi/bin/AutoGro/ph_json.log2
+cp /home/pi/bin/AutoGro/ph_json.log /home/pi/bin/AutoGro/ph_json.log1
+cat /dev/null > /home/pi/bin/AutoGro/ph_json.log

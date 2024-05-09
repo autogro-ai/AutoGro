@@ -28,6 +28,7 @@
   "enable_web_api": 1,
   "pump_url": "https://autogro.pythonanywhere.com/XXXXXXX",
   "sensor_url": "https://autogro.pythonanywhere.com/XXXXXXXX",
+  "ph_url": "https://autogro.pythonanywhere.com/XXXXXXXX",
   "enable_tds_meter": 1,
   "tds_samples": 5,
   "room_temperature": 23,

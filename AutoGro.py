@@ -1,4 +1,4 @@
-# V22
+# V23
 # AutoGro - A Hydroponics project 4-16-23
 # A collaboration between @switty, @vetch and @ww
 # Started from example code at for soil sensor mux operation A to D
@@ -27,11 +27,13 @@
 # V15 8-21-23   Close web api, water refresh, separate pH and water cycle
 # V16 8-24-23   Changed water valves to be an independent schedule
 # V17 9-4-23    Detect sensor thread crash and auto restart, more logging on pH open fail
-# V18 10-16-23  Adding support for remote api config and external disk config file 
+# V18 10-16-23  Adding support for remote api config and external disk config file
 # V19 10-18-23  Fix bug in pH balance code related to remote parms
 # V20 10-20-23  Add USB reset for pH problem
 # V21 10-27-23  Made URL parm check non-case sensitive, changed pH_enabled logic, print web parms before checking
 # V22 11-4-23   Process enable/disable fields in api stream as 1/0 instead of bool true/false
+# V23 5-6-24    Added pH check API
+
 
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
@@ -40,6 +42,10 @@
 # sudo pip3 install adafruit-circuitpython-mcp3xxx
 # This is from above adafruit website
 # Must turn on SPI via sudo raspi-config
+# For Bookworm OS and newer GPIO pin access has changed - to correct pin trigger on flow meter:
+#  sudo apt remove python3-rpi.gpio
+#  pip3 install rpi-lgpio
+
 
 import array
 import copy
@@ -133,7 +139,7 @@ if (REFLECT_PARMS): # Push running parms back to web api if enabled
 #################################################################################################
 
 # VALVES is capitalized since it was a constant in a prior config, it is now dynamic based on run_parms
-# The VALVES list contains the water valve timeing information
+# The VALVES list contains the water valve timing information
 # First value is time between valve watering and second value is the duration the valve is open
 # If the valve is disabled, before parms are set to zero
 VALVES = []
@@ -245,7 +251,7 @@ def adjust_pH():
    current_pH = AGconfig.global_pH # Storing to prevent reading change while doing auto pH correct
 
    # If you needed to force pH value to test
-   #   current_pH = 3
+   # current_pH = 3
 
    lower_pH = run_parms["ideal_ph"] - run_parms["ph_spread"]
    upper_pH = run_parms["ideal_ph"] + run_parms["ph_spread"]
@@ -262,6 +268,7 @@ def adjust_pH():
          time.sleep(run_parms["ph_valve_time"])
          Relay_Status[PH_UP_RELAY] = False
          relay_control()
+         APIpH(1)
 
       if (current_pH > upper_pH): # pH too high, make lower
          AGsys("Making pH lower")
@@ -270,6 +277,11 @@ def adjust_pH():
          time.sleep(run_parms["ph_valve_time"])
          Relay_Status[PH_DOWN_RELAY] = False
          relay_control()
+         APIpH(2)
+
+      if (current_pH < upper_pH and current_pH > lower_pH): # pH needs no adjustment
+         AGsys("pH is within range")
+         APIpH(0)
 
    pH_time_limit = time.time() + run_parms["ph_balance_interval"]
    AGsys("pH auto adjustment routine complete")

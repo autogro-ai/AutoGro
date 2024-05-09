@@ -1,5 +1,5 @@
 # AG config and support functions
-# V22
+# V23
 
 import time
 from datetime import datetime
@@ -28,6 +28,7 @@ SENSORS = "AGsensors.log"              # AG sensor log name
 ERROR = "AGerror.log"                  # Log for system errors
 SENSOR_JSON_FILE = "sensor_json.log"   # Log file that records the sensor json data passed to the web api
 PUMP_JSON_FILE = "pump_json.log"       # Log file that records the pump json data passed to the web api
+PH_JSON_FILE = "ph_json.log"           # Log file that records the pH json data passed to the web api
 FILE_PARMS = "AG_Parms.txt"            # Parms config file, updated from remote API call
 REMOTE_PARMS = 0                       # Get remote parms from web api (1 is true 0 is false)
 REFLECT_PARMS = 0                      # Reflect back running parms to web api (1 is true 0 is false)
@@ -71,7 +72,7 @@ run_parms = {
 "balance_ph" : 1,                    # Should the system attempt to balance pH
 "ideal_ph" : 6.5,                    # pH Target value for system, used in balance routine
 "ph_spread" : .5,                    # +/- target range for pH centered on Ideal_pH value
-"ph_valve_time" : 1,                 # Amount of time pH adjustement value will stay open
+"ph_valve_time" : 1,                 # Amount of time pH adjustment value will stay open
 "ph_balance_interval" : 2000,        # Time between auto balance of pH in seconds
 "ph_balance_water_limit" : 10,       # Closest the system will balance pH in proximity to water cycle, in seconds
 "ph_balance_retry" : 30,             # If pH balance routine is in conflict with water cycle, this is next scheduled try in seconds
@@ -81,8 +82,10 @@ run_parms = {
 "enable_web_api" : 1,                # Should sensor data be published to web api(s)?  (0/1 disabled/enabled)
                                      # PUMP_URL to send api data
 "pump_url" : "https://autogro.pythonanywhere.com/XXXXXXX",
-                                     # SENSIR_URL to send api data
+                                     # SENSOR_URL to send api data
 "sensor_url" : "https://autogro.pythonanywhere.com/XXXXXXXX",
+                                     # PH_URL to send api data
+"ph_url" : "https://autogro.pythonanywhere.com/XXXXXXXX",
 
 # Sensor parms #######
 "enable_tds_meter" : 1,              # Enabled TDS (water quality) sensor (0/1 disabled/enabled)
@@ -303,6 +306,8 @@ def update_parms(new_parms):
       changed = True
    if (check_string_parm(new_parms,"sensor_url",10,"https://",False)):
       changed = True
+   if (check_string_parm(new_parms,"ph_url",10,"https://",False)):
+      changed = True
    return changed
 
 ######## Log messages to main log and print to screen if required
@@ -345,7 +350,7 @@ def APIsensor(buf_list): # This list is max soil sensors, then tds, then pH
       AGsys("Sending data to sensor web API")
       try:
          response = requests.post(url, data=data, timeout=5)
-         if (response.status_code != 200):
+         if (response.status_code != 200 and response.status_code != 201):
             AGlog("ERROR - API sensor web call failed.  Return code: " + str(response.status_code),ERROR)
          else:
             web_success = True
@@ -397,7 +402,7 @@ def APIpump(Relay_Status,flow): # String that identifies valve and then flow met
       AGsys("Sending data to pump web API")
       try:
          response = requests.post(url, data=data, timeout=5)
-         if (response.status_code != 200):
+         if (response.status_code != 200 and response.status_code != 201):
             AGlog("ERROR - API pump web call failed.  Return code: " + str(response.status_code),ERROR)
          else:
             web_success = True
@@ -419,3 +424,46 @@ def APIpump(Relay_Status,flow): # String that identifies valve and then flow met
       file.close()
    except Exception:
       print("ERROR - Could not write to file: " + PUMP_JSON_FILE)
+
+####### Call pH web API
+def APIpH(ph_check_signal):  # Integer that describes results from pH check / adjustment routine 0 = no change, 1 = pH up, 2 = pH down
+   url = run_parms["ph_url"]
+   data = {} # Next several lines create JSON for Sensor API call
+
+   data["accessed"] = str(datetime.now())
+   data["ph_down_trigger"] = 0
+   data["ph_up_trigger"] = 0
+
+   if (ph_check_signal == 1): # pH up adjustment
+      data["ph_up_trigger"] = 1
+   if (ph_check_signal == 2): # pH down adjustment
+      data["ph_down_trigger"] = 1
+
+   # Web API call for pH
+   web_success = False
+   if (run_parms["enable_web_api"]):
+      AGsys("Sending data to pH web API")
+      try:
+         response = requests.post(url, data=data, timeout=5)
+         if (response.status_code != 200 and response.status_code != 201):
+            AGlog("ERROR - API pH web call failed.  Return code: " + str(response.status_code),ERROR)
+         else:
+            web_success = True
+            AGsys("pH web API successful")
+      except Exception as e:
+         AGlog("ERROR - Exception on pH web API call, possible timeout",ERROR)
+
+   # Log json in clear text to log for diagnostics
+   try:
+      file = open (PH_JSON_FILE,"a")
+      file.write(json.dumps(data,indent=4))
+      if (run_parms["enable_web_api"]):
+         if (web_success):
+            file.write("\nSuccessful call\n")
+         else:
+            file.write("\nERROR\n")
+      else:
+         file.write("\nWeb API not enabled\n")
+      file.close()
+   except Exception:
+      print("ERROR - Could not write to file: " + PH_JSON_FILE)
